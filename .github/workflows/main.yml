@@ -13,8 +13,8 @@ jobs:
     runs-on: ubuntu-18.04
 
     steps:
-      - name: Clone Repository
-        uses: actions/checkout@v2
+      # - name: Clone Repository
+      #   uses: actions/checkout@v2
       - name: push tag
         if: github.event.ref_type == 'tag'
         run: |
