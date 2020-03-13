@@ -19,7 +19,7 @@ jobs:
           echo ${{github.event}}
           echo ${{github.event.ref_type}}
           echo ${{github.event_name}}
-          echo ${GITHUB_EVENT_NAME}
+          echo ${{github.ref}}
       - name: push tag
         if: github.event.ref_type == 'tag'
         run: |
