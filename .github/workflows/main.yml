@@ -21,6 +21,6 @@ jobs:
           echo ${{github.event_name}}
           echo ${{github.ref}}
       - name: push tag
-        if: github.event.ref_type == 'tag'
+        if: startsWith(github.ref, 'refs/tags/'
         run: |
           ls
