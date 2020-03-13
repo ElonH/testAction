@@ -16,8 +16,8 @@ jobs:
       # - name: Clone Repository
       #   uses: actions/checkout@v2
       - run: |
-        echo ${{github.event}}
-        echo ${{github.event.ref_type}}
+          echo ${{github.event}}
+          echo ${{github.event.ref_type}}
       - name: push tag
         if: github.event.ref_type == 'tag'
         run: |
