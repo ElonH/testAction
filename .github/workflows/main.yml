@@ -41,3 +41,27 @@ jobs:
             - Second Change
           draft: false
           prerelease: false
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Envirment
+        env:
+          DEBIAN_FRONTEND: noninteractive
+        run: |
+          sudo -E apt-get install -y build-essential cmake libcurl4-openssl-dev
+      # - uses: mxschmitt/action-tmate@v1
+      - name: ootoc
+        run: |
+          git clone https://github.com/jbeder/yaml-cpp.git && cd yaml-cpp
+          cmake -DYAML_CPP_BUILD_TESTS:BOOL=OFF -DYAML_BUILD_SHARED_LIBS:BOOL=ON .
+          make && sudo make install
+          git clone https://github.com/gabime/spdlog.git && cd spdlog
+          cmake -DSPDLOG_BUILD_TESTS:BOOL=OFF -DSPDLOG_BUILD_SHARED:BOOL=ON -DSPDLOG_BUILD_EXAMPLE:BOOL=OFF .
+          make && sudo make install
+          git clone https://github.com/ElonH/libtar.git && cd libtar
+          autoreconf --force --install
+          ./configure && make && sudo make install
+          git clone --recursive https://github.com/ElonH/ootoc.git && cd ootoc
+          cmake -DOOTOC_BUILDIN_LIBTAR:BOOL=OFF -DOOTOC_TEST:BOOL=OFF .
+          make && sudo make install
+      - uses: mxschmitt/action-tmate@v1
+        if: always()
