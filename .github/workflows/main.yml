@@ -63,5 +63,12 @@ jobs:
           git clone --recursive https://github.com/ElonH/ootoc.git && cd ootoc
           cmake -DOOTOC_BUILDIN_LIBTAR:BOOL=OFF -DOOTOC_TEST:BOOL=OFF .
           make && sudo make install
-      - uses: mxschmitt/action-tmate@v1
-        if: always()
+          sudo ldconfig
+      - run: |
+          tar -cf yaml-cpp.tar yaml-cpp
+          ootocCLI parse -i yaml-cpp.tar -o yaml-cpp.yml
+          echo "normal"
+          /usr/local/bin/ootocCLI parse -i yaml-cpp.tar -o yaml-cpp.yml
+          echo "normal2"
+      # - uses: mxschmitt/action-tmate@v1
+      #   if: always()
