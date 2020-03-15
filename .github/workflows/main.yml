@@ -15,60 +15,45 @@ jobs:
     steps:
       # - name: Clone Repository
       #   uses: actions/checkout@v2
-      - run: |
-          echo ${{github.event}}
-          echo ${{github.event.ref_type}}
-          echo ${{github.event_name}}
-          echo ${{github.ref}}
-  release:
-    if: startsWith(github.ref, 'refs/tags/')
-    runs-on: ubuntu-18.04
-    steps:
-      - name: push tag
-        run: |
-          echo ${{github.ref}}
-      - name: Create Release
-        id: create_release
-        uses: actions/create-release@latest
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-        with:
-          tag_name: ${{ github.ref }}
-          release_name: Release ${{ github.ref }}
-          body: |
-            Changes in this Release
-            - First Change
-            - Second Change
-          draft: false
-          prerelease: false
       - name: Checkout
         uses: actions/checkout@v2
-      - name: Envirment
+      - name: Create Release Notes
+        uses: docker://decathlon/release-notes-generator-action:2.0.1
         env:
-          DEBIAN_FRONTEND: noninteractive
-        run: |
-          sudo -E apt-get install -y build-essential cmake libcurl4-openssl-dev
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          FILENAME_PREFIX: MyMilestone
       # - uses: mxschmitt/action-tmate@v1
-      - name: ootoc
-        run: |
-          git clone https://github.com/jbeder/yaml-cpp.git && cd yaml-cpp
-          cmake -DYAML_CPP_BUILD_TESTS:BOOL=OFF -DYAML_BUILD_SHARED_LIBS:BOOL=ON .
-          make && sudo make install
-          git clone https://github.com/gabime/spdlog.git && cd spdlog
-          cmake -DSPDLOG_BUILD_TESTS:BOOL=OFF -DSPDLOG_BUILD_SHARED:BOOL=ON -DSPDLOG_BUILD_EXAMPLE:BOOL=OFF .
-          make && sudo make install
-          git clone https://github.com/ElonH/libtar.git && cd libtar
-          autoreconf --force --install
-          ./configure && make && sudo make install
-          git clone --recursive https://github.com/ElonH/ootoc.git && cd ootoc
-          cmake -DOOTOC_BUILDIN_LIBTAR:BOOL=OFF -DOOTOC_TEST:BOOL=OFF .
-          make && sudo make install
-          sudo ldconfig
-      - run: |
-          tar -cf yaml-cpp.tar yaml-cpp
-          ootocCLI parse -i yaml-cpp.tar -o yaml-cpp.yml
-          echo "normal"
-          /usr/local/bin/ootocCLI parse -i yaml-cpp.tar -o yaml-cpp.yml
-          echo "normal2"
-      # - uses: mxschmitt/action-tmate@v1
-      #   if: always()
+      - uses: mxschmitt/action-tmate@v1
+        if: always()
+
+  # release:
+  #   if: startsWith(github.ref, 'refs/tags/')
+  #   runs-on: ubuntu-18.04
+  #   steps:
+  #     - name: push tag
+  #       run: |
+  #         echo ${{github.ref}}
+  #     - name: Create Release
+  #       id: create_release
+  #       uses: actions/create-release@latest
+  #       env:
+  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+  #       with:
+  #         tag_name: ${{ github.ref }}
+  #         release_name: Release ${{ github.ref }}
+  #         body: |
+  #           Changes in this Release
+  #           - First Change
+  #           - Second Change
+  #         draft: false
+  #         prerelease: false
+  #     - name: Checkout
+  #       uses: actions/checkout@v2
+  #     - name: Create Release Notes
+  #       uses: docker://decathlon/release-notes-generator-action:2.0.1
+  #       env:
+  #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+  #         FILENAME_PREFIX: MyMilestone
+  #     # - uses: mxschmitt/action-tmate@v1
+  #     - uses: mxschmitt/action-tmate@v1
+  #       if: always()
