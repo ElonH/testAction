@@ -22,9 +22,9 @@ jobs:
           echo ${{github.ref}}
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
-          echo "${{github.ref}}" > refs.txt
+          echo "${{github.sha}}" > refs.txt
           git add refs.txt
-          git commit -m "Add changes" -a
+          git commit -m "Add changes ${{github.sha}}" -a
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
