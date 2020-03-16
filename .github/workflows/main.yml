@@ -20,14 +20,19 @@ jobs:
       - name: push tag
         run: |
           echo ${{github.ref}}
-      - name: Create Release Notes
-        uses: docker://decathlon/release-notes-generator-action:2.0.1
-        env:
-          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          FILENAME_PREFIX: MyMilestone
-      # - uses: mxschmitt/action-tmate@v1
-      - uses: mxschmitt/action-tmate@v1
-        if: always()
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          echo "${{github.ref}}" > refs.txt
+          git add refs.txt
+          git commit -m "Add changes" -a
+      - name: Push changes
+        uses: ad-m/github-push-action@master
+        with:
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          force: true
+          tags: true
+          branch: latest
+        # - uses: mxschmitt/action-tmate@v1
 
   # release:
   #   if: startsWith(github.ref, 'refs/tags/')
