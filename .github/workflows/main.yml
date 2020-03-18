@@ -38,6 +38,7 @@ jobs:
           tag_name: latest-tag
           release_name: Release ${{ github.ref }}
           body: |
+            SHA: ${{github.sha}}
             Changes in this Release
             - First Change
             - Second Change
