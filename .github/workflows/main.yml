@@ -30,7 +30,6 @@ jobs:
           force: true
           tags: true
           branch: latest-tag
-        # - uses: mxschmitt/action-tmate@v1
       # - name: release
       #   uses: actions/checkout@v2
       #   env:
