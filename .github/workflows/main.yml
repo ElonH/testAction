@@ -21,7 +21,8 @@ jobs:
           path: ./README.md
       - name: push tag
         run: |
-          tag=${{github.ref}}
+          tag="${{github.ref}}"
+          [[ $tag == refs/heads/* ]] && tag="snapshot"
           echo "::set-output name=tagName::$tag"
           echo ${{github.actor}}
           echo ${{github.repository}}
