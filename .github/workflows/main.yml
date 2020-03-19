@@ -43,8 +43,8 @@ jobs:
           force: true
           tags: true
           branch: latest-tag
-      - uses: mxschmitt/action-tmate@v1
-        if: always()
+      # - uses: mxschmitt/action-tmate@v1
+      #   if: always()
       # - name: release
       #   uses: actions/create-release@latest
       #   env:
