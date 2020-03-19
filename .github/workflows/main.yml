@@ -35,8 +35,8 @@ jobs:
           # PYCURL_SSL_LIBRARY=openssl pip3 install pycurl
           # ./.github/del-artifact --repo ${{github.repository}} --runid ${{github.run_id}} --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
           # echo ${{github.ref}}
-          # git config --local user.email "action@github.com"
-          # git config --local user.name "GitHub Action"
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
           echo "${{github.sha}}" > refs.txt
           git add refs.txt
           git commit -m "Add changes ${{github.sha}}" -a
