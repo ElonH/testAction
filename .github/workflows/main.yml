@@ -21,6 +21,8 @@ jobs:
           path: ./README.md
       - name: push tag
         run: |
+          tag=${{github.ref}}
+          echo "::set-output name=tagName::$tag"
           echo ${{github.actor}}
           echo ${{github.repository}}
           echo ${{github.run_id}}
