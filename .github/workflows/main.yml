@@ -39,6 +39,8 @@ jobs:
           echo "${{github.sha}}" > refs.txt
           git add refs.txt
           git commit -m "Add changes ${{github.sha}}" -a
+      - run: |
+          echo "${{steps.tag.outputs.tagName}}"
       - name: Push changes
         uses: ad-m/github-push-action@master
         with:
