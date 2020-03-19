@@ -23,7 +23,9 @@ jobs:
         run: |
           echo ${{github.actor}}
           echo ${{github.repository}}
-          pip3 install setuptools pycurl
+          sudo apt install libcurl4-openssl-dev libssl-dev
+          pip3 install setuptools 
+          pip3 install pycurl
           ./.github/del-artifact --repo ${{github.repository}} --runid ${{github.run_id}} --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
           echo ${{github.ref}}
           git config --local user.email "action@github.com"
