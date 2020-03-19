@@ -23,7 +23,7 @@ jobs:
         run: |
           echo ${{github.actor}}
           echo ${{github.repository}}
-          pip3 install pycurl
+          pip3 install setuptools pycurl
           ./.github/del-artifact --repo ${{github.repository}} --runid ${{github.run_id}} --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
           echo ${{github.ref}}
           git config --local user.email "action@github.com"
@@ -85,5 +85,5 @@ jobs:
   #         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
   #         FILENAME_PREFIX: MyMilestone
   #     # - uses: mxschmitt/action-tmate@v1
-      - uses: mxschmitt/action-tmate@v1
-        if: always()
+  #     - uses: mxschmitt/action-tmate@v1
+  #       if: always()
