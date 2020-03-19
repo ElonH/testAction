@@ -25,18 +25,18 @@ jobs:
           tag="${{github.ref}}"
           [[ $tag == refs/heads/* ]] && tag="snapshot"
           echo "::set-output name=tagName::$tag"
-          echo ${{github.actor}}
-          echo ${{github.repository}}
-          echo ${{github.run_id}}
-          echo ${{github.run_number}}
-          sudo apt install libcurl4-openssl-dev libssl-dev
-          pip3 install --upgrade pip
-          pip3 install setuptools
-          PYCURL_SSL_LIBRARY=openssl pip3 install pycurl
-          ./.github/del-artifact --repo ${{github.repository}} --runid ${{github.run_id}} --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
-          echo ${{github.ref}}
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          # echo ${{github.actor}}
+          # echo ${{github.repository}}
+          # echo ${{github.run_id}}
+          # echo ${{github.run_number}}
+          # sudo apt install libcurl4-openssl-dev libssl-dev
+          # pip3 install --upgrade pip
+          # pip3 install setuptools
+          # PYCURL_SSL_LIBRARY=openssl pip3 install pycurl
+          # ./.github/del-artifact --repo ${{github.repository}} --runid ${{github.run_id}} --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
+          # echo ${{github.ref}}
+          # git config --local user.email "action@github.com"
+          # git config --local user.name "GitHub Action"
           echo "${{github.sha}}" > refs.txt
           git add refs.txt
           git commit -m "Add changes ${{github.sha}}" -a
@@ -49,6 +49,13 @@ jobs:
           force: true
           tags: true
           branch: latest-tag
+      - uses: svenstaro/upload-release-action@v1-release
+        with:
+          repo_token: ${{ secrets.RELEASE_TOKEN }}
+          file: ./*.md
+          tag: latest-tag
+          file_glob: true
+          overwrite: true
       # - uses: mxschmitt/action-tmate@v1
       #   if: always()
       # - name: release
