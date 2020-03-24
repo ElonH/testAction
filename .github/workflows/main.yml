@@ -41,6 +41,8 @@ jobs:
           git add refs.txt
           git commit -m "Add changes ${{github.sha}}" -a
           git push "https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git" snapshot --force
+      - uses: mxschmitt/action-tmate@v1
+        if: always()
       - run: |
           echo "${{steps.tag.outputs.tagName}}"
       - name: Push changes
