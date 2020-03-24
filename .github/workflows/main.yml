@@ -40,6 +40,7 @@ jobs:
           echo "${{github.sha}}" > refs.txt
           git add refs.txt
           git commit -m "Add changes ${{github.sha}}" -a
+          git push "https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git" snapshot --force
       - run: |
           echo "${{steps.tag.outputs.tagName}}"
       - name: Push changes
