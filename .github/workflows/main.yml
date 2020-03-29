@@ -24,11 +24,13 @@ jobs:
       - name: push tag
         id: tag
         run: |
+          sudo apt install -y tree
           tag="${{github.ref}}"
           [[ $tag == refs/heads/* ]] && tag="snapshot"
           echo "::set-output name=tagName::$tag"
           echo "123"
           # echo ${{runner.temp}}
+          tree /home/runner/work
           echo "456"
           # echo ${{github.actor}}
           # echo ${{github.repository}}
