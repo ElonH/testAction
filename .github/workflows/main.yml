@@ -28,7 +28,7 @@ jobs:
           [[ $tag == refs/heads/* ]] && tag="snapshot"
           echo "::set-output name=tagName::$tag"
           echo "123"
-          echo ${{env.HOME}}
+          echo ${{github.workspace}}
           echo "456"
           # echo ${{github.actor}}
           # echo ${{github.repository}}
@@ -49,8 +49,8 @@ jobs:
           git push origin snapshot --force
           echo "success"
           git push "https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git" snapshot --force
-      - uses: mxschmitt/action-tmate@v1
-        if: always()
+      # - uses: mxschmitt/action-tmate@v1
+      #   if: always()
       - run: |
           echo "${{steps.tag.outputs.tagName}}"
       - name: Push changes
