@@ -28,7 +28,7 @@ jobs:
           [[ $tag == refs/heads/* ]] && tag="snapshot"
           echo "::set-output name=tagName::$tag"
           echo "123"
-          echo ${{runner.temp}}
+          # echo ${{runner.temp}}
           echo "456"
           # echo ${{github.actor}}
           # echo ${{github.repository}}
