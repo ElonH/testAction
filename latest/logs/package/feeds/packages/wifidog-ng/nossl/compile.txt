@@ -1,0 +1,24 @@
+
+Applying ./patches/001-kernel-5.1.patch using plaintext: 
+patching file main.c
+
+Applying ./patches/002-kernel-5.4.patch using plaintext: 
+patching file main.c
+
+Applying ./patches/003-kernel-5.1.patch using plaintext: 
+patching file main.c
+
+Applying ./patches/004-kernel-5.3.patch using plaintext: 
+patching file config.c
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wifidog-ng-nossl/main.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wifidog-ng-nossl/config.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wifidog-ng-nossl/wifidog-ng.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wifidog-ng-nossl/wifidog-ng.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wifidog-ng-nossl/wifidog-ng.ko
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wifidog-ng-nossl/ipkg-mipsel_24kc/kmod-wifidog-ng/lib/modules/4.14.173/wifidog-ng.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wifidog-ng-nossl/ipkg-mipsel_24kc/kmod-wifidog-ng into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-wifidog-ng_4.14.173+2.0.1-1_mipsel_24kc.ipk
+time: package/feeds/packages/wifidog-ng/nossl/compile#4.18#0.82#10.19

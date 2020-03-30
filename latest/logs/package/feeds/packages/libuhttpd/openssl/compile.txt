@@ -1,0 +1,106 @@
+-- The C compiler identification is GNU 8.4.0
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found Libev: /mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib/libev.so (found version "4.31") 
+-- Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY OPENSSL_INCLUDE_DIR) 
+-- Could NOT find WOLFSSL (missing: WOLFSSL_LIBRARY WOLFSSL_INCLUDE_DIR) 
+-- Found MbedTLS: /mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib/libmbedtls.so (found version "2.16.5") 
+CMake Warning at src/CMakeLists.txt:39 (message):
+  Force select OpenSSL, but not found it
+
+
+-- UHTTPD_VERSION: 3.1.0
+-- UHTTPD_SSL_SUPPORT: OFF
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_ARG1
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    DL_LIBRARY
+
+
+-- Build files have been written to: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+Scanning dependencies of target uhttpd
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+[  5%] Building C object src/CMakeFiles/uhttpd.dir/uhttpd.c.o
+[ 11%] Building C object src/CMakeFiles/uhttpd.dir/log.c.o
+[ 16%] Building C object src/CMakeFiles/uhttpd.dir/connection.c.o
+[ 22%] Building C object src/CMakeFiles/uhttpd.dir/buffer/buffer.c.o
+[ 27%] Building C object src/CMakeFiles/uhttpd.dir/http-parser/http_parser.c.o
+[ 33%] Building C object src/CMakeFiles/uhttpd.dir/ssl.c.o
+[ 38%] Linking C shared library libuhttpd.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+[ 38%] Built target uhttpd
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+Scanning dependencies of target uhttpd_s
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+[ 44%] Building C object src/CMakeFiles/uhttpd_s.dir/uhttpd.c.o
+[ 50%] Building C object src/CMakeFiles/uhttpd_s.dir/log.c.o
+[ 55%] Building C object src/CMakeFiles/uhttpd_s.dir/connection.c.o
+[ 61%] Building C object src/CMakeFiles/uhttpd_s.dir/buffer/buffer.c.o
+[ 66%] Building C object src/CMakeFiles/uhttpd_s.dir/http-parser/http_parser.c.o
+[ 72%] Building C object src/CMakeFiles/uhttpd_s.dir/ssl.c.o
+[ 77%] Linking C static library libuhttpd.a
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+[ 77%] Built target uhttpd_s
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+Scanning dependencies of target test_plugin
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+[ 83%] Building C object src/plugins/CMakeFiles/test_plugin.dir/test.c.o
+[ 88%] Linking C shared module test.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+[ 88%] Built target test_plugin
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+Scanning dependencies of target example
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+[ 94%] Building C object example/CMakeFiles/example.dir/example.c.o
+[100%] Linking C executable example
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+[100%] Built target example
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+[ 38%] Built target uhttpd
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+[ 77%] Built target uhttpd_s
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+[ 88%] Built target test_plugin
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+[100%] Built target example
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0/ipkg-install/usr/include/uhttpd/uhttpd.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0/ipkg-install/usr/include/uhttpd/connection.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0/ipkg-install/usr/include/uhttpd/log.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0/ipkg-install/usr/include/uhttpd/buffer.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0/ipkg-install/usr/include/uhttpd/http_parser.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0/ipkg-install/usr/include/uhttpd/config.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0/ipkg-install/usr/lib/libuhttpd.so.3.1.0
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0/ipkg-install/usr/lib/libuhttpd.so
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0/ipkg-install/usr/lib/libuhttpd.a
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0/ipkg-install/usr/lib/uhttpd/test.so
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libuhttpd-openssl/libuhttpd-3.1.0'
+time: package/feeds/packages/libuhttpd/openssl/compile#4.83#1.04#12.39

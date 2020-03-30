@@ -1,0 +1,378 @@
+configure: WARNING: unrecognized options: --disable-nls
+configure: loading site script /mnt/A/BuildOpenWRT/latest/include/site/mipsel
+## ------------------------- ##
+## Configuring libtool 2.4.6 ##
+## ------------------------- ##
+
+checking for GNU M4 that supports accurate traces... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/m4
+checking whether /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/m4 accepts --gnu... yes
+checking how m4 supports trace files... --debugfile
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for mipsel-openwrt-linux-strip... mipsel-openwrt-linux-musl-strip
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... mipsel-openwrt-linux-gnu
+configure: autobuild project... GNU Libtool
+configure: autobuild revision... 2.4.6
+configure: autobuild hostname... X550JX
+configure: autobuild mode... default
+configure: autobuild timestamp... 20200330T092016Z
+checking for mipsel-openwrt-linux-gcc... ccache_cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether ccache_cc accepts -g... yes
+checking for ccache_cc option to accept ISO C89... none needed
+checking whether ccache_cc understands -c and -o together... yes
+checking for style of include used by make... GNU
+checking dependency style of ccache_cc... gcc3
+checking how to run the C preprocessor... ccache_cc -E
+checking for grep that handles long lines and -e... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep
+checking for egrep... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep -E
+checking for Minix Amsterdam compiler... no
+checking how to run the C preprocessor... ccache_cc -E
+checking how to print strings... printf
+checking for a sed that does not truncate output... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/sed
+checking for fgrep... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep -F
+checking for ld used by ccache_cc... mipsel-openwrt-linux-musl-ld
+checking if the linker (mipsel-openwrt-linux-musl-ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... mipsel-openwrt-linux-musl-gcc-nm
+checking the name lister (mipsel-openwrt-linux-musl-gcc-nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking how to convert x86_64-pc-linux-gnu file names to mipsel-openwrt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for mipsel-openwrt-linux-musl-ld option to reload object files... -r
+checking for mipsel-openwrt-linux-objdump... mipsel-openwrt-linux-musl-objdump
+checking how to recognize dependent libraries... pass_all
+checking for mipsel-openwrt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for mipsel-openwrt-linux-ar... mipsel-openwrt-linux-musl-gcc-ar
+checking for archiver @FILE support... @
+checking for mipsel-openwrt-linux-strip... (cached) mipsel-openwrt-linux-musl-strip
+checking for mipsel-openwrt-linux-ranlib... mipsel-openwrt-linux-musl-gcc-ranlib
+checking command to parse mipsel-openwrt-linux-musl-gcc-nm output from ccache_cc object... ok
+checking for sysroot... no
+checking for a working dd... /bin/dd
+checking how to truncate binary pipes... /bin/dd bs=4096 count=1
+checking for mipsel-openwrt-linux-mt... no
+checking for mt... mt
+configure: WARNING: using cross tools not prefixed with host triplet
+checking if mt is a manifest tool... no
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if ccache_cc supports -fno-rtti -fno-exceptions... no
+checking for ccache_cc option to produce PIC... -fPIC -DPIC
+checking if ccache_cc PIC flag -fPIC -DPIC works... yes
+checking if ccache_cc static flag -static works... yes
+checking if ccache_cc supports -c -o file.o... yes
+checking if ccache_cc supports -c -o file.o... (cached) yes
+checking whether the ccache_cc linker (mipsel-openwrt-linux-musl-ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for shl_load... no
+checking for shl_load in -ldld... no
+checking for dlopen... yes
+checking whether a program can dlopen itself... cross
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking what extension is used for runtime loadable modules... .so
+checking what variable specifies run-time module search path... LD_LIBRARY_PATH
+checking for the default library search path... /lib /usr/lib /usr/lib/x86_64-linux-gnu/libfakeroot /usr/local/lib/i386-linux-gnu /lib/i386-linux-gnu /usr/lib/i386-linux-gnu /usr/local/lib/i686-linux-gnu /lib/i686-linux-gnu /usr/lib/i686-linux-gnu /usr/local/lib /usr/local/lib/x86_64-linux-gnu /lib/x86_64-linux-gnu /usr/lib/x86_64-linux-gnu /lib32 /usr/lib32 /libx32 /usr/libx32 
+checking for library containing dlopen... none required
+checking for dlerror... yes
+checking for shl_load... (cached) no
+checking for shl_load in -ldld... (cached) no
+checking for dld_link in -ldld... no
+checking for _ prefix in compiled symbols... no
+checking whether deplibs are loaded by dlopen... yes
+checking for argz.h... no
+checking for error_t... no
+checking for argz_add... no
+checking for argz_append... no
+checking for argz_count... no
+checking for argz_create_sep... no
+checking for argz_insert... no
+checking for argz_next... no
+checking for argz_stringify... no
+checking whether libtool supports -dlopen/-dlpreopen... yes
+checking for unistd.h... (cached) yes
+checking for dl.h... no
+checking for sys/dl.h... no
+checking for dld.h... no
+checking for mach-o/dyld.h... no
+checking for dirent.h... yes
+checking for closedir... yes
+checking for opendir... yes
+checking for readdir... yes
+checking for strlcat... yes
+checking for strlcpy... yes
+checking whether we are using the GNU C++ compiler... yes
+checking whether ccache_cxx accepts -g... yes
+checking dependency style of ccache_cxx... gcc3
+checking how to run the C++ preprocessor... ccache_cxx -E
+checking for ld used by ccache_cxx... mipsel-openwrt-linux-musl-ld
+checking if the linker (mipsel-openwrt-linux-musl-ld) is GNU ld... yes
+checking whether the ccache_cxx linker (mipsel-openwrt-linux-musl-ld) supports shared libraries... yes
+checking for ccache_cxx option to produce PIC... -fPIC -DPIC
+checking if ccache_cxx PIC flag -fPIC -DPIC works... yes
+checking if ccache_cxx static flag -static works... yes
+checking if ccache_cxx supports -c -o file.o... yes
+checking if ccache_cxx supports -c -o file.o... (cached) yes
+checking whether the ccache_cxx linker (mipsel-openwrt-linux-musl-ld) supports shared libraries... yes
+checking dynamic linker characteristics... (cached) GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking for mipsel-openwrt-linux-g77... no
+checking for mipsel-openwrt-linux-xlf... no
+checking for mipsel-openwrt-linux-f77... no
+checking for mipsel-openwrt-linux-frt... no
+checking for mipsel-openwrt-linux-pgf77... no
+checking for mipsel-openwrt-linux-cf77... no
+checking for mipsel-openwrt-linux-fort77... no
+checking for mipsel-openwrt-linux-fl32... no
+checking for mipsel-openwrt-linux-af77... no
+checking for mipsel-openwrt-linux-xlf90... no
+checking for mipsel-openwrt-linux-f90... no
+checking for mipsel-openwrt-linux-pgf90... no
+checking for mipsel-openwrt-linux-pghpf... no
+checking for mipsel-openwrt-linux-epcf90... no
+checking for mipsel-openwrt-linux-gfortran... no
+checking for mipsel-openwrt-linux-g95... no
+checking for mipsel-openwrt-linux-xlf95... no
+checking for mipsel-openwrt-linux-f95... no
+checking for mipsel-openwrt-linux-fort... no
+checking for mipsel-openwrt-linux-ifort... no
+checking for mipsel-openwrt-linux-ifc... no
+checking for mipsel-openwrt-linux-efc... no
+checking for mipsel-openwrt-linux-pgfortran... no
+checking for mipsel-openwrt-linux-pgf95... no
+checking for mipsel-openwrt-linux-lf95... no
+checking for mipsel-openwrt-linux-ftn... no
+checking for mipsel-openwrt-linux-nagfor... no
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgfortran... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking for nagfor... no
+checking whether we are using the GNU Fortran 77 compiler... no
+checking whether  accepts -g... no
+checking for mipsel-openwrt-linux-gfortran... no
+checking for mipsel-openwrt-linux-g95... no
+checking for mipsel-openwrt-linux-xlf95... no
+checking for mipsel-openwrt-linux-f95... no
+checking for mipsel-openwrt-linux-fort... no
+checking for mipsel-openwrt-linux-ifort... no
+checking for mipsel-openwrt-linux-ifc... no
+checking for mipsel-openwrt-linux-efc... no
+checking for mipsel-openwrt-linux-pgfortran... no
+checking for mipsel-openwrt-linux-pgf95... no
+checking for mipsel-openwrt-linux-lf95... no
+checking for mipsel-openwrt-linux-ftn... no
+checking for mipsel-openwrt-linux-nagfor... no
+checking for mipsel-openwrt-linux-xlf90... no
+checking for mipsel-openwrt-linux-f90... no
+checking for mipsel-openwrt-linux-pgf90... no
+checking for mipsel-openwrt-linux-pghpf... no
+checking for mipsel-openwrt-linux-epcf90... no
+checking for mipsel-openwrt-linux-g77... no
+checking for mipsel-openwrt-linux-xlf... no
+checking for mipsel-openwrt-linux-f77... no
+checking for mipsel-openwrt-linux-frt... no
+checking for mipsel-openwrt-linux-pgf77... no
+checking for mipsel-openwrt-linux-cf77... no
+checking for mipsel-openwrt-linux-fort77... no
+checking for mipsel-openwrt-linux-fl32... no
+checking for mipsel-openwrt-linux-af77... no
+checking for gfortran... no
+checking for g95... no
+checking for xlf95... no
+checking for f95... no
+checking for fort... no
+checking for ifort... no
+checking for ifc... no
+checking for efc... no
+checking for pgfortran... no
+checking for pgf95... no
+checking for lf95... no
+checking for ftn... no
+checking for nagfor... no
+checking for xlf90... no
+checking for f90... no
+checking for pgf90... no
+checking for pghpf... no
+checking for epcf90... no
+checking for g77... no
+checking for xlf... no
+checking for f77... no
+checking for frt... no
+checking for pgf77... no
+checking for cf77... no
+checking for fort77... no
+checking for fl32... no
+checking for af77... no
+checking whether we are using the GNU Fortran compiler... no
+checking whether  accepts -g... no
+checking for mipsel-openwrt-linux-gccgo... no
+checking for gccgo... no
+checking for mipsel-openwrt-linux-gcj... no
+checking for gcj... no
+checking for mipsel-openwrt-linux-windres... no
+checking for windres... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating config.h
+config.status: executing tests/atconfig commands
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --disable-nls
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtool-2.4.6'
+  GEN      libtoolize
+  GEN      libltdl/libltdl/lt__argz.h
+make  all-recursive
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtool-2.4.6'
+Making all in .
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtool-2.4.6'
+  CC       libltdl/loaders/libltdl_libltdl_la-preopen.lo
+  CC       libltdl/libltdl_libltdl_la-lt__alloc.lo
+  CC       libltdl/libltdl_libltdl_la-lt_dlloader.lo
+  CC       libltdl/libltdl_libltdl_la-lt_error.lo
+  CC       libltdl/libltdl_libltdl_la-ltdl.lo
+  CC       libltdl/libltdl_libltdl_la-slist.lo
+  CC       libltdl/loaders/dlopen.lo
+  CCLD     libltdl/dlopen.la
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib/gcc/mipsel-openwrt-linux-musl/8.4.0/../../../../mipsel-openwrt-linux-musl/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       libltdl/lt__argz.lo
+  CCLD     libltdl/libltdl.la
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib/gcc/mipsel-openwrt-linux-musl/8.4.0/../../../../mipsel-openwrt-linux-musl/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtool-2.4.6'
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtool-2.4.6'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtool-2.4.6'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtool-2.4.6'
+make  install-recursive
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtool-2.4.6'
+Making install in .
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtool-2.4.6'
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtool-2.4.6'
+ /bin/mkdir -p '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/bin'
+ /usr/bin/install -c libtool '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/bin'
+ /bin/mkdir -p '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/lib'
+ /bin/bash ./libtool   --mode=install /usr/bin/install -c   libltdl/libltdl.la '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/lib'
+libtool: install: /usr/bin/install -c libltdl/.libs/libltdl.so.7.3.1 /mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/lib/libltdl.so.7.3.1
+libtool: install: (cd /mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/lib && { ln -s -f libltdl.so.7.3.1 libltdl.so.7 || { rm -f libltdl.so.7 && ln -s libltdl.so.7.3.1 libltdl.so.7; }; })
+libtool: install: (cd /mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/lib && { ln -s -f libltdl.so.7.3.1 libltdl.so || { rm -f libltdl.so && ln -s libltdl.so.7.3.1 libltdl.so; }; })
+libtool: install: /usr/bin/install -c libltdl/.libs/libltdl.lai /mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/lib/libltdl.la
+libtool: install: /usr/bin/install -c libltdl/.libs/libltdl.a /mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/lib/libltdl.a
+libtool: install: chmod 644 /mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/lib/libltdl.a
+libtool: install: mipsel-openwrt-linux-musl-gcc-ranlib /mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/lib/libltdl.a
+libtool: warning: remember to run 'libtool --finish /mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/lib'
+ GREP='/mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep' SED='/mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/sed' './build-aux/inline-source' libtoolize > '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/bin/libtoolize'
+rm -rf '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool'/*
+ /usr/bin/install -c -m 644 './m4/libtool.m4' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/aclocal/libtool.m4'
+ /usr/bin/install -c -m 644 './m4/ltargz.m4' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/aclocal/ltargz.m4'
+ /usr/bin/install -c -m 644 './m4/ltdl.m4' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/aclocal/ltdl.m4'
+ /usr/bin/install -c -m 644 './m4/ltoptions.m4' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/aclocal/ltoptions.m4'
+ /usr/bin/install -c -m 644 './m4/ltsugar.m4' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/aclocal/ltsugar.m4'
+ /usr/bin/install -c -m 644 './m4/ltversion.m4' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/aclocal/ltversion.m4'
+ /usr/bin/install -c -m 644 './m4/lt~obsolete.m4' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/aclocal/lt~obsolete.m4'
+ /usr/bin/install -c './build-aux/compile' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/build-aux/compile'
+ /usr/bin/install -c './build-aux/config.guess' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/build-aux/config.guess'
+ /usr/bin/install -c './build-aux/config.sub' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/build-aux/config.sub'
+ /usr/bin/install -c './build-aux/depcomp' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/build-aux/depcomp'
+ /usr/bin/install -c './build-aux/install-sh' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/build-aux/install-sh'
+ /usr/bin/install -c './build-aux/missing' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/build-aux/missing'
+ /usr/bin/install -c -m 644 './build-aux/ltmain.sh' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/build-aux/ltmain.sh'
+ /usr/bin/install -c -m 644 './libltdl/COPYING.LIB' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/COPYING.LIB'
+ /usr/bin/install -c -m 644 './libltdl/Makefile.am' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/Makefile.am'
+ /usr/bin/install -c -m 644 './libltdl/README' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/README'
+ /usr/bin/install -c -m 644 './libltdl/configure.ac' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/configure.ac'
+ /usr/bin/install -c -m 644 './libltdl/aclocal.m4' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/aclocal.m4'
+ /usr/bin/install -c -m 644 './libltdl/Makefile.in' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/Makefile.in'
+ /usr/bin/install -c -m 644 './libltdl/config-h.in' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/config-h.in'
+ /usr/bin/install -c -m 644 './libltdl/configure' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/configure'
+ /usr/bin/install -c -m 644 './libltdl/libltdl/lt__alloc.h' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/libltdl/lt__alloc.h'
+ /usr/bin/install -c -m 644 './libltdl/libltdl/lt__argz_.h' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/libltdl/lt__argz_.h'
+ /usr/bin/install -c -m 644 './libltdl/libltdl/lt__dirent.h' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/libltdl/lt__dirent.h'
+ /usr/bin/install -c -m 644 './libltdl/libltdl/lt__glibc.h' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/libltdl/lt__glibc.h'
+ /usr/bin/install -c -m 644 './libltdl/libltdl/lt__private.h' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/libltdl/lt__private.h'
+ /usr/bin/install -c -m 644 './libltdl/libltdl/lt__strl.h' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/libltdl/lt__strl.h'
+ /usr/bin/install -c -m 644 './libltdl/libltdl/lt_dlloader.h' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/libltdl/lt_dlloader.h'
+ /usr/bin/install -c -m 644 './libltdl/libltdl/lt_error.h' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/libltdl/lt_error.h'
+ /usr/bin/install -c -m 644 './libltdl/libltdl/lt_system.h' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/libltdl/lt_system.h'
+ /usr/bin/install -c -m 644 './libltdl/libltdl/slist.h' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/libltdl/slist.h'
+ /usr/bin/install -c -m 644 './libltdl/loaders/dld_link.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/loaders/dld_link.c'
+ /usr/bin/install -c -m 644 './libltdl/loaders/dlopen.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/loaders/dlopen.c'
+ /usr/bin/install -c -m 644 './libltdl/loaders/dyld.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/loaders/dyld.c'
+ /usr/bin/install -c -m 644 './libltdl/loaders/load_add_on.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/loaders/load_add_on.c'
+ /usr/bin/install -c -m 644 './libltdl/loaders/loadlibrary.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/loaders/loadlibrary.c'
+ /usr/bin/install -c -m 644 './libltdl/loaders/preopen.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/loaders/preopen.c'
+ /usr/bin/install -c -m 644 './libltdl/loaders/shl_load.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/loaders/shl_load.c'
+ /usr/bin/install -c -m 644 './libltdl/lt__alloc.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/lt__alloc.c'
+ /usr/bin/install -c -m 644 './libltdl/lt__argz.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/lt__argz.c'
+ /usr/bin/install -c -m 644 './libltdl/lt__dirent.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/lt__dirent.c'
+ /usr/bin/install -c -m 644 './libltdl/lt__strl.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/lt__strl.c'
+ /usr/bin/install -c -m 644 './libltdl/lt_dlloader.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/lt_dlloader.c'
+ /usr/bin/install -c -m 644 './libltdl/lt_error.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/lt_error.c'
+ /usr/bin/install -c -m 644 './libltdl/ltdl.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/ltdl.c'
+ /usr/bin/install -c -m 644 './libltdl/ltdl.h' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/ltdl.h'
+ /usr/bin/install -c -m 644 './libltdl/ltdl.mk' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/ltdl.mk'
+ /usr/bin/install -c -m 644 './libltdl/slist.c' '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/slist.c'
+chmod a+x '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/share/libtool/configure'
+ /bin/mkdir -p '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/include'
+ /usr/bin/install -c -m 644 libltdl/ltdl.h '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/include'
+ /bin/mkdir -p '/mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/info'
+ /usr/bin/install -c -m 644 ./doc/libtool.info ./doc/libtool.info-1 ./doc/libtool.info-2 '/mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/info'
+ install-info --info-dir='/mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/info' '/mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/info/libtool.info'
+ /bin/mkdir -p '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/include/libltdl'
+ /usr/bin/install -c -m 644 libltdl/libltdl/lt_system.h libltdl/libltdl/lt_error.h libltdl/libltdl/lt_dlloader.h '/mnt/A/BuildOpenWRT/latest/tmp/stage-libtool/host/libltdl/include/libltdl'
+ /bin/mkdir -p '/mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/man/man1'
+ /usr/bin/install -c -m 644 ./doc/libtool.1 ./doc/libtoolize.1 '/mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/man/man1'
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtool-2.4.6'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtool-2.4.6'
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtool-2.4.6'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtool-2.4.6'
+time: package/libs/libtool/compile#12.82#4.52#41.46

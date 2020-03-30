@@ -1,0 +1,10 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mtd-rw-git-20160214/mtd-rw.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mtd-rw-git-20160214/mtd-rw.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mtd-rw-git-20160214/mtd-rw.ko
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mtd-rw-git-20160214/ipkg-mipsel_24kc/kmod-mtd-rw/lib/modules/4.14.173/mtd-rw.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mtd-rw-git-20160214/ipkg-mipsel_24kc/kmod-mtd-rw into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-mtd-rw_4.14.173+git-20160214-1_mipsel_24kc.ipk
+time: package/feeds/packages/mtd-rw/compile#2.38#0.97#7.59

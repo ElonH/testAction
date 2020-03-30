@@ -1,0 +1,139 @@
+
+Applying ./patches/161-ath10k-add-support-for-configuring-management-packet.patch using plaintext: 
+patching file ath10k-4.19/mac.c
+
+Applying ./patches/162-ath10k-fix-possible-out-of-bound-access-of-ath10k_ra.patch using plaintext: 
+patching file ath10k-4.19/mac.c
+
+Applying ./patches/163-ath10k-fix-incorrect-multicast-broadcast-rate-settin.patch using plaintext: 
+patching file ath10k-4.19/mac.c
+
+Applying ./patches/164-ath10k-commit-rates-from-mac80211.patch using plaintext: 
+patching file ath10k-4.19/mac.c
+patching file ath10k-5.2/mac.c
+patching file ath10k-5.4/mac.c
+
+Applying ./patches/170-mac80211-pass-the-vif-to-cancel_remain_on_channel.patch using plaintext: 
+patching file ath10k-4.19/mac.c
+patching file ath10k-5.2/mac.c
+
+Applying ./patches/201-ath10k-4.16_add-LED-and-GPIO-controlling-support-for-various-chipsets.patch using plaintext: 
+patching file ath10k-4.19/Kconfig
+patching file ath10k-4.19/Makefile
+patching file ath10k-4.19/core.c
+patching file ath10k-4.19/core.h
+patching file ath10k-4.19/hw.h
+patching file ath10k-4.19/leds.c
+patching file ath10k-4.19/leds.h
+patching file ath10k-4.19/mac.c
+patching file ath10k-4.19/wmi-ops.h
+patching file ath10k-4.19/wmi-tlv.c
+patching file ath10k-4.19/wmi.c
+patching file ath10k-4.19/wmi.h
+patching file ath10k-5.2/Kconfig
+patching file ath10k-5.2/Makefile
+patching file ath10k-5.2/core.c
+patching file ath10k-5.2/core.h
+patching file ath10k-5.2/hw.h
+patching file ath10k-5.2/leds.c
+patching file ath10k-5.2/leds.h
+patching file ath10k-5.2/mac.c
+patching file ath10k-5.2/wmi-ops.h
+patching file ath10k-5.2/wmi-tlv.c
+patching file ath10k-5.2/wmi.c
+Hunk #1 succeeded at 8298 (offset 3 lines).
+Hunk #2 succeeded at 10115 (offset 3 lines).
+Hunk #3 succeeded at 10188 (offset 3 lines).
+Hunk #4 succeeded at 10269 (offset 3 lines).
+Hunk #5 succeeded at 10342 (offset 3 lines).
+Hunk #6 succeeded at 10425 (offset 3 lines).
+patching file ath10k-5.2/wmi.h
+patching file ath10k-5.4/Kconfig
+patching file ath10k-5.4/Makefile
+patching file ath10k-5.4/core.c
+patching file ath10k-5.4/core.h
+patching file ath10k-5.4/hw.h
+patching file ath10k-5.4/leds.c
+patching file ath10k-5.4/leds.h
+patching file ath10k-5.4/mac.c
+patching file ath10k-5.4/wmi-ops.h
+patching file ath10k-5.4/wmi-tlv.c
+Hunk #1 succeeded at 4367 (offset 3 lines).
+patching file ath10k-5.4/wmi.c
+Hunk #1 succeeded at 8298 (offset 3 lines).
+Hunk #2 succeeded at 10140 (offset 3 lines).
+Hunk #3 succeeded at 10213 (offset 3 lines).
+Hunk #4 succeeded at 10294 (offset 3 lines).
+Hunk #5 succeeded at 10367 (offset 3 lines).
+Hunk #6 succeeded at 10450 (offset 3 lines).
+patching file ath10k-5.4/wmi.h
+
+Applying ./patches/202-ath10k-4.16-use-tpt-trigger-by-default.patch using plaintext: 
+patching file ath10k-4.19/core.h
+patching file ath10k-4.19/leds.c
+patching file ath10k-4.19/mac.c
+Hunk #1 succeeded at 9994 (offset 7 lines).
+patching file ath10k-5.2/core.h
+patching file ath10k-5.2/leds.c
+patching file ath10k-5.2/mac.c
+Hunk #1 succeeded at 10201 (offset 14 lines).
+patching file ath10k-5.4/core.h
+patching file ath10k-5.4/leds.c
+patching file ath10k-5.4/mac.c
+Hunk #1 succeeded at 10381 (offset 14 lines).
+
+Applying ./patches/203-ath10k-Limit-available-channels-via-DT-ieee80211-fre.patch using plaintext: 
+patching file ath10k-4.19/mac.c
+Hunk #2 succeeded at 9719 (offset 7 lines).
+
+Applying ./patches/960-0010-ath10k-limit-htt-rx-ring-size.patch using plaintext: 
+patching file ath10k-4.19/htt.h
+patching file ath10k-5.2/htt.h
+patching file ath10k-5.4/htt.h
+
+Applying ./patches/960-0011-ath10k-limit-pci-buffer-size.patch using plaintext: 
+patching file ath10k-4.19/pci.c
+patching file ath10k-5.2/pci.c
+patching file ath10k-5.4/pci.c
+
+Applying ./patches/976-ath10k-Check-if-station-exists-before-forwarding-tx-.patch using plaintext: 
+patching file ath10k-5.2/htt_rx.c
+Hunk #1 succeeded at 2569 (offset 1 line).
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/mac.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/debug.o
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/debug.c: In function 'ath10k_read_debug_level':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/debug.c:1380:1: warning: the frame size of 1440 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ }
+ ^
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/core.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/htc.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/htt.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/htt_rx.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/htt_tx.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/txrx.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/wmi.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/wmi-tlv.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/bmi.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/hw.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/p2p.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/swap.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/leds.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/debugfs_sta.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/coredump.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/ce.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/pci.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/ahb.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/ath10k_core.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/ath10k_pci.o
+  Building modules, stage 2.
+  MODPOST 2 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/ath10k_core.mod.o
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/ath10k_pci.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/ath10k_core.ko
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ath10k-5.4/ath10k_pci.ko
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ipkg-mipsel_24kc/kmod-ath10k-ct-smallbuffers/lib/modules/4.14.173/ath10k_core.ko: relocatable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ipkg-mipsel_24kc/kmod-ath10k-ct-smallbuffers/lib/modules/4.14.173/ath10k_pci.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers/ath10k-ct-2020-03-25-3d173a47/ipkg-mipsel_24kc/kmod-ath10k-ct-smallbuffers into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-ath10k-ct-smallbuffers_4.14.173+2020-03-25-3d173a47-1_mipsel_24kc.ipk
+time: package/kernel/ath10k-ct/smallbuffers/compile#41.07#4.77#49.30

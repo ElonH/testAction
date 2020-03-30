@@ -1,0 +1,407 @@
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/PF_RING-7.6.0'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/antfs-2020-02-10-b41ba529'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-regular'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ath10k-ct-smallbuffers'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/backports-5.4-rc8-1'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/base-files'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/button-hotplug'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/dmx_usb_module-0.1.20130818'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/exfat-nofuse-2018-04-17-01c30ad5'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/fs-qntfs'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/fullconenat-2019-10-21-0cf3b48f'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/gpio-button-hotplug'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/i2c-gpio-custom'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ipset-7.4'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/iptables-1.8.4'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/jool-4.0.7'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ksmbd-3.1.6'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-atm-2.5.2'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/macremapper-1.1.0'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt_wifi'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mtd'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mtd-rw-git-20160214'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/nat46-2017-05-12-683fbd2b'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/openvswitch-2.13.0'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/opkg-2020-01-25-c09fe209'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/packages'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/ppp-default'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/r8125-9.002.02'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/rtl8192du-2019-06-01'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/rtl8812au-ct-2020-01-12-e0d586aa'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/rtl88x2bu-2019-09-23-eece0638'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/sched-cake-2020-01-10-aeff7a3e'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/siit-1.2'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/spi-gpio-custom'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/tmp'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/trelay-0.1'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/w1-gpio-custom'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318'
+cp: -r not specified; omitting directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/xtables-addons-3.9'
+cp: cannot stat '/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/image/*': No such file or directory
+Bundling mkhash
+Bundling sed
+Bundling ubinize
+Bundling makeamitbin
+Bundling debugfs
+Bundling dumpe2fs
+Bundling addpattern
+Bundling mkbrnimg
+Bundling spw303v
+Bundling zip
+Bundling uimage_padhdr
+Bundling mkhilinkfw
+Bundling mkfs.ext4
+Bundling grub-mkstandalone
+Bundling mkporayfw
+Bundling mkrtn56uimg
+Bundling grub-probe
+Bundling ucert
+Bundling wrt400n
+Bundling xargs
+Bundling buffalo-tftp
+Bundling grub-mkrelpath
+Bundling mkheader_gemtek
+Bundling jshn
+Bundling mkmylofw
+Bundling grub-render-label
+Bundling oseama
+Bundling seama
+Bundling b43-fwcutter
+Bundling mkwrgimg
+Bundling lsattr
+Bundling buffalo-tag
+Bundling lzma2eva
+Bundling grub-fstest
+Bundling grub-syslinux2cfg
+Bundling opkg
+Bundling grub-editenv
+Bundling mkdapimg2
+Bundling mkfwimage
+Bundling grub-macbless
+Bundling grub-file
+Bundling mkmerakifw-old
+Bundling padjffs2
+Bundling lzmadec
+Bundling mkfs.jffs2
+Bundling e2mmpstatus
+Bundling mkbuffaloimg
+Bundling ccmake
+Bundling lzmainfo
+Bundling fix-u-media-header
+Bundling mkdapimg
+Bundling srec2bin
+Bundling unsquashfs4
+Bundling asustrx
+Bundling grub-mkpasswd-pbkdf2
+Bundling usign
+Bundling xorimage
+Bundling blkid
+Bundling bison
+Bundling nand_ecc
+Bundling mmd
+Bundling mke2fs
+Bundling find
+Bundling lxlfw
+Bundling resize2fs
+Bundling pc1crypt
+Bundling badblocks
+Bundling grub-mknetdir
+Bundling mkzcfw
+Bundling uuidd
+Bundling grub-menulst2cfg
+Bundling mktplinkfw
+Bundling trx2edips
+Bundling mkrasimage
+Bundling jcgimage
+Bundling mklost+found
+Bundling fwtool
+Bundling make_ext4fs
+Bundling upx
+Bundling patch-dtb
+Bundling sstrip
+Bundling e2freefrag
+Bundling mkfs.ubifs
+Bundling dgfirmware
+Bundling tune2fs
+Bundling buffalo-enc
+Bundling nec-enc
+Bundling encode_crc
+Bundling pkg-config.real
+Bundling mksquashfs4
+Bundling mktitanimg
+Bundling grub-install
+Bundling fsck.ext4
+Bundling hcsmakeimage
+Bundling mkcasfw
+Bundling fsck.ext3
+Bundling mkzynfw
+Bundling e2image
+Bundling zyimage
+Bundling imagetag
+Bundling cpack
+Bundling mkcameofw
+Bundling ccache
+Bundling tar
+Bundling flex
+Bundling b43-asm.bin
+Bundling fsck.fat
+Bundling mkfs.ext3
+Bundling e4crypt
+Bundling grub-bios-setup
+Bundling grub-script-check
+Bundling kernel2minor
+Bundling bc
+Bundling zyxbcm
+Bundling xmlwf
+Bundling mkfwimage2
+Bundling mkcsysimg
+Bundling filefrag
+Bundling e2fsck
+Bundling mksercommfw
+Bundling xzdec
+Bundling ctest
+Bundling e2undo
+Bundling qemu-img
+Bundling mkdhpimg
+Bundling osbridge-crc
+Bundling mkbrncmdline
+Bundling ptgen
+Bundling patch
+Bundling patchelf
+Bundling openssl
+Bundling mktplinkfw2
+Bundling gengetopt
+Bundling mkchkimg
+Bundling flock
+Bundling ocspcheck
+Bundling mkwrggimg
+Bundling mkplanexfw
+Bundling grub-mkrescue
+Bundling xz
+Bundling mkenvimage
+Bundling chattr
+Bundling otrx
+Bundling grub-mkimage
+Bundling grub-mklayout
+Bundling motorola-bin
+Bundling uuidgen
+Bundling mcopy
+Bundling locate
+Bundling lzma
+Bundling mkmerakifw
+Bundling edimax_fw_header
+Bundling patch-cmdline
+Bundling add_header
+Bundling e2label
+Bundling mkfs.ext2
+Bundling dc
+Bundling mklibs-readelf
+Bundling trx2usr
+Bundling grub-ofpathname
+Bundling fatlabel
+Bundling grub-glue-efi
+Bundling tplink-safeloader
+Bundling fsck.ext2
+Bundling mksenaofw
+Bundling findfs
+Bundling mkdniimg
+Bundling m4
+Bundling mkimage
+Bundling fsck
+Bundling mkedimaximg
+Bundling grub-sparc64-setup
+Bundling trx
+Bundling mkdlinkfw
+Bundling dns313-header
+Bundling logsave
+Bundling mkfs.fat
+Bundling dgn3500sum
+Bundling cmake
+Bundling dtc
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkfs.ext4.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.uuidd.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.kernel2minor.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-mkimage.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mktplinkfw2.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkenvimage.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.srec2bin.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.cpack.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.gengetopt.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mksercommfw.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkfwimage2.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.uuidgen.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.buffalo-tftp.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-ofpathname.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.ptgen.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.opkg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.patch-cmdline.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.tar.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkwrggimg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkheader_gemtek.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.sstrip.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.zyimage.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.lsattr.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.buffalo-enc.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.lzmainfo.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.xzdec.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.edimax_fw_header.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.lzma2eva.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkhash.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkcameofw.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.usign.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mktplinkfw.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.fsck.ext2.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.e2undo.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkzcfw.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.otrx.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.jcgimage.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.bison.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkbrnimg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.bc.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.tune2fs.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.nec-enc.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.asustrx.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.jshn.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.fsck.ext4.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkbrncmdline.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkdhpimg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-macbless.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.e2mmpstatus.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.resize2fs.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.dgn3500sum.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.fatlabel.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.badblocks.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.cmake.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.e2image.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mktitanimg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-bios-setup.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.fix-u-media-header.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-sparc64-setup.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.spw303v.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.e2label.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.flex.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.upx.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.logsave.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mke2fs.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.filefrag.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-file.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.findfs.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkdniimg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.ctest.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.lzmadec.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.uimage_padhdr.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.m4.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.trx.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkmerakifw-old.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.wrt400n.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.fsck.ext3.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.patchelf.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.buffalo-tag.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkfs.ext3.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.trx2usr.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.ucert.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.motorola-bin.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkfs.ubifs.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkimage.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.dns313-header.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-probe.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.flock.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mcopy.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.xorimage.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mksenaofw.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.e4crypt.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.patch-dtb.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.fwtool.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.add_header.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.e2freefrag.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mksquashfs4.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.seama.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.padjffs2.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.dc.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.xmlwf.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.sed.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.oseama.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkfwimage.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-mknetdir.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkchkimg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.trx2edips.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.imagetag.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkmylofw.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.encode_crc.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkdapimg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.openssl.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.blkid.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.zip.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkcasfw.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.patch.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkbuffaloimg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkporayfw.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.ccache.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.b43-fwcutter.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.zyxbcm.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-script-check.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkrtn56uimg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mmd.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.nand_ecc.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.osbridge-crc.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.e2fsck.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkwrgimg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-fstest.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.ubinize.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkmerakifw.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.find.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-render-label.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.ccmake.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.xz.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkedimaximg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.makeamitbin.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.chattr.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.b43-asm.bin.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-install.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.make_ext4fs.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkhilinkfw.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkdlinkfw.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.fsck.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkfs.jffs2.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.hcsmakeimage.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-mklayout.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.ocspcheck.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkfs.fat.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-mkpasswd-pbkdf2.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.locate.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-mkrelpath.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkrasimage.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.tplink-safeloader.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.debugfs.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-mkstandalone.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkfs.ext2.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mklost+found.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-menulst2cfg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkcsysimg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-syslinux2cfg.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.lzma.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.xargs.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkdapimg2.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-mkrescue.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.qemu-img.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.addpattern.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkplanexfw.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.lxlfw.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.pc1crypt.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-glue-efi.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.pkg-config.real.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.fsck.fat.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.dgfirmware.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.grub-editenv.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.dumpe2fs.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mklibs-readelf.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.unsquashfs4.bin: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/openwrt-imagebuilder-ramips-mt7621.Linux-x86_64/staging_dir/host/bin/.mkzynfw.bin: shared object
+time: target/imagebuilder/install#283.14#15.61#279.18

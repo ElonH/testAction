@@ -1,0 +1,2 @@
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/urandom-seed/ipkg-mipsel_24kc/urandom-seed into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/urandom-seed_1.0-1_mipsel_24kc.ipk
+time: package/system/urandom-seed/compile#0.36#0.17#1.02

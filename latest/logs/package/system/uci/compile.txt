@@ -1,0 +1,110 @@
+-- The C compiler identification is GNU 8.4.0
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found PkgConfig: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/pkg-config (found version "1.6.3") 
+-- Checking for one of the modules 'lua5.1;lua-5.1'
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_ARG1
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    DL_LIBRARY
+
+
+-- Build files have been written to: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+Scanning dependencies of target uci-static
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[  5%] Building C object CMakeFiles/uci-static.dir/libuci.c.o
+[ 10%] Building C object CMakeFiles/uci-static.dir/file.c.o
+[ 15%] Building C object CMakeFiles/uci-static.dir/util.c.o
+[ 20%] Building C object CMakeFiles/uci-static.dir/delta.c.o
+[ 25%] Building C object CMakeFiles/uci-static.dir/parse.c.o
+[ 30%] Building C object CMakeFiles/uci-static.dir/blob.c.o
+[ 35%] Linking C static library libuci.a
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[ 35%] Built target uci-static
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+Scanning dependencies of target uci
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[ 40%] Building C object CMakeFiles/uci.dir/libuci.c.o
+[ 45%] Building C object CMakeFiles/uci.dir/file.c.o
+[ 50%] Building C object CMakeFiles/uci.dir/util.c.o
+[ 55%] Building C object CMakeFiles/uci.dir/delta.c.o
+[ 60%] Building C object CMakeFiles/uci.dir/parse.c.o
+[ 65%] Building C object CMakeFiles/uci.dir/blob.c.o
+[ 70%] Linking C shared library libuci.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[ 70%] Built target uci
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+Scanning dependencies of target cli
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[ 75%] Building C object CMakeFiles/cli.dir/cli.c.o
+[ 80%] Linking C executable uci
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[ 80%] Built target cli
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+Scanning dependencies of target ucimap
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[ 85%] Building C object CMakeFiles/ucimap.dir/ucimap.c.o
+[ 90%] Linking C static library libucimap.a
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[ 90%] Built target ucimap
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+Scanning dependencies of target uci_lua
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[ 95%] Building C object lua/CMakeFiles/uci_lua.dir/uci.c.o
+[100%] Linking C shared module uci.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[100%] Built target uci_lua
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[ 35%] Built target uci-static
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[ 70%] Built target uci
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[ 80%] Built target cli
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[ 90%] Built target ucimap
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+[100%] Built target uci_lua
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732/ipkg-install/usr/include/uci.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732/ipkg-install/usr/include/uci_config.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732/ipkg-install/usr/include/uci_blob.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732/ipkg-install/usr/include/ucimap.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732/ipkg-install/usr/lib/libuci.so
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732/ipkg-install/usr/bin/uci
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732/ipkg-install/usr/lib/lua/uci.so
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732/ipkg-mipsel_24kc/libuci/lib/libuci.so: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732/ipkg-mipsel_24kc/libuci into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/libuci20130104_2020-01-27-e8d83732-3_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732/ipkg-mipsel_24kc/uci/sbin/uci: executable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uci-2020-01-27-e8d83732/ipkg-mipsel_24kc/uci into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/uci_2020-01-27-e8d83732-3_mipsel_24kc.ipk
+time: package/system/uci/compile#8.25#1.59#13.06

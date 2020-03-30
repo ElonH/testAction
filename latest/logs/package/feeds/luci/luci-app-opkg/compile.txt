@@ -1,0 +1,3 @@
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-app-opkg/ipkg-all/luci-app-opkg into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/luci/luci-app-opkg_git-20.089.40724-3c31b42-1_all.ipk
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-app-opkg/ipkg-all/luci-i18n-opkg-zh-cn into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/luci/luci-i18n-opkg-zh-cn_git-20.089.40724-3c31b42-1_all.ipk
+time: package/feeds/luci/luci-app-opkg/compile#2.31#1.56#9.11

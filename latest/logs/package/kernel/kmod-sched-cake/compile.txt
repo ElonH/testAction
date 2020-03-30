@@ -1,0 +1,10 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/sched-cake-2020-01-10-aeff7a3e/sch_cake.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/sched-cake-2020-01-10-aeff7a3e/sch_cake.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/sched-cake-2020-01-10-aeff7a3e/sch_cake.ko
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/sched-cake-2020-01-10-aeff7a3e/ipkg-mipsel_24kc/kmod-sched-cake/lib/modules/4.14.173/sch_cake.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/sched-cake-2020-01-10-aeff7a3e/ipkg-mipsel_24kc/kmod-sched-cake into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-sched-cake_4.14.173+2020-01-10-aeff7a3e-1_mipsel_24kc.ipk
+time: package/kernel/kmod-sched-cake/compile#4.76#0.97#8.70

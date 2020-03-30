@@ -1,0 +1,246 @@
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/acx-mac80211-2014-02-16-b6fc3149.tar.xz
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0 11  138k   11 16126    0     0  10736      0  0:00:13  0:00:01  0:00:12 10729100  138k  100  138k    0     0  71811      0  0:00:01  0:00:01 --:--:-- 71811
++ curl -f --connect-timeout 20 --retry 5 --location --insecure http://acx100.erley.org/fw/acx100_1.9.8.b/tiacx100
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 1 seconds. 5 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 2 seconds. 4 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 4 seconds. 3 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 8 seconds. 2 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 16 seconds. 1 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 503 Service Unavailable
+Download failed.
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/tiacx100
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 40636  100 40636    0     0  19774      0  0:00:02  0:00:02 --:--:-- 19783
++ curl -f --connect-timeout 20 --retry 5 --location --insecure http://acx100.erley.org/fw/acx100_1.9.8.b/tiacx100r0D
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 1 seconds. 5 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 2 seconds. 4 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 4 seconds. 3 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 8 seconds. 2 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 16 seconds. 1 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 503 Service Unavailable
+Download failed.
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/tiacx100r0D
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   936  100   936    0     0    663      0  0:00:01  0:00:01 --:--:--   662100   936  100   936    0     0    662      0  0:00:01  0:00:01 --:--:--   662
++ curl -f --connect-timeout 20 --retry 5 --location --insecure http://acx100.erley.org/fw/acx100_1.9.8.b/tiacx100r11
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 1 seconds. 5 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 2 seconds. 4 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 4 seconds. 3 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 8 seconds. 2 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 16 seconds. 1 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 503 Service Unavailable
+Download failed.
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/tiacx100r11
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   964  100   964    0     0    674      0  0:00:01  0:00:01 --:--:--   674
++ curl -f --connect-timeout 20 --retry 5 --location --insecure http://acx100.erley.org/fw/acx100_1.9.8.b/tiacx100r15
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 1 seconds. 5 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 2 seconds. 4 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 4 seconds. 3 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 8 seconds. 2 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 16 seconds. 1 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 503 Service Unavailable
+Download failed.
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/tiacx100r15
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   912  100   912    0     0    705      0  0:00:01  0:00:01 --:--:--   705100   912  100   912    0     0    704      0  0:00:01  0:00:01 --:--:--   705
++ curl -f --connect-timeout 20 --retry 5 --location --insecure http://acx100.erley.org/fw/acx111_2.3.1.31/tiacx111c16
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 1 seconds. 5 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 2 seconds. 4 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 4 seconds. 3 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 8 seconds. 2 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 16 seconds. 1 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 503 Service Unavailable
+Download failed.
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/tiacx111c16
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 92836  100 92836    0     0  55391      0  0:00:01  0:00:01 --:--:-- 55391
++ curl -f --connect-timeout 20 --retry 5 --location --insecure http://sites.google.com/site/atorkhov/files/tiacx111c16_1.2.1_34
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0100   262    0   262    0     0    294      0 --:--:-- --:--:-- --:--:--   694
+100   556    0   556    0     0    475      0 --:--:--  0:00:01 --:--:--   475
+  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0 78 83320   78 65536    0     0  27193      0  0:00:03  0:00:02  0:00:01  104k100 83320  100 83320    0     0  31182      0  0:00:02  0:00:02 --:--:-- 95550
++ curl -f --connect-timeout 20 --retry 5 --location --insecure http://acx100.erley.org/fw/acx111_2.3.1.31/tiacx111c17
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 1 seconds. 5 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 2 seconds. 4 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 4 seconds. 3 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 8 seconds. 2 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 16 seconds. 1 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 503 Service Unavailable
+Download failed.
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/tiacx111c17
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0 51 94192   51 48895    0     0  24386      0  0:00:03  0:00:02  0:00:01 24386100 94192  100 94192    0     0  46955      0  0:00:02  0:00:02 --:--:-- 46955
++ curl -f --connect-timeout 20 --retry 5 --location --insecure http://acx100.erley.org/fw/acx111_2.3.1.31/tiacx111c19
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 1 seconds. 5 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 2 seconds. 4 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 4 seconds. 3 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 8 seconds. 2 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 16 seconds. 1 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 503 Service Unavailable
+Download failed.
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/tiacx111c19
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 96336  100 96336    0     0  52186      0  0:00:01  0:00:01 --:--:-- 52186
++ curl -f --connect-timeout 20 --retry 5 --location --insecure http://acx100.erley.org/fw/acx111_2.4.0.70-USB/tiacx111usbc1B
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 1 seconds. 5 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 2 seconds. 4 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 4 seconds. 3 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 8 seconds. 2 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+Warning: Transient problem: HTTP error Will retry in 16 seconds. 1 retries 
+Warning: left.
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0
+curl: (22) The requested URL returned error: 503 Service Unavailable
+Download failed.
++ curl -f --connect-timeout 20 --retry 5 --location --insecure https://sources.openwrt.org/tiacx111usbc1B
+  % Total    % Received % Xferd  Average Speed   Time    Time     Time  Current
+                                 Dload  Upload   Total   Spent    Left  Speed
+  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:-- --:--:-- --:--:--     0  0     0    0     0    0     0      0      0 --:--:--  0:00:01 --:--:--     0100 97388  100 97388    0     0  49485      0  0:00:01  0:00:01 --:--:-- 49485
+
+Applying ./patches/100-compat.patch using plaintext: 
+patching file pci.c
+
+Applying ./patches/200-initial-macaddr.patch using plaintext: 
+patching file cardsetting.c
+
+Applying ./patches/300-api_sync.patch using plaintext: 
+patching file main.c
+patching file main.h
+patching file cardsetting.c
+patching file merge.c
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/pci.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/common.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/merge.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/debug.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/cmd.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/ie.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/init.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/utils.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/cardsetting.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/tx.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/rx.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/main.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/boot.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/acx-mac80211.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/acx-mac80211.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/acx-mac80211.ko
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/ipkg-mipsel_24kc/kmod-acx-mac80211/lib/modules/4.14.173/acx-mac80211.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/acx-mac80211-2014-02-16-b6fc3149/ipkg-mipsel_24kc/kmod-acx-mac80211 into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-acx-mac80211_4.14.173+2014-02-16-b6fc3149-1_mipsel_24kc.ipk
+time: package/kernel/acx-mac80211/compile#15.54#2.69#349.80

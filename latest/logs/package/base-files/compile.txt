@@ -1,0 +1,6 @@
+/mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/find: '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/base-files/ipkg-mipsel_24kc/base-files/etc/config/network': No such file or directory
+/mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/find: '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/base-files/ipkg-mipsel_24kc/base-files/etc/config/system': No such file or directory
+/mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/find: '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/base-files/ipkg-mipsel_24kc/base-files/etc/dropbear/': No such file or directory
+/mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/find: '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/base-files/ipkg-mipsel_24kc/base-files/etc/profile.d': No such file or directory
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/base-files/ipkg-mipsel_24kc/base-files into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/base-files_214-r13603-a85fc55415_mipsel_24kc.ipk
+time: package/base-files/compile#1.46#0.74#4.57

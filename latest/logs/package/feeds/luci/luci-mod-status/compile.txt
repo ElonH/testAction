@@ -1,0 +1,20 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/src'
+rm -f luci-bwc *.o
+ccache_cc  -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status=luci-mod-status -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -fpic -Wall -c -o luci-bwc.o luci-bwc.c
+ccache_cc -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -o luci-bwc luci-bwc.o -ldl
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/src'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/src'
+mkdir -p /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/ipkg-install/usr/bin
+cp luci-bwc /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/ipkg-install/usr/bin/luci-bwc
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/src'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/src'
+mkdir -p /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/ipkg-install/usr/bin
+cp luci-bwc /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/ipkg-install/usr/bin/luci-bwc
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/src'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/src'
+mkdir -p /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/ipkg-install/usr/bin
+cp luci-bwc /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/ipkg-install/usr/bin/luci-bwc
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/src'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/ipkg-mipsel_24kc/luci-mod-status/usr/bin/luci-bwc: executable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-status/ipkg-mipsel_24kc/luci-mod-status into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/luci/luci-mod-status_git-20.089.40724-3c31b42-1_mipsel_24kc.ipk
+time: package/feeds/luci/luci-mod-status/compile#1.70#0.53#5.05

@@ -1,0 +1,318 @@
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/aclocal -I /mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/host/share/aclocal -I /mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/share/aclocal -I /mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/share/aclocal -I m4 -I . --force -I m4
+autoreconf: configure.ac: tracing
+autoreconf: configure.ac: creating directory build-aux
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/libtoolize --install --force
+OpenWrt-libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, `build-aux'.
+OpenWrt-libtoolize: linking file `build-aux/config.guess'
+OpenWrt-libtoolize: linking file `build-aux/config.sub'
+OpenWrt-libtoolize: linking file `build-aux/install-sh'
+OpenWrt-libtoolize: linking file `build-aux/ltmain.sh'
+OpenWrt-libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+OpenWrt-libtoolize: linking file `m4/libtool.m4'
+OpenWrt-libtoolize: linking file `m4/ltoptions.m4'
+OpenWrt-libtoolize: linking file `m4/ltsugar.m4'
+OpenWrt-libtoolize: linking file `m4/ltversion.m4'
+OpenWrt-libtoolize: linking file `m4/lt~obsolete.m4'
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/autoconf --include=/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/host/share/aclocal --include=/mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/share/aclocal --include=/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/share/aclocal --include=m4 --include=. --prepend-include=/mnt/A/BuildOpenWRT/latest/staging_dir/host/share/aclocal --force
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/autoheader --include=/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/host/share/aclocal --include=/mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/share/aclocal --include=/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/share/aclocal --include=m4 --include=. --prepend-include=/mnt/A/BuildOpenWRT/latest/staging_dir/host/share/aclocal --force
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/automake --add-missing --force-missing
+configure.ac:11: installing 'build-aux/ar-lib'
+configure.ac:11: installing 'build-aux/compile'
+configure.ac:9: installing 'build-aux/missing'
+examples/Makefile.am: installing 'build-aux/depcomp'
+autoreconf: Leaving directory `.'
+configure: WARNING: unrecognized options: --disable-nls
+configure: loading site script /mnt/A/BuildOpenWRT/latest/include/site/mipsel
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... mipsel-openwrt-linux-gnu
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for mipsel-openwrt-linux-strip... mipsel-openwrt-linux-musl-strip
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking how to create a pax tar archive... gnutar
+checking for style of include used by make... GNU
+checking for mipsel-openwrt-linux-gcc... ccache_cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether ccache_cc accepts -g... yes
+checking for ccache_cc option to accept ISO C89... none needed
+checking whether ccache_cc understands -c and -o together... yes
+checking dependency style of ccache_cc... gcc3
+checking for mipsel-openwrt-linux-ar... mipsel-openwrt-linux-musl-gcc-ar
+checking the archiver (mipsel-openwrt-linux-musl-gcc-ar) interface... ar
+checking whether make supports nested variables... (cached) yes
+checking for mipsel-openwrt-linux-gcc... (cached) ccache_cc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether ccache_cc accepts -g... (cached) yes
+checking for ccache_cc option to accept ISO C89... (cached) none needed
+checking whether ccache_cc understands -c and -o together... (cached) yes
+checking dependency style of ccache_cc... (cached) gcc3
+checking how to print strings... printf
+checking for a sed that does not truncate output... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/sed
+checking for grep that handles long lines and -e... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep
+checking for egrep... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep -E
+checking for fgrep... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep -F
+checking for ld used by ccache_cc... mipsel-openwrt-linux-musl-ld
+checking if the linker (mipsel-openwrt-linux-musl-ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... mipsel-openwrt-linux-musl-gcc-nm
+checking the name lister (mipsel-openwrt-linux-musl-gcc-nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to mipsel-openwrt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for mipsel-openwrt-linux-musl-ld option to reload object files... -r
+checking for mipsel-openwrt-linux-objdump... mipsel-openwrt-linux-musl-objdump
+checking how to recognize dependent libraries... pass_all
+checking for mipsel-openwrt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for mipsel-openwrt-linux-ar... (cached) mipsel-openwrt-linux-musl-gcc-ar
+checking for archiver @FILE support... @
+checking for mipsel-openwrt-linux-strip... (cached) mipsel-openwrt-linux-musl-strip
+checking for mipsel-openwrt-linux-ranlib... mipsel-openwrt-linux-musl-gcc-ranlib
+checking command to parse mipsel-openwrt-linux-musl-gcc-nm output from ccache_cc object... ok
+checking for sysroot... no
+checking for mipsel-openwrt-linux-mt... no
+checking for mt... mt
+configure: WARNING: using cross tools not prefixed with host triplet
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... ccache_cc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if ccache_cc supports -fno-rtti -fno-exceptions... no
+checking for ccache_cc option to produce PIC... -fPIC -DPIC
+checking if ccache_cc PIC flag -fPIC -DPIC works... yes
+checking if ccache_cc static flag -static works... yes
+checking if ccache_cc supports -c -o file.o... yes
+checking if ccache_cc supports -c -o file.o... (cached) yes
+checking whether the ccache_cc linker (mipsel-openwrt-linux-musl-ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking whether ln -s works... yes
+checking pkg-config is at least version 0.9.0... yes
+checking for LIBNFNETLINK... yes
+checking for LIBMNL... yes
+checking arpa/inet.h usability... yes
+checking arpa/inet.h presence... yes
+checking for arpa/inet.h... yes
+checking for inet_ntop... yes
+checking for setns... yes
+checking if inet_ntop supports IPv6... no
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating Makefile
+config.status: creating src/Makefile
+config.status: creating include/Makefile
+config.status: creating utils/Makefile
+config.status: creating examples/Makefile
+config.status: creating qa/Makefile
+config.status: creating include/libnetfilter_conntrack/Makefile
+config.status: creating include/internal/Makefile
+config.status: creating src/conntrack/Makefile
+config.status: creating src/expect/Makefile
+config.status: creating libnetfilter_conntrack.pc
+config.status: creating doxygen.cfg
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --disable-nls
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5'
+make  all-recursive
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5'
+Making all in include
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include'
+Making all in libnetfilter_conntrack
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include/libnetfilter_conntrack'
+make[7]: Nothing to be done for 'all'.
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include/libnetfilter_conntrack'
+Making all in internal
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include/internal'
+make[7]: Nothing to be done for 'all'.
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include/internal'
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include'
+make[7]: Nothing to be done for 'all-am'.
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include'
+Making all in src
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src'
+Making all in conntrack
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src/conntrack'
+  CC       api.lo
+  CC       getter.lo
+  CC       setter.lo
+  CC       labels.lo
+  CC       parse.lo
+  CC       build.lo
+  CC       parse_mnl.lo
+  CC       build_mnl.lo
+  CC       snprintf.lo
+  CC       snprintf_default.lo
+  CC       snprintf_xml.lo
+  CC       objopt.lo
+  CC       compare.lo
+  CC       copy.lo
+  CC       filter.lo
+  CC       bsf.lo
+  CC       filter_dump.lo
+  CC       grp.lo
+  CC       grp_getter.lo
+  CC       grp_setter.lo
+  CC       stack.lo
+  CCLD     libnfconntrack.la
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib/gcc/mipsel-openwrt-linux-musl/8.4.0/../../../../mipsel-openwrt-linux-musl/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src/conntrack'
+Making all in expect
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src/expect'
+  CC       api.lo
+  CC       compare.lo
+  CC       getter.lo
+  CC       setter.lo
+  CC       parse.lo
+  CC       build.lo
+  CC       snprintf.lo
+  CC       snprintf_default.lo
+  CC       snprintf_xml.lo
+  CC       build_mnl.lo
+  CC       parse_mnl.lo
+  CCLD     libnfexpect.la
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib/gcc/mipsel-openwrt-linux-musl/8.4.0/../../../../mipsel-openwrt-linux-musl/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src/expect'
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src'
+  CC       main.lo
+  CC       callback.lo
+  CCLD     libnetfilter_conntrack.la
+copying selected object files to avoid basename conflicts...
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib/gcc/mipsel-openwrt-linux-musl/8.4.0/../../../../mipsel-openwrt-linux-musl/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src'
+Making all in utils
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/utils'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/utils'
+Making all in examples
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/examples'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/examples'
+Making all in qa
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/qa'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/qa'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5'
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5'
+Making install in include
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include'
+Making install in libnetfilter_conntrack
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include/libnetfilter_conntrack'
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include/libnetfilter_conntrack'
+make[7]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-install/usr/include/libnetfilter_conntrack'
+ /usr/bin/install -c -m 644 libnetfilter_conntrack.h linux_nfnetlink_conntrack.h linux_nf_conntrack_common.h libnetfilter_conntrack_tcp.h libnetfilter_conntrack_udp.h libnetfilter_conntrack_icmp.h libnetfilter_conntrack_sctp.h libnetfilter_conntrack_dccp.h libnetfilter_conntrack_ipv4.h libnetfilter_conntrack_ipv6.h '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-install/usr/include/libnetfilter_conntrack'
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include/libnetfilter_conntrack'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include/libnetfilter_conntrack'
+Making install in internal
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include/internal'
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include/internal'
+make[7]: Nothing to be done for 'install-exec-am'.
+make[7]: Nothing to be done for 'install-data-am'.
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include/internal'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include/internal'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include'
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include'
+make[7]: Nothing to be done for 'install-exec-am'.
+make[7]: Nothing to be done for 'install-data-am'.
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include'
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/include'
+Making install in src
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src'
+Making install in conntrack
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src/conntrack'
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src/conntrack'
+make[7]: Nothing to be done for 'install-exec-am'.
+make[7]: Nothing to be done for 'install-data-am'.
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src/conntrack'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src/conntrack'
+Making install in expect
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src/expect'
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src/expect'
+make[7]: Nothing to be done for 'install-exec-am'.
+make[7]: Nothing to be done for 'install-data-am'.
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src/expect'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src/expect'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src'
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src'
+ /bin/mkdir -p '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-install/usr/lib'
+ /bin/bash ../libtool   --mode=install /usr/bin/install -c   libnetfilter_conntrack.la '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-install/usr/lib'
+OpenWrt-libtool: install: /usr/bin/install -c .libs/libnetfilter_conntrack.so.3.7.0 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-install/usr/lib/libnetfilter_conntrack.so.3.7.0
+OpenWrt-libtool: install: (cd /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-install/usr/lib && { ln -s -f libnetfilter_conntrack.so.3.7.0 libnetfilter_conntrack.so.3 || { rm -f libnetfilter_conntrack.so.3 && ln -s libnetfilter_conntrack.so.3.7.0 libnetfilter_conntrack.so.3; }; })
+OpenWrt-libtool: install: (cd /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-install/usr/lib && { ln -s -f libnetfilter_conntrack.so.3.7.0 libnetfilter_conntrack.so || { rm -f libnetfilter_conntrack.so && ln -s libnetfilter_conntrack.so.3.7.0 libnetfilter_conntrack.so; }; })
+OpenWrt-libtool: install: /usr/bin/install -c .libs/libnetfilter_conntrack.lai /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-install/usr/lib/libnetfilter_conntrack.la
+OpenWrt-libtool: install: /usr/bin/install -c .libs/libnetfilter_conntrack.a /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-install/usr/lib/libnetfilter_conntrack.a
+OpenWrt-libtool: install: chmod 644 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-install/usr/lib/libnetfilter_conntrack.a
+OpenWrt-libtool: install: mipsel-openwrt-linux-musl-gcc-ranlib /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-install/usr/lib/libnetfilter_conntrack.a
+OpenWrt-libtool: install: warning: remember to run `libtool --finish /usr/lib'
+make[7]: Nothing to be done for 'install-data-am'.
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src'
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/src'
+Making install in utils
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/utils'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/utils'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/utils'
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/utils'
+Making install in examples
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/examples'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/examples'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/examples'
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/examples'
+Making install in qa
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/qa'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/qa'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/qa'
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/qa'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5'
+make[6]: Nothing to be done for 'install-exec-am'.
+ /bin/mkdir -p '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-install/usr/lib/pkgconfig'
+ /usr/bin/install -c -m 644 libnetfilter_conntrack.pc '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-install/usr/lib/pkgconfig'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5'
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-mipsel_24kc/libnetfilter-conntrack/usr/lib/libnetfilter_conntrack.so.3.7.0: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libnetfilter_conntrack-2018-05-01-3ccae9f5/ipkg-mipsel_24kc/libnetfilter-conntrack into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/libnetfilter-conntrack3_2018-05-01-3ccae9f5-2_mipsel_24kc.ipk
+time: package/libs/libnetfilter-conntrack/compile#27.34#5.45#52.68

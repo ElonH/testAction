@@ -1,0 +1,135 @@
+-- The C compiler identification is GNU 8.4.0
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_ARG1
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_MODULE_LINKER_FLAGS
+    DL_LIBRARY
+
+
+-- Build files have been written to: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+Scanning dependencies of target askfirst
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[  2%] Building C object CMakeFiles/askfirst.dir/utils/askfirst.c.o
+[  5%] Linking C executable askfirst
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[  5%] Built target askfirst
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+Scanning dependencies of target init
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[  8%] Building C object CMakeFiles/init.dir/initd/init.c.o
+[ 11%] Building C object CMakeFiles/init.dir/initd/early.c.o
+[ 14%] Building C object CMakeFiles/init.dir/initd/preinit.c.o
+[ 17%] Building C object CMakeFiles/init.dir/initd/mkdev.c.o
+[ 20%] Building C object CMakeFiles/init.dir/sysupgrade.c.o
+[ 22%] Building C object CMakeFiles/init.dir/watchdog.c.o
+[ 25%] Building C object CMakeFiles/init.dir/utils/utils.c.o
+[ 28%] Linking C executable init
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[ 28%] Built target init
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+Scanning dependencies of target setlbf
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[ 31%] Building C object CMakeFiles/setlbf.dir/service/setlbf.c.o
+[ 34%] Linking C shared library libsetlbf.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[ 34%] Built target setlbf
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+Scanning dependencies of target procd
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[ 37%] Building C object CMakeFiles/procd.dir/procd.c.o
+[ 40%] Building C object CMakeFiles/procd.dir/signal.c.o
+[ 42%] Building C object CMakeFiles/procd.dir/state.c.o
+[ 45%] Building C object CMakeFiles/procd.dir/inittab.c.o
+[ 48%] Building C object CMakeFiles/procd.dir/rcS.c.o
+[ 51%] Building C object CMakeFiles/procd.dir/ubus.c.o
+[ 54%] Building C object CMakeFiles/procd.dir/system.c.o
+[ 57%] Building C object CMakeFiles/procd.dir/sysupgrade.c.o
+[ 60%] Building C object CMakeFiles/procd.dir/service/service.c.o
+[ 62%] Building C object CMakeFiles/procd.dir/service/instance.c.o
+[ 65%] Building C object CMakeFiles/procd.dir/service/validate.c.o
+[ 68%] Building C object CMakeFiles/procd.dir/service/trigger.c.o
+[ 71%] Building C object CMakeFiles/procd.dir/service/watch.c.o
+[ 74%] Building C object CMakeFiles/procd.dir/utils/utils.c.o
+[ 77%] Building C object CMakeFiles/procd.dir/watchdog.c.o
+[ 80%] Building C object CMakeFiles/procd.dir/plug/coldplug.c.o
+[ 82%] Building C object CMakeFiles/procd.dir/plug/hotplug.c.o
+[ 85%] Linking C executable procd
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[ 85%] Built target procd
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+Scanning dependencies of target udevtrigger
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[ 88%] Building C object CMakeFiles/udevtrigger.dir/plug/udevtrigger.c.o
+[ 91%] Linking C executable udevtrigger
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[ 91%] Built target udevtrigger
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+Scanning dependencies of target upgraded
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[ 94%] Building C object upgraded/CMakeFiles/upgraded.dir/upgraded.c.o
+[ 97%] Building C object upgraded/CMakeFiles/upgraded.dir/__/watchdog.c.o
+[100%] Linking C executable upgraded
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[100%] Built target upgraded
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[  5%] Built target askfirst
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[ 28%] Built target init
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[ 34%] Built target setlbf
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[ 85%] Built target procd
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[ 91%] Built target udevtrigger
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+[100%] Built target upgraded
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d/ipkg-install/usr/lib/libsetlbf.so
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d/ipkg-install/usr/sbin/procd
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d/ipkg-install/usr/sbin/init
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d/ipkg-install/usr/sbin/udevtrigger
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d/ipkg-install/usr/sbin/askfirst
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d/ipkg-install/usr/sbin/upgraded
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d/ipkg-mipsel_24kc/procd/lib/libsetlbf.so: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d/ipkg-mipsel_24kc/procd/sbin/procd: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d/ipkg-mipsel_24kc/procd/sbin/askfirst: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d/ipkg-mipsel_24kc/procd/sbin/upgraded: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d/ipkg-mipsel_24kc/procd/sbin/init: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d/ipkg-mipsel_24kc/procd/sbin/udevtrigger: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/procd-2020-03-13-77a6782d/ipkg-mipsel_24kc/procd into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/procd_2020-03-13-77a6782d-1_mipsel_24kc.ipk
+time: package/system/procd/compile#7.20#2.14#15.93

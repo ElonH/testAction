@@ -1,0 +1,83 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working CXX compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+Looking for libtar.h found in /mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include
+Looking for libtar found in /mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib/libtar.so
+-- Found CURL: /mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib/libcurl.so (found version "7.69.1")  
+-- Could NOT find Doxygen (missing: DOXYGEN_EXECUTABLE) 
+-- Doxygen not found, building docs has been disabled
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_ARG1
+    CMAKE_MODULE_LINKER_FLAGS
+    CMAKE_SHARED_LINKER_FLAGS
+    DL_LIBRARY
+
+
+-- Build files have been written to: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+Scanning dependencies of target ootoc
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+[ 12%] Building CXX object src/CMakeFiles/ootoc.dir/ootoc-opkgserver.cpp.o
+[ 25%] Building CXX object src/CMakeFiles/ootoc.dir/ootoc-quickcurl.cpp.o
+[ 37%] Building CXX object src/CMakeFiles/ootoc.dir/ootoc-logger.cpp.o
+[ 50%] Building CXX object src/CMakeFiles/ootoc.dir/ootoc-tarovercurl.cpp.o
+[ 62%] Building CXX object src/CMakeFiles/ootoc.dir/ootoc-tarparser.cpp.o
+[ 75%] Linking CXX static library libootoc.a
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+[ 75%] Built target ootoc
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+Scanning dependencies of target ootocCLI
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+[ 87%] Building CXX object src/CMakeFiles/ootocCLI.dir/main.cpp.o
+[100%] Linking CXX executable ootocCLI
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+[100%] Built target ootocCLI
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+[ 75%] Built target ootoc
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+[100%] Built target ootocCLI
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3/ipkg-install/usr/include/httplib/httplib.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3/ipkg-install/usr/share/httplib/cmake/httplibConfig.cmake
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3/ipkg-install/usr/lib/libootoc.a
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3/ipkg-install/usr/include/ootoc.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3/ipkg-install/usr/bin/ootocCLI
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3/ipkg-install/usr/share/ootoc/cmake/ootocConfig.cmake
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3/ipkg-install/usr/share/ootoc/cmake/ootocConfig-release.cmake
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3/ipkg-mipsel_24kc/ootoc/usr/bin/ootocCLI: executable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ootoc-2.2.3/ipkg-mipsel_24kc/ootoc into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/ootoc_2.2.3-1_mipsel_24kc.ipk
+time: package/ctcgfw/ootoc/compile#150.03#9.05#103.67

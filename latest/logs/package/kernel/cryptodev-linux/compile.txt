@@ -1,0 +1,22 @@
+
+Applying ./patches/010-Fix-module-loading-with-Linux-v5.0-rc5.patch using plaintext: 
+patching file cryptlib.c
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10'
+make -C /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173 M=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10 ARCH=mips CROSS_COMPILE=mipsel-openwrt-linux-musl- modules
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10/ioctl.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10/main.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10/cryptlib.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10/authenc.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10/zc.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10/util.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10/cryptodev.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10/cryptodev.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10/cryptodev.ko
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10/ipkg-mipsel_24kc/kmod-cryptodev/lib/modules/4.14.173/cryptodev.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/cryptodev-linux-cryptodev-linux-1.10/ipkg-mipsel_24kc/kmod-cryptodev into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-cryptodev_4.14.173+1.10-ramips-2_mipsel_24kc.ipk
+time: package/kernel/cryptodev-linux/compile#6.44#1.34#10.60

@@ -1,0 +1,29 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a/xr_usb_serial_common-1a/xr_usb_serial_common.o
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a/xr_usb_serial_common-1a/xr_usb_serial_common.c: In function 'xr_usb_serial_ctrl_irq':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a/xr_usb_serial_common-1a/xr_usb_serial_common.c:261:21: warning: unused variable 'tty' [-Wunused-variable]
+  struct tty_struct *tty;
+                     ^~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a/xr_usb_serial_common-1a/xr_usb_serial_common.c: In function 'xr_usb_serial_process_read_urb':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a/xr_usb_serial_common-1a/xr_usb_serial_common.c:393:24: warning: unused variable 'tty' [-Wunused-variable]
+     struct tty_struct *tty;
+                        ^~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a/xr_usb_serial_common-1a/xr_usb_serial_common.c: In function 'xr_usb_serial_softint':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a/xr_usb_serial_common-1a/xr_usb_serial_common.c:468:24: warning: unused variable 'tty' [-Wunused-variable]
+     struct tty_struct *tty;
+                        ^~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a/xr_usb_serial_common-1a/xr_usb_serial_common.c: In function 'xr_usb_serial_tty_ioctl':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a/xr_usb_serial_common-1a/xr_usb_serial_common.c:878:17: warning: this 'if' clause does not guard... [-Wmisleading-indentation]
+                 if (get_user(val, (int __user *)(arg + 2 * sizeof(int))))
+                 ^~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a/xr_usb_serial_common-1a/xr_usb_serial_common.c:881:4: note: ...this statement, but the latter is misleadingly indented as if it were guarded by the 'if'
+    if (channel == -1)
+    ^~
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a/xr_usb_serial_common-1a/xr_usb_serial_common.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a/xr_usb_serial_common-1a/xr_usb_serial_common.ko
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a/ipkg-mipsel_24kc/kmod-usb-serial-xr_usb_serial_common/lib/modules/4.14.173/xr_usb_serial_common.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/usb-serial-xr_usb_serial_common-1a/ipkg-mipsel_24kc/kmod-usb-serial-xr_usb_serial_common into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-usb-serial-xr_usb_serial_common_4.14.173+1a-1_mipsel_24kc.ipk
+time: package/feeds/packages/xr_usb_serial_common/compile#2.99#0.97#6.39

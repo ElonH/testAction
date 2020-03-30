@@ -1,0 +1,2 @@
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-proto-ipv6/ipkg-all/luci-proto-ipv6 into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/luci/luci-proto-ipv6_git-20.089.40724-3c31b42-1_all.ipk
+time: package/feeds/luci/luci-proto-ipv6/compile#0.65#0.37#2.01

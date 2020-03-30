@@ -1,0 +1,64 @@
+-- The C compiler identification is GNU 8.4.0
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Found PkgConfig: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/pkg-config (found version "1.6.3") 
+-- Checking for modules 'json-c;json'
+--   Package 'json', required by 'virtual:world', not found
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_ARG1
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_MODULE_LINKER_FLAGS
+    CMAKE_SHARED_LINKER_FLAGS
+    DL_LIBRARY
+
+
+-- Build files have been written to: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6'
+[ 12%] Generating lemon parser generator
+[ 25%] Generating parser.c
+Scanning dependencies of target jsonpath
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6'
+[ 37%] Building C object CMakeFiles/jsonpath.dir/main.c.o
+[ 50%] Building C object CMakeFiles/jsonpath.dir/ast.c.o
+[ 62%] Building C object CMakeFiles/jsonpath.dir/lexer.c.o
+[ 75%] Building C object CMakeFiles/jsonpath.dir/parser.c.o
+parser.c: In function 'yy_destructor':
+parser.c:84:41: warning: unused variable 's' [-Wunused-variable]
+ #define ParseARG_FETCH struct jp_state *s = yypParser->s
+                                         ^
+parser.c:418:3: note: in expansion of macro 'ParseARG_FETCH'
+   ParseARG_FETCH;
+   ^~~~~~~~~~~~~~
+[ 87%] Building C object CMakeFiles/jsonpath.dir/matcher.c.o
+[100%] Linking C executable jsonpath
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6'
+[100%] Built target jsonpath
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6'
+[100%] Built target jsonpath
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6/ipkg-install/usr/bin/jsonpath
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6/ipkg-mipsel_24kc/jsonfilter/usr/bin/jsonfilter: executable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/jsonfilter-2018-02-04-c7e938d6/ipkg-mipsel_24kc/jsonfilter into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/jsonfilter_2018-02-04-c7e938d6-1_mipsel_24kc.ipk
+time: package/utils/jsonfilter/compile#2.64#0.91#8.14

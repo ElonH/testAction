@@ -1,0 +1,137 @@
+-- The C compiler identification is GNU 8.4.0
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_ARG1
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    DL_LIBRARY
+
+
+-- Build files have been written to: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+Scanning dependencies of target ubusd_library
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[  3%] Building C object CMakeFiles/ubusd_library.dir/ubusd.c.o
+[  7%] Building C object CMakeFiles/ubusd_library.dir/ubusd_proto.c.o
+[ 11%] Building C object CMakeFiles/ubusd_library.dir/ubusd_id.c.o
+[ 14%] Building C object CMakeFiles/ubusd_library.dir/ubusd_obj.c.o
+[ 18%] Building C object CMakeFiles/ubusd_library.dir/ubusd_event.c.o
+[ 22%] Building C object CMakeFiles/ubusd_library.dir/ubusd_acl.c.o
+[ 25%] Building C object CMakeFiles/ubusd_library.dir/ubusd_monitor.c.o
+[ 29%] Linking C static library libubusd_library.a
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 29%] Built target ubusd_library
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+Scanning dependencies of target ubus
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 33%] Building C object CMakeFiles/ubus.dir/libubus.c.o
+[ 37%] Building C object CMakeFiles/ubus.dir/libubus-io.c.o
+[ 40%] Building C object CMakeFiles/ubus.dir/libubus-obj.c.o
+[ 44%] Building C object CMakeFiles/ubus.dir/libubus-sub.c.o
+[ 48%] Building C object CMakeFiles/ubus.dir/libubus-req.c.o
+[ 51%] Building C object CMakeFiles/ubus.dir/libubus-acl.c.o
+[ 55%] Linking C shared library libubus.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 55%] Built target ubus
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+Scanning dependencies of target ubusd
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 59%] Building C object CMakeFiles/ubusd.dir/ubusd_main.c.o
+[ 62%] Linking C executable ubusd
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 62%] Built target ubusd
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+Scanning dependencies of target cli
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 66%] Building C object CMakeFiles/cli.dir/cli.c.o
+[ 70%] Linking C executable ubus
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 70%] Built target cli
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+Scanning dependencies of target ubus_lua
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 74%] Building C object lua/CMakeFiles/ubus_lua.dir/ubus.c.o
+[ 77%] Linking C shared module ubus.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 77%] Built target ubus_lua
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+Scanning dependencies of target client
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 81%] Building C object examples/CMakeFiles/client.dir/client.c.o
+[ 85%] Building C object examples/CMakeFiles/client.dir/count.c.o
+[ 88%] Linking C executable client
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 88%] Built target client
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+Scanning dependencies of target server
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 92%] Building C object examples/CMakeFiles/server.dir/server.c.o
+[ 96%] Building C object examples/CMakeFiles/server.dir/count.c.o
+[100%] Linking C executable server
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[100%] Built target server
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 29%] Built target ubusd_library
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 55%] Built target ubus
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 62%] Built target ubusd
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 70%] Built target cli
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 77%] Built target ubus_lua
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[ 88%] Built target client
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+[100%] Built target server
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-install/usr/lib/libubus.so
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-install/usr/bin/ubus
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-install/usr/sbin/ubusd
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-install/usr/include/ubusmsg.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-install/usr/include/ubus_common.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-install/usr/include/libubus.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-install/usr/lib/lua/ubus.so
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-mipsel_24kc/libubus/lib/libubus.so: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-mipsel_24kc/libubus into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/libubus20191227_2020-01-05-d35df8ad-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-mipsel_24kc/libubus-lua/usr/lib/lua/ubus.so: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-mipsel_24kc/libubus-lua into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/libubus-lua_2020-01-05-d35df8ad-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-mipsel_24kc/ubusd/sbin/ubusd: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-mipsel_24kc/ubusd into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/ubusd_2020-01-05-d35df8ad-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-mipsel_24kc/ubus/bin/ubus: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ubus-2020-01-05-d35df8ad/ipkg-mipsel_24kc/ubus into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/ubus_2020-01-05-d35df8ad-1_mipsel_24kc.ipk
+time: package/system/ubus/compile#8.38#2.46#20.26

@@ -1,0 +1,4 @@
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/prism54-firmware/ipkg-mipsel_24kc/prism54-firmware into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/prism54-firmware_1_mipsel_24kc.ipk
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/prism54-firmware/ipkg-mipsel_24kc/p54-usb-firmware into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/p54-usb-firmware_1_mipsel_24kc.ipk
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/prism54-firmware/ipkg-mipsel_24kc/p54-pci-firmware into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/p54-pci-firmware_1_mipsel_24kc.ipk
+time: package/firmware/prism54-firmware/compile#0.66#0.30#3.56

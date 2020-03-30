@@ -1,0 +1,67 @@
+-- The C compiler identification is GNU 8.4.0
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_ARG1
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_FIND_ROOT_PATH_MODE_LIBRARY
+    CMAKE_MODULE_LINKER_FLAGS
+    DL_LIBRARY
+
+
+-- Build files have been written to: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+Scanning dependencies of target uclient
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+[ 14%] Building C object CMakeFiles/uclient.dir/uclient.c.o
+[ 28%] Building C object CMakeFiles/uclient.dir/uclient-http.c.o
+[ 42%] Building C object CMakeFiles/uclient.dir/uclient-utils.c.o
+[ 57%] Linking C shared library libuclient.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+[ 57%] Built target uclient
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+Scanning dependencies of target uclient-fetch
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+[ 71%] Building C object CMakeFiles/uclient-fetch.dir/uclient-fetch.c.o
+[ 85%] Building C object CMakeFiles/uclient-fetch.dir/progress.c.o
+[100%] Linking C executable uclient-fetch
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+[100%] Built target uclient-fetch
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+[ 57%] Built target uclient
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+[100%] Built target uclient-fetch
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd/ipkg-install/usr/include/libubox/uclient.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd/ipkg-install/usr/include/libubox/uclient-utils.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd/ipkg-install/usr/lib/libuclient.so
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd/ipkg-install/usr/bin/uclient-fetch
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd/ipkg-mipsel_24kc/libuclient/usr/lib/libuclient.so: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd/ipkg-mipsel_24kc/libuclient into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/libuclient20160123_2020-02-15-af585dbd-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd/ipkg-mipsel_24kc/uclient-fetch/bin/uclient-fetch: executable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uclient-2020-02-15-af585dbd/ipkg-mipsel_24kc/uclient-fetch into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/uclient-fetch_2020-02-15-af585dbd-1_mipsel_24kc.ipk
+time: package/libs/uclient/compile#2.56#0.90#7.05

@@ -1,0 +1,9 @@
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/toolchain/ipkg-mipsel_24kc/libgcc/lib/libgcc_s.so.1: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/toolchain/ipkg-mipsel_24kc/libgcc into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/libgcc1_8.4.0-2_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/toolchain/ipkg-mipsel_24kc/libc/lib/libc.so: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/toolchain/ipkg-mipsel_24kc/libc into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/libc_1.1.24-2_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/toolchain/ipkg-mipsel_24kc/libstdcpp/usr/lib/libstdc++.so.6.0.25: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/toolchain/ipkg-mipsel_24kc/libstdcpp into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/libstdcpp6_8.4.0-2_mipsel_24kc.ipk
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/toolchain/ipkg-mipsel_24kc/libpthread into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/libpthread_1.1.24-2_mipsel_24kc.ipk
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/toolchain/ipkg-mipsel_24kc/librt into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/librt_1.1.24-2_mipsel_24kc.ipk
+time: package/libs/toolchain/compile#1.05#0.64#5.28

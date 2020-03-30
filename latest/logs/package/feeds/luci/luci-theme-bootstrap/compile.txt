@@ -1,0 +1,2 @@
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-theme-bootstrap/ipkg-all/luci-theme-bootstrap into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/luci/luci-theme-bootstrap_git-20.089.40724-3c31b42-1_all.ipk
+time: package/feeds/luci/luci-theme-bootstrap/compile#0.63#0.35#2.11

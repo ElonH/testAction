@@ -1,0 +1,2 @@
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ipkg/ipkg-all/luci-lib-ipkg into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/luci/luci-lib-ipkg_git-20.089.40724-3c31b42-1_all.ipk
+time: package/feeds/luci/luci-lib-ipkg/compile#0.47#0.25#1.95

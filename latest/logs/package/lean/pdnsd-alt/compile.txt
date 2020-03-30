@@ -1,0 +1,277 @@
+configure: WARNING: unrecognized options: --disable-nls
+configure: loading site script /mnt/A/BuildOpenWRT/latest/include/site/mipsel
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for mipsel-openwrt-linux-strip... mipsel-openwrt-linux-musl-strip
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking for style of include used by make... GNU
+checking for mipsel-openwrt-linux-gcc... ccache_cc
+checking for C compiler default output file name... a.out
+checking whether the C compiler works... yes
+checking whether we are cross compiling... yes
+checking for suffix of executables... 
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether ccache_cc accepts -g... yes
+checking for ccache_cc option to accept ISO C89... none needed
+checking dependency style of ccache_cc... gcc3
+checking how to run the C preprocessor... ccache_cc -E
+checking for grep that handles long lines and -e... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep
+checking for egrep... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for mipsel-openwrt-linux-gcc... (cached) ccache_cc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether ccache_cc accepts -g... (cached) yes
+checking for ccache_cc option to accept ISO C89... (cached) none needed
+checking dependency style of ccache_cc... (cached) gcc3
+checking for mipsel-openwrt-linux-gcc... (cached) ccache_cc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether ccache_cc accepts -g... (cached) yes
+checking for ccache_cc option to accept ISO C89... (cached) none needed
+checking dependency style of ccache_cc... (cached) gcc3
+checking whether ccache_cc and cc understand -c and -o together... yes
+checking for a BSD-compatible install... /usr/bin/install -c
+checking for mipsel-openwrt-linux-ranlib... mipsel-openwrt-linux-musl-gcc-ranlib
+checking for autodetect build target... Linux
+checking if we can compile and link with -pthread... yes
+checking if this is an NPTL-based system... couldn't run test program
+checking for ANSI C header files... (cached) yes
+checking for sys/wait.h that is POSIX.1 compatible... yes
+checking fcntl.h usability... yes
+checking fcntl.h presence... yes
+checking for fcntl.h... yes
+checking malloc.h usability... yes
+checking malloc.h presence... yes
+checking for malloc.h... yes
+checking sys/ioctl.h usability... yes
+checking sys/ioctl.h presence... yes
+checking for sys/ioctl.h... yes
+checking sys/time.h usability... yes
+checking sys/time.h presence... yes
+checking for sys/time.h... yes
+checking syslog.h usability... yes
+checking syslog.h presence... yes
+checking for syslog.h... yes
+checking for unistd.h... (cached) yes
+checking for sys/types.h... (cached) yes
+checking for sys/socket.h... yes
+checking for net/if.h... yes
+checking for netinet/in.h... yes
+checking for sys/poll.h... yes
+checking for an ANSI C-conforming const... yes
+checking for pid_t... yes
+checking for size_t... yes
+checking whether time.h and sys/time.h may both be included... yes
+checking whether struct tm is in sys/time.h or time.h... time.h
+checking for socklen_t... yes
+checking for struct in6_addr... yes
+checking for struct in_pktinfo... yes
+checking for struct ifreq... yes
+checking for CPP C99 Variadic macro support... yes
+checking for working alloca.h... yes
+checking for alloca... yes
+checking whether ccache_cc needs -traditional... no
+checking for working memcmp... (cached) yes
+checking return type of signal handlers... void
+checking for vprintf... yes
+checking for _doprnt... no
+checking for library containing nanosleep... none required
+checking for library containing socket... none required
+checking for library containing inet_aton... none required
+checking for nanosleep... yes
+checking for gettimeofday... (cached) yes
+checking for mkfifo... yes
+checking for select... yes
+checking for socket... yes
+checking for strerror... (cached) yes
+checking for uname... yes
+checking for snprintf... yes
+checking for vsnprintf... (cached) yes
+checking for poll... yes
+checking for strdup... yes
+checking for strndup... yes
+checking for stpcpy... yes
+checking for stpncpy... yes
+checking for strlcpy... yes
+checking for mempcpy... yes
+checking for getline... yes
+checking for asprintf... yes
+checking for vasprintf... yes
+checking for getpwnam_r... yes
+checking for inet_ntop... yes
+checking for inet_pton... yes
+configure: creating ./config.status
+config.status: creating pdnsd.spec
+config.status: creating Makefile
+config.status: creating file-list.base
+config.status: creating contrib/Makefile
+config.status: creating doc/Makefile
+config.status: creating doc/pdnsd.8
+config.status: creating doc/pdnsd.conf.5
+config.status: creating doc/pdnsd.conf
+config.status: creating src/Makefile
+config.status: creating src/pdnsd-ctl/Makefile
+config.status: creating src/rc/Makefile
+config.status: creating src/rc/RedHat/Makefile
+config.status: creating src/rc/RedHat/pdnsd
+config.status: creating src/rc/SuSE/Makefile
+config.status: creating src/rc/SuSE/pdnsd
+config.status: creating src/rc/Debian/Makefile
+config.status: creating src/rc/Debian/pdnsd
+config.status: creating src/rc/Slackware/Makefile
+config.status: creating src/rc/Slackware/rc.pdnsd
+config.status: creating src/rc/ArchLinux/Makefile
+config.status: creating src/rc/ArchLinux/pdnsd
+config.status: creating src/test/Makefile
+config.status: creating PKGBUILD
+config.status: creating config.h
+config.status: executing depfiles commands
+configure: WARNING: unrecognized options: --disable-nls
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par'
+make  all-recursive
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par'
+Making all in src
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src'
+Making all in .
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src'
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-conf-parser.o -MD -MP -MF .deps/pdnsd-conf-parser.Tpo -c -o pdnsd-conf-parser.o `test -f 'conf-parser.c' || echo './'`conf-parser.c
+mv -f .deps/pdnsd-conf-parser.Tpo .deps/pdnsd-conf-parser.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-conff.o -MD -MP -MF .deps/pdnsd-conff.Tpo -c -o pdnsd-conff.o `test -f 'conff.c' || echo './'`conff.c
+mv -f .deps/pdnsd-conff.Tpo .deps/pdnsd-conff.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-consts.o -MD -MP -MF .deps/pdnsd-consts.Tpo -c -o pdnsd-consts.o `test -f 'consts.c' || echo './'`consts.c
+mv -f .deps/pdnsd-consts.Tpo .deps/pdnsd-consts.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-debug.o -MD -MP -MF .deps/pdnsd-debug.Tpo -c -o pdnsd-debug.o `test -f 'debug.c' || echo './'`debug.c
+mv -f .deps/pdnsd-debug.Tpo .deps/pdnsd-debug.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-dns.o -MD -MP -MF .deps/pdnsd-dns.Tpo -c -o pdnsd-dns.o `test -f 'dns.c' || echo './'`dns.c
+mv -f .deps/pdnsd-dns.Tpo .deps/pdnsd-dns.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-dns_answer.o -MD -MP -MF .deps/pdnsd-dns_answer.Tpo -c -o pdnsd-dns_answer.o `test -f 'dns_answer.c' || echo './'`dns_answer.c
+In file included from dns_answer.c:40:
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/sys/poll.h:1:2: warning: #warning redirecting incorrect #include <sys/poll.h> to <poll.h> [-Wcpp]
+ #warning redirecting incorrect #include <sys/poll.h> to <poll.h>
+  ^~~~~~~
+mv -f .deps/pdnsd-dns_answer.Tpo .deps/pdnsd-dns_answer.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-dns_query.o -MD -MP -MF .deps/pdnsd-dns_query.Tpo -c -o pdnsd-dns_query.o `test -f 'dns_query.c' || echo './'`dns_query.c
+In file included from dns_query.c:26:
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/sys/poll.h:1:2: warning: #warning redirecting incorrect #include <sys/poll.h> to <poll.h> [-Wcpp]
+ #warning redirecting incorrect #include <sys/poll.h> to <poll.h>
+  ^~~~~~~
+mv -f .deps/pdnsd-dns_query.Tpo .deps/pdnsd-dns_query.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-error.o -MD -MP -MF .deps/pdnsd-error.Tpo -c -o pdnsd-error.o `test -f 'error.c' || echo './'`error.c
+mv -f .deps/pdnsd-error.Tpo .deps/pdnsd-error.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-helpers.o -MD -MP -MF .deps/pdnsd-helpers.Tpo -c -o pdnsd-helpers.o `test -f 'helpers.c' || echo './'`helpers.c
+mv -f .deps/pdnsd-helpers.Tpo .deps/pdnsd-helpers.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-icmp.o -MD -MP -MF .deps/pdnsd-icmp.Tpo -c -o pdnsd-icmp.o `test -f 'icmp.c' || echo './'`icmp.c
+In file included from icmp.c:31:
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/sys/poll.h:1:2: warning: #warning redirecting incorrect #include <sys/poll.h> to <poll.h> [-Wcpp]
+ #warning redirecting incorrect #include <sys/poll.h> to <poll.h>
+  ^~~~~~~
+mv -f .deps/pdnsd-icmp.Tpo .deps/pdnsd-icmp.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-list.o -MD -MP -MF .deps/pdnsd-list.Tpo -c -o pdnsd-list.o `test -f 'list.c' || echo './'`list.c
+mv -f .deps/pdnsd-list.Tpo .deps/pdnsd-list.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-main.o -MD -MP -MF .deps/pdnsd-main.Tpo -c -o pdnsd-main.o `test -f 'main.c' || echo './'`main.c
+mv -f .deps/pdnsd-main.Tpo .deps/pdnsd-main.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-netdev.o -MD -MP -MF .deps/pdnsd-netdev.Tpo -c -o pdnsd-netdev.o `test -f 'netdev.c' || echo './'`netdev.c
+mv -f .deps/pdnsd-netdev.Tpo .deps/pdnsd-netdev.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-rr_types.o -MD -MP -MF .deps/pdnsd-rr_types.Tpo -c -o pdnsd-rr_types.o `test -f 'rr_types.c' || echo './'`rr_types.c
+mv -f .deps/pdnsd-rr_types.Tpo .deps/pdnsd-rr_types.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-status.o -MD -MP -MF .deps/pdnsd-status.Tpo -c -o pdnsd-status.o `test -f 'status.c' || echo './'`status.c
+mv -f .deps/pdnsd-status.Tpo .deps/pdnsd-status.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-servers.o -MD -MP -MF .deps/pdnsd-servers.Tpo -c -o pdnsd-servers.o `test -f 'servers.c' || echo './'`servers.c
+mv -f .deps/pdnsd-servers.Tpo .deps/pdnsd-servers.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-thread.o -MD -MP -MF .deps/pdnsd-thread.Tpo -c -o pdnsd-thread.o `test -f 'thread.c' || echo './'`thread.c
+mv -f .deps/pdnsd-thread.Tpo .deps/pdnsd-thread.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-cache.o -MD -MP -MF .deps/pdnsd-cache.Tpo -c -o pdnsd-cache.o `test -f 'cache.c' || echo './'`cache.c
+mv -f .deps/pdnsd-cache.Tpo .deps/pdnsd-cache.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-hash.o -MD -MP -MF .deps/pdnsd-hash.Tpo -c -o pdnsd-hash.o `test -f 'hash.c' || echo './'`hash.c
+mv -f .deps/pdnsd-hash.Tpo .deps/pdnsd-hash.Po
+ccache_cc -DCONFDIR='"/etc"' -pthread -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include   -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -o pdnsd pdnsd-conf-parser.o pdnsd-conff.o pdnsd-consts.o pdnsd-debug.o pdnsd-dns.o pdnsd-dns_answer.o pdnsd-dns_query.o pdnsd-error.o pdnsd-helpers.o pdnsd-icmp.o pdnsd-list.o pdnsd-main.o pdnsd-netdev.o pdnsd-rr_types.o pdnsd-status.o pdnsd-servers.o pdnsd-thread.o pdnsd-cache.o pdnsd-hash.o  
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src'
+Making all in pdnsd-ctl
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/pdnsd-ctl'
+ccache_cc -DHAVE_CONFIG_H -I. -I../..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT pdnsd-ctl.o -MD -MP -MF .deps/pdnsd-ctl.Tpo -c -o pdnsd-ctl.o pdnsd-ctl.c
+mv -f .deps/pdnsd-ctl.Tpo .deps/pdnsd-ctl.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I../..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -DCLIENT_ONLY -c ../rr_types.c
+ccache_cc  -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include   -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -o pdnsd-ctl pdnsd-ctl.o rr_types.o 
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/pdnsd-ctl'
+Making all in rc
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/rc'
+Making all in RedHat
+make[8]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/rc/RedHat'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/rc/RedHat'
+Making all in SuSE
+make[8]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/rc/SuSE'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/rc/SuSE'
+Making all in Debian
+make[8]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/rc/Debian'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/rc/Debian'
+Making all in Slackware
+make[8]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/rc/Slackware'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/rc/Slackware'
+Making all in ArchLinux
+make[8]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/rc/ArchLinux'
+make[8]: Nothing to be done for 'all'.
+make[8]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/rc/ArchLinux'
+make[8]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/rc'
+make[8]: Nothing to be done for 'all-am'.
+make[8]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/rc'
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/rc'
+Making all in test
+make[7]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/test'
+ccache_cc -DHAVE_CONFIG_H -I. -I../..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT if_up.o -MD -MP -MF .deps/if_up.Tpo -c -o if_up.o if_up.c
+mv -f .deps/if_up.Tpo .deps/if_up.Po
+ccache_cc -DHAVE_CONFIG_H -I. -I../..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -pthread -c ../netdev.c
+ccache_cc -DHAVE_CONFIG_H -I. -I../..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -pthread -c ../error.c
+ccache_cc -DHAVE_CONFIG_H -I. -I../..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -pthread -c ../thread.c
+ccache_cc -DHAVE_CONFIG_H -I. -I../..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -pthread -c ../helpers.c
+ccache_cc -DHAVE_CONFIG_H -I. -I../..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -pthread -c ../icmp.c
+In file included from ../icmp.c:31:
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/sys/poll.h:1:2: warning: #warning redirecting incorrect #include <sys/poll.h> to <poll.h> [-Wcpp]
+ #warning redirecting incorrect #include <sys/poll.h> to <poll.h>
+  ^~~~~~~
+ccache_cc  -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include   -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -o if_up if_up.o  netdev.o error.o thread.o helpers.o icmp.o -pthread 
+ccache_cc -DHAVE_CONFIG_H -I. -I../..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT is_local_addr.o -MD -MP -MF .deps/is_local_addr.Tpo -c -o is_local_addr.o is_local_addr.c
+mv -f .deps/is_local_addr.Tpo .deps/is_local_addr.Po
+ccache_cc  -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include   -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -o is_local_addr is_local_addr.o  netdev.o error.o thread.o helpers.o icmp.o -pthread 
+ccache_cc -DHAVE_CONFIG_H -I. -I../..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT tping.o -MD -MP -MF .deps/tping.Tpo -c -o tping.o tping.c
+mv -f .deps/tping.Tpo .deps/tping.Po
+ccache_cc  -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include   -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -o tping tping.o  netdev.o error.o thread.o helpers.o icmp.o -pthread 
+ccache_cc -DHAVE_CONFIG_H -I. -I../..   -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include   -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include  -MT random.o -MD -MP -MF .deps/random.Tpo -c -o random.o random.c
+mv -f .deps/random.Tpo .deps/random.Po
+ccache_cc  -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par=pdnsd-1.2.9b-par -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include   -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -o random random.o  netdev.o error.o thread.o helpers.o icmp.o -pthread 
+make[7]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src/test'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/src'
+Making all in doc
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/doc'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/doc'
+Making all in contrib
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/contrib'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/contrib'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par'
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/ipkg-mipsel_24kc/pdnsd-alt/usr/bin/pdnsd-ctl: executable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/ipkg-mipsel_24kc/pdnsd-alt/usr/sbin/pdnsd: executable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/pdnsd-1.2.9b-par/ipkg-mipsel_24kc/pdnsd-alt into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/pdnsd-alt_1.2.9b-par-a8e46ccba7b0fa2230d6c42ab6dcd92926f6c21d_mipsel_24kc.ipk
+time: package/lean/pdnsd-alt/compile#19.30#4.89#46.14

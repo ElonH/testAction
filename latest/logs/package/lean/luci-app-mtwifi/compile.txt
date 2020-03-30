@@ -1,0 +1,3 @@
+/mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/find: '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-app-mtwifi/ipkg-all/luci-app-mtwifi/etc/wireless/mt7615/': No such file or directory
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-app-mtwifi/ipkg-all/luci-app-mtwifi into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/luci-app-mtwifi_1-8_all.ipk
+time: package/lean/luci-app-mtwifi/compile#0.48#0.21#1.67

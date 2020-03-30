@@ -1,0 +1,88 @@
+-- The C compiler identification is GNU 8.4.0
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Looking for getspnam
+-- Looking for getspnam - found
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_ARG1
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_SHARED_LINKER_FLAGS
+    DL_LIBRARY
+
+
+-- Build files have been written to: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+Scanning dependencies of target uhttpd_lua
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+[  5%] Building C object CMakeFiles/uhttpd_lua.dir/lua.c.o
+[ 11%] Linking C shared module uhttpd_lua.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+[ 11%] Built target uhttpd_lua
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+Scanning dependencies of target uhttpd
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+[ 17%] Building C object CMakeFiles/uhttpd.dir/main.c.o
+[ 23%] Building C object CMakeFiles/uhttpd.dir/listen.c.o
+[ 29%] Building C object CMakeFiles/uhttpd.dir/client.c.o
+[ 35%] Building C object CMakeFiles/uhttpd.dir/utils.c.o
+[ 41%] Building C object CMakeFiles/uhttpd.dir/file.c.o
+[ 47%] Building C object CMakeFiles/uhttpd.dir/auth.c.o
+[ 52%] Building C object CMakeFiles/uhttpd.dir/cgi.c.o
+[ 58%] Building C object CMakeFiles/uhttpd.dir/relay.c.o
+[ 64%] Building C object CMakeFiles/uhttpd.dir/proc.c.o
+[ 70%] Building C object CMakeFiles/uhttpd.dir/plugin.c.o
+[ 76%] Building C object CMakeFiles/uhttpd.dir/handler.c.o
+[ 82%] Building C object CMakeFiles/uhttpd.dir/tls.c.o
+[ 88%] Linking C executable uhttpd
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+[ 88%] Built target uhttpd
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+Scanning dependencies of target uhttpd_ubus
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+[ 94%] Building C object CMakeFiles/uhttpd_ubus.dir/ubus.c.o
+[100%] Linking C shared module uhttpd_ubus.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+[100%] Built target uhttpd_ubus
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+[ 11%] Built target uhttpd_lua
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+[ 88%] Built target uhttpd
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+[100%] Built target uhttpd_ubus
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6/ipkg-install/usr/bin/uhttpd
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6/ipkg-install/usr/lib/uhttpd_lua.so
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6/ipkg-install/usr/lib/uhttpd_ubus.so
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6/ipkg-mipsel_24kc/uhttpd/usr/sbin/uhttpd: shared object
+/mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/find: '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6/ipkg-mipsel_24kc/uhttpd/etc/uhttpd.crt': No such file or directory
+/mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/find: '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6/ipkg-mipsel_24kc/uhttpd/etc/uhttpd.key': No such file or directory
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6/ipkg-mipsel_24kc/uhttpd into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/uhttpd_2020-03-13-5e9c23c6-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6/ipkg-mipsel_24kc/uhttpd-mod-ubus/usr/lib/uhttpd_ubus.so: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/uhttpd-2020-03-13-5e9c23c6/ipkg-mipsel_24kc/uhttpd-mod-ubus into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/uhttpd-mod-ubus_2020-03-13-5e9c23c6-1_mipsel_24kc.ipk
+time: package/network/services/uhttpd/compile#5.81#1.35#11.84

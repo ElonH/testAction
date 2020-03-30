@@ -1,0 +1,3 @@
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-app-flowoffload/ipkg-all/luci-app-flowoffload into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/luci-app-flowoffload_1.0-15_all.ipk
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-app-flowoffload/ipkg-all/luci-i18n-flowoffload-zh-cn into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/luci-i18n-flowoffload-zh-cn_1.0-15_all.ipk
+time: package/lean/luci-app-flowoffload/compile#0.53#0.31#4.61

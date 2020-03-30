@@ -1,0 +1,10 @@
+
+Applying ./patches/010-regdb-fix-compatibility-with-python2.patch using plaintext: 
+patching file db2bin.py
+patching file db2fw.py
+patching file dbparse.py
+
+Applying ./patches/500-world-regd-5GHz.patch using plaintext: 
+patching file db.txt
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wireless-regdb-2019.06.03/ipkg-all/wireless-regdb into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/wireless-regdb_2019.06.03_all.ipk
+time: package/firmware/wireless-regdb/compile#0.61#0.23#2.54

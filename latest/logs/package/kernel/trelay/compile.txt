@@ -1,0 +1,10 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/trelay-0.1/trelay.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/trelay-0.1/trelay.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/trelay-0.1/trelay.ko
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/trelay-0.1/ipkg-mipsel_24kc/kmod-trelay/lib/modules/4.14.173/trelay.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/trelay-0.1/ipkg-mipsel_24kc/kmod-trelay into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-trelay_4.14.173+0.1-2_mipsel_24kc.ipk
+time: package/kernel/trelay/compile#2.93#0.77#8.53

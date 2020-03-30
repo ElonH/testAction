@@ -1,0 +1,177 @@
+-- The C compiler identification is GNU 8.4.0
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_ARG1
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_MODULE_LINKER_FLAGS
+    CMAKE_UBIFS_EXTROOT
+    DL_LIBRARY
+
+
+-- Build files have been written to: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+Scanning dependencies of target fstools
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[  2%] Building C object CMakeFiles/fstools.dir/libfstools/snapshot.c.o
+[  4%] Building C object CMakeFiles/fstools.dir/libfstools/extroot.c.o
+[  6%] Building C object CMakeFiles/fstools.dir/libfstools/overlay.c.o
+[  9%] Building C object CMakeFiles/fstools.dir/libfstools/volume.c.o
+[ 11%] Building C object CMakeFiles/fstools.dir/libfstools/mtd.c.o
+[ 13%] Building C object CMakeFiles/fstools.dir/libfstools/mount.c.o
+[ 15%] Building C object CMakeFiles/fstools.dir/libfstools/ubi.c.o
+[ 18%] Building C object CMakeFiles/fstools.dir/libfstools/rootdisk.c.o
+[ 20%] Building C object CMakeFiles/fstools.dir/libfstools/find.c.o
+[ 22%] Linking C shared library libfstools.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 22%] Built target fstools
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+Scanning dependencies of target blockd
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 25%] Building C object CMakeFiles/blockd.dir/blockd.c.o
+[ 27%] Linking C executable blockd
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 27%] Built target blockd
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+Scanning dependencies of target blkid-tiny
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 29%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/encode.c.o
+[ 31%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/libblkid-tiny.c.o
+[ 34%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/mkdev.c.o
+[ 36%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/probe.c.o
+[ 38%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/ext.c.o
+[ 40%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/jffs2.c.o
+[ 43%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/vfat.c.o
+[ 45%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/ntfs.c.o
+[ 47%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/hfs.c.o
+[ 50%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/swap.c.o
+[ 52%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/ubi.c.o
+[ 54%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/ubifs.c.o
+[ 56%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/squashfs.c.o
+[ 59%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/btrfs.c.o
+[ 61%] Building C object CMakeFiles/blkid-tiny.dir/libblkid-tiny/f2fs.c.o
+[ 63%] Linking C shared library libblkid-tiny.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 63%] Built target blkid-tiny
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+Scanning dependencies of target mount_root
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 65%] Building C object CMakeFiles/mount_root.dir/mount_root.c.o
+[ 68%] Linking C executable mount_root
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 68%] Built target mount_root
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+Scanning dependencies of target ubi-utils
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 70%] Building C object CMakeFiles/ubi-utils.dir/libubi/libubi.c.o
+[ 72%] Building C object CMakeFiles/ubi-utils.dir/libubi/libubi-tiny.c.o
+[ 75%] Building C object CMakeFiles/ubi-utils.dir/libubi/ubiutils-common.c.o
+[ 77%] Linking C static library libubi-utils.a
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 77%] Built target ubi-utils
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+Scanning dependencies of target block
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 79%] Building C object CMakeFiles/block.dir/block.c.o
+[ 81%] Building C object CMakeFiles/block.dir/probe.c.o
+[ 84%] Building C object CMakeFiles/block.dir/probe-libblkid.c.o
+[ 86%] Linking C executable block
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 86%] Built target block
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+Scanning dependencies of target ubi
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 88%] Building C object CMakeFiles/ubi.dir/ubi.c.o
+[ 90%] Linking C executable ubi
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 90%] Built target ubi
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+Scanning dependencies of target jffs2reset
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 93%] Building C object CMakeFiles/jffs2reset.dir/jffs2reset.c.o
+[ 95%] Linking C executable jffs2reset
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 95%] Built target jffs2reset
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+Scanning dependencies of target snapshot_tool
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 97%] Building C object CMakeFiles/snapshot_tool.dir/snapshot.c.o
+[100%] Linking C executable snapshot_tool
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[100%] Built target snapshot_tool
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 22%] Built target fstools
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 27%] Built target blockd
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 63%] Built target blkid-tiny
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 68%] Built target mount_root
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 77%] Built target ubi-utils
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 86%] Built target block
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 90%] Built target ubi
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[ 95%] Built target jffs2reset
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+[100%] Built target snapshot_tool
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-install/usr/lib/libfstools.so
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-install/usr/lib/libblkid-tiny.so
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-install/usr/lib/libubi-utils.a
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-install/usr/include/libubi-tiny.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-install/usr/include/libubi.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-install/usr/include/ubi-media.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-install/usr/include/ubi-user.h
+-- Up-to-date: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-install/usr/include/ubi-media.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-install/usr/sbin/mount_root
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-install/usr/sbin/blockd
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-install/usr/sbin/block
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-install/usr/sbin/jffs2reset
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-install/usr/sbin/snapshot_tool
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-install/usr/sbin/ubi
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-mipsel_24kc/fstools/lib/libfstools.so: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-mipsel_24kc/fstools/sbin/jffs2reset: executable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-mipsel_24kc/fstools/sbin/mount_root: executable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/fstools-2020-01-21-deb745f8/ipkg-mipsel_24kc/fstools into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/fstools_2020-01-21-deb745f8-1_mipsel_24kc.ipk
+time: package/system/fstools/compile#7.75#2.20#19.75

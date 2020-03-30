@@ -1,0 +1,14 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/siit-1.2/siit.o
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/siit-1.2/siit.c: In function 'siit_xmit':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/siit-1.2/siit.c:1359:1: warning: the frame size of 2120 bytes is larger than 1024 bytes [-Wframe-larger-than=]
+ }
+ ^
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/siit-1.2/siit.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/siit-1.2/siit.ko
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/siit-1.2/ipkg-mipsel_24kc/kmod-siit/lib/modules/4.14.173/siit.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/siit-1.2/ipkg-mipsel_24kc/kmod-siit into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-siit_4.14.173+1.2-3_mipsel_24kc.ipk
+time: package/feeds/packages/siit/compile#4.16#1.38#9.74

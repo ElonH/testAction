@@ -1,0 +1,247 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.o
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c: In function '__add_app_feature':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:110:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   char *p = dict;
+   ^~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c: In function 'add_app_feature':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:158:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  char *p = feature;
+  ^~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:202:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  int dst_port = 0;
+  ^~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c: In function 'af_init_feature':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:232:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  char *p = feature_str;
+  ^~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:247:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  char feature[MAX_FEATURE_STR_LEN];;
+  ^~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:248:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  int i;
+  ^~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:251:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  char *begin = feature_buf;
+  ^~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:248:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c: In function 'load_feature_buf_from_file':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:279:10: warning: 'return' with a value, in function returning void
+   return -1;
+          ^
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:269:6: note: declared here
+ void load_feature_buf_from_file(char **config_buf)
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+In file included from /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:24:
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:284:10: warning: format '%d' expects argument of type 'int', but argument 2 has type 'off_t' {aka 'long int'} [-Wformat=]
+  AF_INFO("feature file size: %d\n", size);
+          ^~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_log.h:7:16: note: in definition of macro 'LOG'
+         printk(fmt, ##__VA_ARGS__); \
+                ^~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:284:2: note: in expansion of macro 'AF_INFO'
+  AF_INFO("feature file size: %d\n", size);
+  ^~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:286:11: warning: format '%d' expects argument of type 'int', but argument 2 has type 'off_t' {aka 'long int'} [-Wformat=]
+   AF_WARN("warning, file size = %d\n", size);
+           ^~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_log.h:7:16: note: in definition of macro 'LOG'
+         printk(fmt, ##__VA_ARGS__); \
+                ^~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:286:3: note: in expansion of macro 'AF_WARN'
+   AF_WARN("warning, file size = %d\n", size);
+   ^~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:293:10: warning: 'return' with a value, in function returning void
+   return -1;
+          ^
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:269:6: note: declared here
+ void load_feature_buf_from_file(char **config_buf)
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:305:9: warning: 'return' with a value, in function returning void
+  return size;
+         ^~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:269:6: note: declared here
+ void load_feature_buf_from_file(char **config_buf)
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c: In function 'load_feature_config':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:311:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  char *feature_buf = NULL;
+  ^~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:318:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  char *p;
+  ^~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:321:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  char line[MAX_FEATURE_LINE_LEN] = {0};
+  ^~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c: In function 'af_clean_feature_list':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:348:21: warning: unused variable 'n' [-Wunused-variable]
+  af_feature_node_t *n,*node;
+                     ^
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c: In function 'parse_http_proto':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:469:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  int i = 0;
+  ^~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c: In function '__af_update_client_app_info':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:728:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  int found = 0;
+  ^~~
+In file included from /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:24:
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:768:11: warning: format '%u' expects argument of type 'unsigned int', but argument 2 has type 'long unsigned int' [-Wformat=]
+  AF_DEBUG("update time = %u\n", node->visit_info[index].latest_time);
+           ^~~~~~~~~~~~~~~~~~~~  ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_log.h:7:16: note: in definition of macro 'LOG'
+         printk(fmt, ##__VA_ARGS__); \
+                ^~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:768:2: note: in expansion of macro 'AF_DEBUG'
+  AF_DEBUG("update time = %u\n", node->visit_info[index].latest_time);
+  ^~~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:770:10: warning: format '%d' expects argument of type 'int', but argument 5 has type 'long unsigned int' [-Wformat=]
+  AF_INFO("[%d] %pI4 visit %d, time=%d action=%s, %d/%d\n", index, &node->ip, flow->app_id,
+          ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+   node->visit_info[index].latest_time, node->visit_info[index].latest_action ? "Drop" : "Accept",
+   ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_log.h:7:16: note: in definition of macro 'LOG'
+         printk(fmt, ##__VA_ARGS__); \
+                ^~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:770:2: note: in expansion of macro 'AF_INFO'
+  AF_INFO("[%d] %pI4 visit %d, time=%d action=%s, %d/%d\n", index, &node->ip, flow->app_id,
+  ^~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c: In function 'af_update_client_app_info':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:780:6: warning: unused variable 'index' [-Wunused-variable]
+  int index = 0;
+      ^~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:779:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c: In function 'app_filter_hook':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter.c:833:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  struct nf_conn_acct *acct;
+  ^~~~~~
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_utils.o
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_utils.c: In function 'dump_str':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_utils.c:26:6: warning: unused variable 'i' [-Wunused-variable]
+  int i;
+      ^
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/regexp.o
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/regexp.c:223:58: warning: missing braces around initializer [-Wmissing-braces]
+ static int (*matchfun[TYPENUM][2])(RE *, RE *, char *) = {
+                                                          ^
+  0, 0, 0, 0, 0, 0, 0, 0,
+  {   } {   } {   } {   }
+  matchstar, matchstar_l,
+  {                     }
+  matchplus, matchplus_l,
+  {                     }
+  matchques, matchques,
+  {
+ };
+ }
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/regexp.c: In function 'regexp_match':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/regexp.c:264:6: warning: suggest parentheses around assignment used as truth value [-Wparentheses]
+   if(ret = matchhere(regexp, text))
+      ^~~
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/cJSON.o
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/cJSON.c: In function 'parse_number':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/cJSON.c:121:40: warning: unused variable 'signsubscale' [-Wunused-variable]
+  int n=0,sign=1,scale=0;int subscale=0,signsubscale=1;
+                                        ^~~~~~~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/cJSON.c:121:29: warning: unused variable 'subscale' [-Wunused-variable]
+  int n=0,sign=1,scale=0;int subscale=0,signsubscale=1;
+                             ^~~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/cJSON.c:121:17: warning: unused variable 'scale' [-Wunused-variable]
+  int n=0,sign=1,scale=0;int subscale=0,signsubscale=1;
+                 ^~~~~
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter_config.o
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter_config.c: In function 'af_change_app_status':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/app_filter_config.c:85:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  cJSON *appid_arr = cJSON_GetObjectItem(data_obj, "apps");
+  ^~~~~
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_log.o
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_log.c: In function 'af_init_log_sysctl':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_log.c:46:27: warning: unused variable 'hdr' [-Wunused-variable]
+  struct ctl_table_header *hdr;
+                           ^~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_log.c: In function 'af_log_init':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_log.c:65:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_log.c: In function 'af_log_exit':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_log.c:69:1: warning: control reaches end of non-void function [-Wreturn-type]
+ }
+ ^
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.o
+In file included from /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.c:23:
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.c: In function 'check_client_expire':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.c:135:13: warning: format '%d' expects argument of type 'int', but argument 8 has type 'long unsigned int' [-Wformat=]
+    AF_DEBUG("mac:"MAC_FMT" update:%d cur:%d, interval:%d\n", MAC_ARRAY(node->mac),
+             ^~~~~~
+     node->update_jiffies, HZ, (jiffies - node->update_jiffies) / HZ);
+     ~~~~~~~~~~~~~~~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_log.h:7:16: note: in definition of macro 'LOG'
+         printk(fmt, ##__VA_ARGS__); \
+                ^~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.c:135:4: note: in expansion of macro 'AF_DEBUG'
+    AF_DEBUG("mac:"MAC_FMT" update:%d cur:%d, interval:%d\n", MAC_ARRAY(node->mac),
+    ^~~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.c:135:36: note: format string is defined here
+    AF_DEBUG("mac:"MAC_FMT" update:%d cur:%d, interval:%d\n", MAC_ARRAY(node->mac),
+                                   ~^
+                                   %ld
+In file included from /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.c:23:
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.c:135:13: warning: format '%d' expects argument of type 'int', but argument 10 has type 'long unsigned int' [-Wformat=]
+    AF_DEBUG("mac:"MAC_FMT" update:%d cur:%d, interval:%d\n", MAC_ARRAY(node->mac),
+             ^~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_log.h:7:16: note: in definition of macro 'LOG'
+         printk(fmt, ##__VA_ARGS__); \
+                ^~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.c:135:4: note: in expansion of macro 'AF_DEBUG'
+    AF_DEBUG("mac:"MAC_FMT" update:%d cur:%d, interval:%d\n", MAC_ARRAY(node->mac),
+    ^~~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.c:135:56: note: format string is defined here
+    AF_DEBUG("mac:"MAC_FMT" update:%d cur:%d, interval:%d\n", MAC_ARRAY(node->mac),
+                                                       ~^
+                                                       %ld
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.c: In function 'nfclient_hook':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.c:207:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  struct iphdr *iph = NULL;
+  ^~~~~~
+In file included from /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.c:23:
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.c:216:12: warning: format '%s' expects argument of type 'char *', but argument 2 has type 'struct net_device *' [-Wformat=]
+   AF_DEBUG("from dev:%s [%s] %pI4--->%pI4", skb->dev, (iph->protocol == IPPROTO_TCP ? "TCP" : "UDP"),
+            ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~  ~~~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_log.h:7:16: note: in definition of macro 'LOG'
+         printk(fmt, ##__VA_ARGS__); \
+                ^~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client.c:216:3: note: in expansion of macro 'AF_DEBUG'
+   AF_DEBUG("from dev:%s [%s] %pI4--->%pI4", skb->dev, (iph->protocol == IPPROTO_TCP ? "TCP" : "UDP"),
+   ^~~~~~~~
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client_fs.o
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client_fs.c: In function 'af_client_seq_show':
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client_fs.c:117:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  af_client_info_t *node = (af_client_info_t *)v;
+  ^~~~~~~~~~~~~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client_fs.c:129:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  cJSON *visit_info_array = cJSON_CreateArray();
+  ^~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client_fs.c:134:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   cJSON *visit_obj = cJSON_CreateObject();
+   ^~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client_fs.c:140:3: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+   cJSON *history_array = cJSON_CreateArray();
+   ^~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client_fs.c:144:4: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+    cJSON *history_obj = cJSON_CreateObject();
+    ^~~~~
+/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/af_client_fs.c:155:2: warning: ISO C90 forbids mixed declarations and code [-Wdeclaration-after-statement]
+  char *out = cJSON_Print(root_obj);
+  ^~~~
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/oaf.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/oaf.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/oaf.ko
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/oaf-3.0/ipkg-mipsel_24kc/kmod-oaf into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-oaf_4.14.173+3.0-1_mipsel_24kc.ipk
+time: package/ctcgfw/oaf/compile#8.59#1.65#23.79

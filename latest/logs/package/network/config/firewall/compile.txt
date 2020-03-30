@@ -1,0 +1,69 @@
+
+Applying ./patches/fullconenat.patch using plaintext: 
+patching file defaults.c
+Hunk #1 succeeded at 48 (offset 2 lines).
+patching file options.h
+Hunk #1 succeeded at 297 with fuzz 1 (offset 30 lines).
+patching file zones.c
+-- The C compiler identification is GNU 8.4.0
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_ARG1
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_FIND_ROOT_PATH_MODE_LIBRARY
+    CMAKE_MODULE_LINKER_FLAGS
+    CMAKE_SHARED_LINKER_FLAGS
+    DL_LIBRARY
+
+
+-- Build files have been written to: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a'
+Scanning dependencies of target firewall3
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a'
+[  6%] Building C object CMakeFiles/firewall3.dir/main.c.o
+[ 13%] Building C object CMakeFiles/firewall3.dir/options.c.o
+[ 20%] Building C object CMakeFiles/firewall3.dir/defaults.c.o
+[ 26%] Building C object CMakeFiles/firewall3.dir/zones.c.o
+[ 33%] Building C object CMakeFiles/firewall3.dir/forwards.c.o
+[ 40%] Building C object CMakeFiles/firewall3.dir/rules.c.o
+[ 46%] Building C object CMakeFiles/firewall3.dir/redirects.c.o
+[ 53%] Building C object CMakeFiles/firewall3.dir/snats.c.o
+[ 60%] Building C object CMakeFiles/firewall3.dir/utils.c.o
+[ 66%] Building C object CMakeFiles/firewall3.dir/ubus.c.o
+[ 73%] Building C object CMakeFiles/firewall3.dir/ipsets.c.o
+[ 80%] Building C object CMakeFiles/firewall3.dir/includes.c.o
+[ 86%] Building C object CMakeFiles/firewall3.dir/iptables.c.o
+[ 93%] Building C object CMakeFiles/firewall3.dir/helpers.c.o
+[100%] Linking C executable firewall3
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a'
+[100%] Built target firewall3
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a'
+[100%] Built target firewall3
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a/ipkg-install/usr/sbin/firewall3
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a/ipkg-mipsel_24kc/firewall/sbin/fw3: executable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/firewall-2019-11-22-8174814a/ipkg-mipsel_24kc/firewall into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/firewall_2019-11-22-8174814a-1_mipsel_24kc.ipk
+time: package/network/config/firewall/compile#8.59#1.75#13.25

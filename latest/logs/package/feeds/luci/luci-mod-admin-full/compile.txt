@@ -1,0 +1,2 @@
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-mod-admin-full/ipkg-all/luci-mod-admin-full into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/luci/luci-mod-admin-full_git-20.089.40724-3c31b42-1_all.ipk
+time: package/feeds/luci/luci-mod-admin-full/compile#0.49#0.24#1.73

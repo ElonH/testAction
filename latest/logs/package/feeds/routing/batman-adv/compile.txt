@@ -1,0 +1,37 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/../../compat-sources/net/core/skbuff.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/../../compat-sources/net/ipv4/igmp.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/../../compat-sources/net/ipv6/mcast_snoop.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/bat_algo.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/bat_iv_ogm.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/bat_v.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/bat_v_elp.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/bat_v_ogm.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/bitarray.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/bridge_loop_avoidance.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/distributed-arp-table.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/fragmentation.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/gateway_client.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/gateway_common.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/hard-interface.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/hash.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/main.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/multicast.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/netlink.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/originator.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/routing.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/send.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/soft-interface.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/tp_meter.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/translation-table.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/tvlv.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/batman-adv.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/batman-adv.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/net/batman-adv/batman-adv.ko
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/ipkg-mipsel_24kc/kmod-batman-adv/lib/modules/4.14.173/batman-adv.ko: relocatable
+/mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/find: '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/ipkg-mipsel_24kc/kmod-batman-adv/etc/config/batman-adv': No such file or directory
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/batman-adv-2020.0/ipkg-mipsel_24kc/kmod-batman-adv into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-batman-adv_4.14.173+2020.0-1_mipsel_24kc.ipk
+time: package/feeds/routing/batman-adv/compile#33.93#4.92#60.28

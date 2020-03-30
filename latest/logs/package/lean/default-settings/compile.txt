@@ -1,0 +1,2 @@
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/default-settings/ipkg-all/default-settings into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/default-settings_1.1-56_all.ipk
+time: package/lean/default-settings/compile#0.55#0.22#2.56

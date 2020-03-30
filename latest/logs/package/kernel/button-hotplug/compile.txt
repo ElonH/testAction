@@ -1,0 +1,10 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/button-hotplug/button-hotplug.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/button-hotplug/button-hotplug.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/button-hotplug/button-hotplug.ko
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/button-hotplug/ipkg-mipsel_24kc/kmod-button-hotplug/lib/modules/4.14.173/button-hotplug.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/button-hotplug/ipkg-mipsel_24kc/kmod-button-hotplug into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-button-hotplug_4.14.173-3_mipsel_24kc.ipk
+time: package/kernel/button-hotplug/compile#2.24#0.84#4.80

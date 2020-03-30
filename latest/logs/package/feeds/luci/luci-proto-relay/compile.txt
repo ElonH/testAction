@@ -1,0 +1,2 @@
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-proto-relay/ipkg-all/luci-proto-relay into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/luci/luci-proto-relay_git-20.089.40724-3c31b42-1_all.ipk
+time: package/feeds/luci/luci-proto-relay/compile#0.58#0.23#2.57

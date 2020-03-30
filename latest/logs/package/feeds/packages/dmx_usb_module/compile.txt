@@ -1,0 +1,19 @@
+
+Applying ./patches/001-dmx_usb_Makefile.patch using plaintext: 
+patching file Makefile
+
+Applying ./patches/002-fix-build-4.14.patch using plaintext: 
+patching file dmx_usb.c
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/dmx_usb_module-0.1.20130818'
+make -C /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173 SUBDIRS=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/dmx_usb_module-0.1.20130818 modules
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/dmx_usb_module-0.1.20130818/dmx_usb.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/dmx_usb_module-0.1.20130818/dmx_usb.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/dmx_usb_module-0.1.20130818/dmx_usb.ko
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/dmx_usb_module-0.1.20130818'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/dmx_usb_module-0.1.20130818/ipkg-mipsel_24kc/kmod-usb-serial-dmx_usb_module/lib/modules/4.14.173/dmx_usb.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/dmx_usb_module-0.1.20130818/ipkg-mipsel_24kc/kmod-usb-serial-dmx_usb_module into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-usb-serial-dmx_usb_module_4.14.173+0.1.20130818-2_mipsel_24kc.ipk
+time: package/feeds/packages/dmx_usb_module/compile#2.59#0.91#6.39

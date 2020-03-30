@@ -1,0 +1,21 @@
+
+Applying ./patches/01_fix_nf_hooks.patch using plaintext: 
+patching file kernelmod/main.c
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/macremapper-1.1.0/kernelmod'
+make -C /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173 M=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/macremapper-1.1.0/kernelmod modules
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/macremapper-1.1.0/kernelmod/mrm_rcdb.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/macremapper-1.1.0/kernelmod/mrm_runconf.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/macremapper-1.1.0/kernelmod/mrm_ctlfile.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/macremapper-1.1.0/kernelmod/main.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/macremapper-1.1.0/kernelmod/filter_config_accelerator.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/macremapper-1.1.0/kernelmod/macremapper.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/macremapper-1.1.0/kernelmod/macremapper.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/macremapper-1.1.0/kernelmod/macremapper.ko
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/macremapper-1.1.0/kernelmod'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/macremapper-1.1.0/ipkg-mipsel_24kc/kmod-macremapper/lib/modules/4.14.173/macremapper.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/macremapper-1.1.0/ipkg-mipsel_24kc/kmod-macremapper into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-macremapper_4.14.173-ramips-1_mipsel_24kc.ipk
+time: package/feeds/packages/macremapper/compile#7.55#1.34#28.48

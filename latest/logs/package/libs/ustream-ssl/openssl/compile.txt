@@ -1,0 +1,73 @@
+-- The C compiler identification is GNU 8.4.0
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_ARG1
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_FIND_ROOT_PATH_MODE_LIBRARY
+    CMAKE_MODULE_LINKER_FLAGS
+    DL_LIBRARY
+
+
+-- Build files have been written to: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+Scanning dependencies of target ustream-ssl
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+[ 12%] Building C object CMakeFiles/ustream-ssl.dir/ustream-ssl.c.o
+[ 25%] Building C object CMakeFiles/ustream-ssl.dir/ustream-io-openssl.c.o
+[ 37%] Building C object CMakeFiles/ustream-ssl.dir/ustream-openssl.c.o
+[ 50%] Linking C shared library libustream-ssl.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+[ 50%] Built target ustream-ssl
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+Scanning dependencies of target ustream-example-server
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+[ 62%] Building C object CMakeFiles/ustream-example-server.dir/ustream-example-server.c.o
+[ 75%] Linking C executable ustream-example-server
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+[ 75%] Built target ustream-example-server
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+Scanning dependencies of target ustream-example-client
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+[ 87%] Building C object CMakeFiles/ustream-example-client.dir/ustream-example-client.c.o
+[100%] Linking C executable ustream-example-client
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+[100%] Built target ustream-example-client
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+[ 50%] Built target ustream-ssl
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+[ 75%] Built target ustream-example-server
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+[100%] Built target ustream-example-client
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342/ipkg-install/usr/include/libubox/ustream-ssl.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342/ipkg-install/usr/lib/libustream-ssl.so
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342/ipkg-mipsel_24kc/libustream-openssl/lib/libustream-ssl.so: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ustream-ssl-openssl/ustream-ssl-2020-03-13-5e1bc342/ipkg-mipsel_24kc/libustream-openssl into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/libustream-openssl20200215_2020-03-13-5e1bc342-1_mipsel_24kc.ipk
+time: package/libs/ustream-ssl/openssl/compile#2.97#1.11#7.04

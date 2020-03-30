@@ -1,0 +1,51 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/batctl-default/batctl-2020.0'
+    CC bat-hosts.o
+    CC debugfs.o
+    CC debug.o
+    CC functions.o
+    CC genl.o
+    CC hash.o
+    CC icmp_helper.o
+    CC main.o
+    CC netlink.o
+    CC sys.o
+    CC aggregation.o
+    CC ap_isolation.o
+    CC backbonetable.o
+    CC bonding.o
+    CC bridge_loop_avoidance.o
+    CC claimtable.o
+    CC dat_cache.o
+    CC distributed_arp_table.o
+    CC elp_interval.o
+    CC event.o
+    CC fragmentation.o
+    CC gateways.o
+    CC gw_mode.o
+    CC hop_penalty.o
+    CC interface.o
+    CC isolation_mark.o
+    CC loglevel.o
+    CC multicast_fanout.o
+    CC multicast_forceflood.o
+    CC multicast_mode.o
+    CC nc_nodes.o
+    CC neighbors.o
+    CC network_coding.o
+    CC orig_interval.o
+    CC originators.o
+    CC ping.o
+    CC routing_algo.o
+    CC statistics.o
+    CC tcpdump.o
+    CC throughput_override.o
+    CC throughputmeter.o
+    CC traceroute.o
+    CC transglobal.o
+    CC translate.o
+    CC translocal.o
+    LD batctl
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/batctl-default/batctl-2020.0'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/batctl-default/batctl-2020.0/ipkg-mipsel_24kc/batctl-default/usr/libexec/batctl-default: executable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/batctl-default/batctl-2020.0/ipkg-mipsel_24kc/batctl-default into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/routing/batctl-default_2020.0-1_mipsel_24kc.ipk
+time: package/feeds/routing/batctl/default/compile#10.14#2.50#25.65

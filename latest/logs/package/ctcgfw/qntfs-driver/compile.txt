@@ -1,0 +1,5 @@
+----------Build:ramips-mt7621----------
+
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/fs-qntfs/ipkg-mipsel_24kc/kmod-fs-qntfs/lib/modules/4.14.173/qntfs.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/fs-qntfs/ipkg-mipsel_24kc/kmod-fs-qntfs into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-fs-qntfs_4.14.173-4_mipsel_24kc.ipk
+time: package/ctcgfw/qntfs-driver/compile#0.46#0.27#1.67

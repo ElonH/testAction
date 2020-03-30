@@ -1,0 +1,109 @@
+
+Applying ./patches/100-portability.patch using plaintext: 
+patching file libcap/_makenames.c
+
+Applying ./patches/200-change-hardcoded-shell-to-sh.patch using plaintext: 
+patching file progs/capsh.c
+
+Applying ./patches/300-disable-tests.patch using plaintext: 
+patching file Makefile
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33'
+make -C libcap all
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap'
+=> making cap_names.list.h from /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include/uapi/linux/capability.h
+perl -e 'while ($l=<>) { if ($l =~ /^\#define[ \t](CAP[_A-Z]+)[ \t]+([0-9]+)\s+$/) { $tok=$1; $val=$2; $tok =~ tr/A-Z/a-z/; print "{\"$tok\",$val},\n"; } }' /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include/uapi/linux/capability.h | fgrep -v 0x > cap_names.list.h
+sed -e 's,@prefix@,/usr,' \
+	-e 's,@exec_prefix@,,' \
+	-e 's,@libdir@,/lib,' \
+	-e 's,@includedir@,/usr/include,' \
+	-e 's,@VERSION@,2.33,' \
+	-e 's,@deps@,,' \
+	libcap.pc.in >libcap.pc
+sed -e 's,@prefix@,/usr,' \
+	-e 's,@exec_prefix@,,' \
+	-e 's,@libdir@,/lib,' \
+	-e 's,@includedir@,/usr/include,' \
+	-e 's,@VERSION@,2.33,' \
+	-e 's,@deps@,,' \
+	libpsx.pc.in >libpsx.pc
+cc -fpic -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/include _makenames.c -o _makenames
+./_makenames > cap_names.h
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -fPIC -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include/uapi -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include -c cap_alloc.c -o cap_alloc.o
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -fPIC -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include/uapi -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include -c cap_proc.c -o cap_proc.o
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -fPIC -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include/uapi -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include -c cap_extint.c -o cap_extint.o
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -fPIC -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include/uapi -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include -c cap_flag.c -o cap_flag.o
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -fPIC -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include/uapi -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include  -c cap_text.c -o cap_text.o
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -fPIC -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include/uapi -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include -c cap_file.c -o cap_file.o
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -fPIC -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include/uapi -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap/../libcap/include -c psx.c -o psx.o
+ccache_cc -Wl,-x -shared -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro -Wl,-soname,libcap.so.2 -o libcap.so.2.33 cap_alloc.o cap_proc.o cap_extint.o cap_flag.o cap_text.o cap_file.o
+ln -sf libcap.so.2.33 libcap.so.2
+ln -sf libcap.so.2 libcap.so
+mipsel-openwrt-linux-musl-gcc-ar rcs libcap.a cap_alloc.o cap_proc.o cap_extint.o cap_flag.o cap_text.o cap_file.o
+mipsel-openwrt-linux-musl-gcc-ranlib libcap.a
+mipsel-openwrt-linux-musl-gcc-ar rcs libpsx.a psx.o
+mipsel-openwrt-linux-musl-gcc-ranlib libpsx.a
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap'
+make -C progs all
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs'
+ccache_cc -fPIC -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs/../libcap/include/uapi -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs/../libcap/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -c getpcaps.c -o getpcaps.o
+ccache_cc -fPIC -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs/../libcap/include/uapi -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs/../libcap/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -c capsh.c -o capsh.o
+ccache_cc -fPIC -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs/../libcap/include/uapi -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs/../libcap/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -c getcap.c -o getcap.o
+ccache_cc -fPIC -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs/../libcap/include/uapi -I/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs/../libcap/include -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -c setcap.c -o setcap.o
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -o getpcaps getpcaps.o -L/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs/../libcap -lcap -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -o capsh capsh.o -L/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs/../libcap -lcap -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -o getcap getcap.o -L/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs/../libcap -lcap -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33=libcap-2.33 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -Dpthread_yield=sched_yield -o setcap setcap.o -L/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs/../libcap -lcap -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs'
+make -C doc all
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/doc'
+make[5]: Nothing to be done for 'all'.
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/doc'
+make -C kdebug all
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/kdebug'
+cd to kdebug to test a kernel build
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/kdebug'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33'
+make -C libcap install
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap'
+mkdir -p -m 0755 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/usr/include/sys
+install -m 0644 include/sys/capability.h /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/usr/include/sys
+install -m 0644 include/sys/psx_syscall.h /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/usr/include/sys
+mkdir -p -m 0755 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/lib
+install -m 0644 libcap.a /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/lib/libcap.a
+install -m 0644 libpsx.a /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/lib/libpsx.a
+install -m 0644 libcap.so.2.33 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/lib/libcap.so.2.33
+ln -sf libcap.so.2.33 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/lib/libcap.so.2
+ln -sf libcap.so.2 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/lib/libcap.so
+mkdir -p -m 0755 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/usr/lib/pkgconfig
+install -m 0644 libcap.pc /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/usr/lib/pkgconfig/libcap.pc
+install -m 0644 libpsx.pc /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/usr/lib/pkgconfig/libpsx.pc
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/libcap'
+make -C progs install
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs'
+mkdir -p -m 0755 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/sbin
+for p in getpcaps capsh getcap setcap ; do \
+	install -m 0755 $p /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/sbin ; \
+done
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/progs'
+make -C doc install
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/doc'
+mkdir -p -m 755 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/usr/share/man/man1 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/usr/share/man/man3 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/usr/share/man/man8
+for man in \
+	/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/usr/share/man/man1 capsh.1 \
+	/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/usr/share/man/man3 cap_init.3 cap_free.3 cap_dup.3 cap_clear.3 cap_clear_flag.3 cap_get_flag.3 cap_set_flag.3 cap_compare.3 cap_get_proc.3 cap_get_pid.3 cap_set_proc.3 cap_get_file.3 cap_get_fd.3 cap_set_file.3 cap_set_fd.3 cap_copy_ext.3 cap_size.3 cap_copy_int.3 cap_from_text.3 cap_to_text.3 cap_from_name.3 cap_to_name.3 capsetp.3 capgetp.3 libcap.3 cap_get_bound.3 cap_drop_bound.3 cap_get_mode.3 cap_set_mode.3 cap_mode_name.3 cap_get_secbits.3 cap_set_secbits.3 cap_setuid.3 cap_setgroups.3 psx_register.3 psx_syscall.3 psx_syscall3.3 psx_syscall6.3 libpsx.3 \
+	/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/ipkg-install/usr/share/man/man8 getcap.8 setcap.8 getpcaps.8 \
+	; \
+do \
+	case $man in \
+	/*)	sub=$man ; continue ;; \
+	esac; \
+	install -m 644 $man $sub ; \
+done
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/doc'
+make -C kdebug install
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/kdebug'
+make[5]: Nothing to be done for 'install'.
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33/kdebug'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libcap-2.33'
+time: package/feeds/packages/libcap/compile#3.82#0.96#10.23

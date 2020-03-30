@@ -1,0 +1,22 @@
+
+Applying ./patches/010-daemon-makefile-ldflags.patch using plaintext: 
+patching file daemon/Makefile
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/netatop-2.0/module'
+echo start the make
+start the make
+make -C /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173 M=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/netatop-2.0/module modules
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/netatop-2.0/module/netatop.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/netatop-2.0/module/netatop.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/netatop-2.0/module/netatop.ko
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/netatop-2.0/module'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/netatop-2.0/daemon'
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/netatop-2.0=netatop-2.0 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro   -c -o netatopd.o netatopd.c
+ccache_cc -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro netatopd.o -o netatopd -lz
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/netatop-2.0/daemon'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/netatop-2.0/ipkg-mipsel_24kc/kmod-netatop/lib/modules/4.14.173/netatop.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/netatop-2.0/ipkg-mipsel_24kc/kmod-netatop into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-netatop_4.14.173+2.0-1_mipsel_24kc.ipk
+time: package/feeds/packages/netatop/compile#3.43#1.28#17.01

@@ -1,0 +1,140 @@
+
+Applying ./patches/001-allow-vht-on-2g.patch using plaintext: 
+patching file mac80211.c
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mmio.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/util.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/trace.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/dma.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mac80211.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/debugfs.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/eeprom.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/tx.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/agg-rx.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mcu.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/pci.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02_util.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02_mac.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02_mcu.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02_eeprom.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02_phy.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02_mmio.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02_txrx.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02_trace.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02_debugfs.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02_dfs.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02_beacon.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02_usb_mcu.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02_usb_core.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/usb.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/usb_trace.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7603/pci.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7603/soc.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7603/main.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7603/init.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7603/mcu.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7603/core.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7603/dma.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7603/mac.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7603/eeprom.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7603/beacon.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7603/debugfs.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7603/mt7603e.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7615/pci.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7615/init.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7615/dma.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7615/eeprom.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7615/main.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7615/mcu.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7615/mac.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7615/mmio.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7615/debugfs.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7615/trace.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7615/mt7615e.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/usb.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/usb_mcu.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/pci.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/pci_mcu.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/init.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/main.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/eeprom.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/phy.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/mt76x0u.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/mt76x0e.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/mt76x0-common.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/eeprom.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/mac.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/init.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/phy.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/mcu.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/pci.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/pci_main.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/pci_init.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/pci_mcu.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/pci_phy.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/usb.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/usb_init.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/usb_main.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/usb_mac.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/usb_mcu.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/usb_phy.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/mt76x2-common.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/mt76x2e.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/mt76x2u.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02-lib.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02-usb.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76-usb.o
+  Building modules, stage 2.
+  MODPOST 12 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76-usb.mod.o
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76.mod.o
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7603/mt7603e.mod.o
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7615/mt7615e.mod.o
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/mt76x0-common.mod.o
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/mt76x0e.mod.o
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/mt76x0u.mod.o
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02-lib.mod.o
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02-usb.mod.o
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/mt76x2-common.mod.o
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/mt76x2e.mod.o
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/mt76x2u.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76-usb.ko
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76.ko
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7603/mt7603e.ko
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt7615/mt7615e.ko
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/mt76x0-common.ko
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/mt76x0e.ko
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x0/mt76x0u.ko
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02-lib.ko
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x02-usb.ko
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/mt76x2-common.ko
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/mt76x2e.ko
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/mt76x2/mt76x2u.ko
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76-core/lib/modules/4.14.173/mt76.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76-core into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-mt76-core_4.14.173+2020-03-10-a94e43f2-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76-usb/lib/modules/4.14.173/mt76-usb.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76-usb into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-mt76-usb_4.14.173+2020-03-10-a94e43f2-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x02-common/lib/modules/4.14.173/mt76x02-lib.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x02-common into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-mt76x02-common_4.14.173+2020-03-10-a94e43f2-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x02-usb/lib/modules/4.14.173/mt76x02-usb.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x02-usb into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-mt76x02-usb_4.14.173+2020-03-10-a94e43f2-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x0-common/lib/modules/4.14.173/mt76x0-common.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x0-common into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-mt76x0-common_4.14.173+2020-03-10-a94e43f2-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x0e/lib/modules/4.14.173/mt76x0e.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x0e into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-mt76x0e_4.14.173+2020-03-10-a94e43f2-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x0u/lib/modules/4.14.173/mt76x0u.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x0u into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-mt76x0u_4.14.173+2020-03-10-a94e43f2-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x2-common/lib/modules/4.14.173/mt76x2-common.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x2-common into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-mt76x2-common_4.14.173+2020-03-10-a94e43f2-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x2u/lib/modules/4.14.173/mt76x2u.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x2u into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-mt76x2u_4.14.173+2020-03-10-a94e43f2-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x2/lib/modules/4.14.173/mt76x2e.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76x2 into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-mt76x2_4.14.173+2020-03-10-a94e43f2-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt7603/lib/modules/4.14.173/mt7603e.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt7603 into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-mt7603_4.14.173+2020-03-10-a94e43f2-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt7615e/lib/modules/4.14.173/mt7615e.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt7615e into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-mt7615e_4.14.173+2020-03-10-a94e43f2-1_mipsel_24kc.ipk
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/mt76-2020-03-10-a94e43f2/ipkg-mipsel_24kc/kmod-mt76 into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-mt76_4.14.173+2020-03-10-a94e43f2-1_mipsel_24kc.ipk
+time: package/kernel/mt76/compile#81.32#12.42#102.97

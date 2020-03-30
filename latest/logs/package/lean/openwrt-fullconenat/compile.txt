@@ -1,0 +1,20 @@
+
+Applying ./patches/000-printk.patch using plaintext: 
+patching file xt_FULLCONENAT.c
+Hunk #1 succeeded at 702 (offset 5 lines).
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/fullconenat-2019-10-21-0cf3b48f/xt_FULLCONENAT.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/fullconenat-2019-10-21-0cf3b48f/xt_FULLCONENAT.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/fullconenat-2019-10-21-0cf3b48f/xt_FULLCONENAT.ko
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/fullconenat-2019-10-21-0cf3b48f'
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/fullconenat-2019-10-21-0cf3b48f=fullconenat-2019-10-21-0cf3b48f -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -fPIC -D_INIT=libipt_FULLCONENAT_init -c -o libipt_FULLCONENAT.o libipt_FULLCONENAT.c;
+ccache_cc -shared -lxtables -o libipt_FULLCONENAT.so libipt_FULLCONENAT.o;
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/fullconenat-2019-10-21-0cf3b48f'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/fullconenat-2019-10-21-0cf3b48f/ipkg-mipsel_24kc/kmod-ipt-fullconenat/lib/modules/4.14.173/xt_FULLCONENAT.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/fullconenat-2019-10-21-0cf3b48f/ipkg-mipsel_24kc/kmod-ipt-fullconenat into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-ipt-fullconenat_4.14.173+2019-10-21-0cf3b48f-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/fullconenat-2019-10-21-0cf3b48f/ipkg-mipsel_24kc/iptables-mod-fullconenat/usr/lib/iptables/libipt_FULLCONENAT.so: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/fullconenat-2019-10-21-0cf3b48f/ipkg-mipsel_24kc/iptables-mod-fullconenat into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/iptables-mod-fullconenat_2019-10-21-0cf3b48f-1_mipsel_24kc.ipk
+time: package/lean/openwrt-fullconenat/compile#3.57#1.44#14.19

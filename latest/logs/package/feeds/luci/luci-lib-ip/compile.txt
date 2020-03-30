@@ -1,0 +1,23 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+rm -f *.o *.so
+ccache_cc  -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip=luci-lib-ip -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include   -std=gnu99 -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include/libnl-tiny/ -fpic -c -o ip.o ip.c
+ccache_cc -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -shared -o ip.so ip.o -llua -lm -lnl-tiny
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+ccache_cc -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -shared -o ip.so ip.o -llua -lm -lnl-tiny
+mkdir -p /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-install/usr/lib/lua/luci
+cp ip.so /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-install/usr/lib/lua/luci/ip.so
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+ccache_cc -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -shared -o ip.so ip.o -llua -lm -lnl-tiny
+mkdir -p /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-install/usr/lib/lua/luci
+cp ip.so /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-install/usr/lib/lua/luci/ip.so
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+ccache_cc -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -shared -o ip.so ip.o -llua -lm -lnl-tiny
+mkdir -p /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-install/usr/lib/lua/luci
+cp ip.so /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-install/usr/lib/lua/luci/ip.so
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/src'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-mipsel_24kc/luci-lib-ip/usr/lib/lua/luci/ip.so: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-ip/ipkg-mipsel_24kc/luci-lib-ip into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/luci/luci-lib-ip_git-20.089.40724-3c31b42-1_mipsel_24kc.ipk
+time: package/feeds/luci/luci-lib-ip/compile#1.95#0.54#6.47

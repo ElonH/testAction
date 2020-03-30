@@ -1,0 +1,405 @@
+
+Applying ./patches/001-disable-fortity.patch using plaintext: 
+patching file configure.ac
+Hunk #1 succeeded at 107 with fuzz 2.
+
+Applying ./patches/002-stderr-not-defined.patch using plaintext: 
+patching file libtar/libtar.c
+
+Applying ./patches/003-disable-strip.patch using plaintext: 
+patching file libtar/Makefile.in
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/aclocal -I /mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/host/share/aclocal -I /mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/share/aclocal -I /mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/share/aclocal -I m4 -I . --force -I autoconf
+autoreconf: configure.ac: tracing
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/libtoolize --install --force
+OpenWrt-libtoolize: putting auxiliary files in AC_CONFIG_AUX_DIR, `autoconf'.
+OpenWrt-libtoolize: linking file `autoconf/config.guess'
+OpenWrt-libtoolize: linking file `autoconf/config.sub'
+OpenWrt-libtoolize: linking file `autoconf/install-sh'
+OpenWrt-libtoolize: linking file `autoconf/ltmain.sh'
+OpenWrt-libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `autoconf'.
+OpenWrt-libtoolize: linking file `autoconf/libtool.m4'
+OpenWrt-libtoolize: linking file `autoconf/ltoptions.m4'
+OpenWrt-libtoolize: linking file `autoconf/ltsugar.m4'
+OpenWrt-libtoolize: linking file `autoconf/ltversion.m4'
+OpenWrt-libtoolize: linking file `autoconf/lt~obsolete.m4'
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/autoconf --include=/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/host/share/aclocal --include=/mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/share/aclocal --include=/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/share/aclocal --include=m4 --include=. --prepend-include=/mnt/A/BuildOpenWRT/latest/staging_dir/host/share/aclocal --force
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/autoheader --include=/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/host/share/aclocal --include=/mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/share/aclocal --include=/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/share/aclocal --include=m4 --include=. --prepend-include=/mnt/A/BuildOpenWRT/latest/staging_dir/host/share/aclocal --force
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/automake --add-missing --force-missing
+configure.ac:19: installing 'autoconf/compile'
+configure.ac:13: installing 'autoconf/missing'
+Makefile.am: installing './INSTALL'
+autoreconf: Leaving directory `.'
+configure: WARNING: unrecognized options: --disable-nls
+configure: loading site script /mnt/A/BuildOpenWRT/latest/include/site/mipsel
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for mipsel-openwrt-linux-strip... mipsel-openwrt-linux-musl-strip
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking for epkg... no
+checking for mkencap... no
+checking for style of include used by make... GNU
+checking for mipsel-openwrt-linux-gcc... ccache_cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether ccache_cc accepts -g... yes
+checking for ccache_cc option to accept ISO C89... none needed
+checking whether ccache_cc understands -c and -o together... yes
+checking dependency style of ccache_cc... none
+checking for strlcpy... yes
+checking for strsep... yes
+checking how to run the C preprocessor... ccache_cc -E
+checking for grep that handles long lines and -e... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep
+checking for egrep... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking minix/config.h usability... no
+checking minix/config.h presence... no
+checking for minix/config.h... no
+checking whether it is safe to define __EXTENSIONS__... yes
+checking for mipsel-openwrt-linux-gcc... (cached) ccache_cc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether ccache_cc accepts -g... (cached) yes
+checking for ccache_cc option to accept ISO C89... (cached) none needed
+checking whether ccache_cc understands -c and -o together... (cached) yes
+checking dependency style of ccache_cc... (cached) none
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... mipsel-openwrt-linux-gnu
+checking how to print strings... printf
+checking for a sed that does not truncate output... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/sed
+checking for fgrep... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep -F
+checking for ld used by ccache_cc... mipsel-openwrt-linux-musl-ld
+checking if the linker (mipsel-openwrt-linux-musl-ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... mipsel-openwrt-linux-musl-gcc-nm
+checking the name lister (mipsel-openwrt-linux-musl-gcc-nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to mipsel-openwrt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for mipsel-openwrt-linux-musl-ld option to reload object files... -r
+checking for mipsel-openwrt-linux-objdump... mipsel-openwrt-linux-musl-objdump
+checking how to recognize dependent libraries... pass_all
+checking for mipsel-openwrt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for mipsel-openwrt-linux-ar... mipsel-openwrt-linux-musl-gcc-ar
+checking for archiver @FILE support... @
+checking for mipsel-openwrt-linux-strip... (cached) mipsel-openwrt-linux-musl-strip
+checking for mipsel-openwrt-linux-ranlib... mipsel-openwrt-linux-musl-gcc-ranlib
+checking command to parse mipsel-openwrt-linux-musl-gcc-nm output from ccache_cc object... ok
+checking for sysroot... no
+checking for mipsel-openwrt-linux-mt... no
+checking for mt... mt
+configure: WARNING: using cross tools not prefixed with host triplet
+checking if mt is a manifest tool... no
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if ccache_cc supports -fno-rtti -fno-exceptions... no
+checking for ccache_cc option to produce PIC... -fPIC -DPIC
+checking if ccache_cc PIC flag -fPIC -DPIC works... yes
+checking if ccache_cc static flag -static works... yes
+checking if ccache_cc supports -c -o file.o... yes
+checking if ccache_cc supports -c -o file.o... (cached) yes
+checking whether the ccache_cc linker (mipsel-openwrt-linux-musl-ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... no
+checking whether ln -s works... yes
+checking whether make sets $(MAKE)... (cached) yes
+checking for an ANSI C-conforming const... yes
+checking for thread local storage (TLS) class... __thread
+checking for ANSI C header files... (cached) yes
+checking for unistd.h... (cached) yes
+checking whether sys/types.h defines makedev... no
+checking sys/mkdev.h usability... no
+checking sys/mkdev.h presence... no
+checking for sys/mkdev.h... no
+checking sys/sysmacros.h usability... yes
+checking sys/sysmacros.h presence... yes
+checking for sys/sysmacros.h... yes
+checking for major_t... no
+checking for minor_t... no
+checking for dev_t... yes
+checking for socklen_t... yes
+checking for uint64_t... yes
+checking for mode_t... yes
+checking for off_t... yes
+checking for size_t... yes
+checking for uid_t in sys/types.h... yes
+checking for nlink_t... yes
+checking libgen.h usability... yes
+checking libgen.h presence... yes
+checking for libgen.h... yes
+checking for working basename... no
+checking for libgen.h... (cached) yes
+checking for working dirname... no
+checking fnmatch.h usability... yes
+checking fnmatch.h presence... yes
+checking for fnmatch.h... yes
+checking for working POSIX fnmatch... cross
+checking ctype.h usability... yes
+checking ctype.h presence... yes
+checking for ctype.h... yes
+checking for lchown... yes
+checking whether makedev expects three arguments... no
+checking for working snprintf... no
+checking for strdup... yes
+checking for strftime... (cached) yes
+checking for strlcpy... (cached) yes
+checking for strmode... no
+checking for strsep... (cached) yes
+checking for gzread in -lz... yes
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating listhash/libtar_listhash.h
+config.status: creating listhash/libtar_list.c
+config.status: creating listhash/libtar_hash.c
+config.status: creating listhash/libtar_list_new.3
+config.status: creating listhash/libtar_hash_new.3
+config.status: creating Makefile
+config.status: creating lib/Makefile
+config.status: creating libtar/Makefile
+config.status: creating doc/Makefile
+config.status: creating config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --disable-nls
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20'
+make  all-recursive
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20'
+Making all in lib
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/lib'
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o append.lo append.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c append.c  -fPIC -DPIC -o .libs/append.o
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o block.lo block.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c block.c  -fPIC -DPIC -o .libs/block.o
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o decode.lo decode.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c decode.c  -fPIC -DPIC -o .libs/decode.o
+decode.c: In function 'th_get_uid':
+decode.c:104:2: warning: implicit declaration of function 'sscanf' [-Wimplicit-function-declaration]
+  sscanf(t->th_buf.uid, "%o", &uid);
+  ^~~~~~
+decode.c:104:2: warning: incompatible implicit declaration of built-in function 'sscanf'
+decode.c:104:2: note: include '<stdio.h>' or provide a declaration of 'sscanf'
+decode.c:23:1:
++#include <stdio.h>
+ #endif
+decode.c:104:2:
+  sscanf(t->th_buf.uid, "%o", &uid);
+  ^~~~~~
+decode.c: In function 'th_get_gid':
+decode.c:120:2: warning: incompatible implicit declaration of built-in function 'sscanf'
+  sscanf(t->th_buf.gid, "%o", &gid);
+  ^~~~~~
+decode.c:120:2: note: include '<stdio.h>' or provide a declaration of 'sscanf'
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o encode.lo encode.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c encode.c  -fPIC -DPIC -o .libs/encode.o
+encode.c: In function 'th_set_path':
+encode.c:99:4: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+    printf("!!! '/' not found in \"%s\"\n", pathname);
+    ^~~~~~
+encode.c:99:4: warning: incompatible implicit declaration of built-in function 'printf'
+encode.c:99:4: note: include '<stdio.h>' or provide a declaration of 'printf'
+encode.c:23:1:
++#include <stdio.h>
+ #endif
+encode.c:99:4:
+    printf("!!! '/' not found in \"%s\"\n", pathname);
+    ^~~~~~
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o extract.lo extract.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c extract.c  -fPIC -DPIC -o .libs/extract.o
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o handle.lo handle.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c handle.c  -fPIC -DPIC -o .libs/handle.o
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o libtar_hash.lo ../listhash/libtar_hash.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c ../listhash/libtar_hash.c  -fPIC -DPIC -o .libs/libtar_hash.o
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o libtar_list.lo ../listhash/libtar_list.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c ../listhash/libtar_list.c  -fPIC -DPIC -o .libs/libtar_list.o
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o output.lo output.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c output.c  -fPIC -DPIC -o .libs/output.o
+output.c: In function 'th_print':
+output.c:36:2: warning: implicit declaration of function 'puts' [-Wimplicit-function-declaration]
+  puts("\nPrinting tar header:");
+  ^~~~
+output.c:37:2: warning: implicit declaration of function 'printf' [-Wimplicit-function-declaration]
+  printf("  name     = \"%.100s\"\n", t->th_buf.name);
+  ^~~~~~
+output.c:37:2: warning: incompatible implicit declaration of built-in function 'printf'
+output.c:37:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+output.c:25:1:
++#include <stdio.h>
+ #endif
+output.c:37:2:
+  printf("  name     = \"%.100s\"\n", t->th_buf.name);
+  ^~~~~~
+output.c: In function 'th_print_long_ls':
+output.c:100:2: warning: incompatible implicit declaration of built-in function 'printf'
+  printf("%.10s %-8.8s %-8.8s ", modestring, username, groupname);
+  ^~~~~~
+output.c:100:2: note: include '<stdio.h>' or provide a declaration of 'printf'
+output.c:132:2: warning: implicit declaration of function 'putchar' [-Wimplicit-function-declaration]
+  putchar('\n');
+  ^~~~~~~
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o util.lo util.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c util.c  -fPIC -DPIC -o .libs/util.o
+util.c: In function 'oct_to_int':
+util.c:151:9: warning: implicit declaration of function 'sscanf' [-Wimplicit-function-declaration]
+  return sscanf(oct, "%o", &i) == 1 ? i : 0;
+         ^~~~~~
+util.c:151:9: warning: incompatible implicit declaration of built-in function 'sscanf'
+util.c:151:9: note: include '<stdio.h>' or provide a declaration of 'sscanf'
+util.c:21:1:
++#include <stdio.h>
+ #endif
+util.c:151:9:
+  return sscanf(oct, "%o", &i) == 1 ? i : 0;
+         ^~~~~~
+util.c: In function 'oct_to_size':
+util.c:160:9: warning: incompatible implicit declaration of built-in function 'sscanf'
+  return sscanf(oct, "%zo", &i) == 1 ? i : 0;
+         ^~~~~~
+util.c:160:9: note: include '<stdio.h>' or provide a declaration of 'sscanf'
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o wrapper.lo wrapper.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c wrapper.c  -fPIC -DPIC -o .libs/wrapper.o
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o basename.lo ../compat/basename.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c ../compat/basename.c  -fPIC -DPIC -o .libs/basename.o
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o dirname.lo ../compat/dirname.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c ../compat/dirname.c  -fPIC -DPIC -o .libs/dirname.o
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o fnmatch.lo ../compat/fnmatch.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c ../compat/fnmatch.c  -fPIC -DPIC -o .libs/fnmatch.o
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o snprintf.lo ../compat/snprintf.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c ../compat/snprintf.c  -fPIC -DPIC -o .libs/snprintf.o
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o strmode.lo ../compat/strmode.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -I.. -I. -I../compat -I../listhash -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c ../compat/strmode.c  -fPIC -DPIC -o .libs/strmode.o
+/bin/bash ../libtool --mode=link ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -o libtar.la append.lo block.lo decode.lo encode.lo extract.lo handle.lo libtar_hash.lo libtar_list.lo output.lo util.lo wrapper.lo basename.lo dirname.lo fnmatch.lo snprintf.lo strmode.lo -rpath /usr/lib
+OpenWrt-libtool: link: ccache_cc -shared  -fPIC -DPIC  .libs/append.o .libs/block.o .libs/decode.o .libs/encode.o .libs/extract.o .libs/handle.o .libs/libtar_hash.o .libs/libtar_list.o .libs/output.o .libs/util.o .libs/wrapper.o .libs/basename.o .libs/dirname.o .libs/fnmatch.o .libs/snprintf.o .libs/strmode.o   -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib  -Os -mno-branch-likely -mips32r2 -mtune=24kc -msoft-float -fstack-protector -Wl,-z -Wl,now -Wl,-z -Wl,relro   -Wl,-soname -Wl,libtar.so.0 -o .libs/libtar.so.0.0.0
+OpenWrt-libtool: link: (cd ".libs" && rm -f "libtar.so.0" && ln -s "libtar.so.0.0.0" "libtar.so.0")
+OpenWrt-libtool: link: (cd ".libs" && rm -f "libtar.so" && ln -s "libtar.so.0.0.0" "libtar.so")
+OpenWrt-libtool: link: ( cd ".libs" && rm -f "libtar.la" && ln -s "../libtar.la" "libtar.la" )
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/lib'
+Making all in libtar
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/libtar'
+/bin/bash ../libtool --mode=compile ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I.. -I../lib -I../listhash -I../lib -I../compat -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include  -c -o libtar.lo libtar.c
+OpenWrt-libtool: compile:  ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I.. -I../lib -I../listhash -I../lib -I../compat -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include -c libtar.c  -fPIC -DPIC -o .libs/libtar.o
+In file included from libtar.c:16:
+../config.h:189: warning: "_FORTIFY_STDIO_H" redefined
+ #define _FORTIFY_STDIO_H 1
+ 
+In file included from libtar.c:13:
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify/stdio.h:17: note: this is the location of the previous definition
+ #define _FORTIFY_STDIO_H
+ 
+/bin/bash ../libtool --mode=link ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -o libtar libtar.lo -L../lib -lz  -ltar
+OpenWrt-libtool: link: ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20=libtar-1.2.20 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z -Wl,now -Wl,-z -Wl,relro -znow -zrelro -o .libs/libtar .libs/libtar.o  -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -L../lib -lz /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/lib/.libs/libtar.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/libtar'
+Making all in doc
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/doc'
+make[6]: Nothing to be done for 'all'.
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/doc'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20'
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20'
+Making install in lib
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/lib'
+mkdir -p -m 755 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/lib
+/bin/bash ../libtool --mode=install /usr/bin/install -c -m 644 libtar.la /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/lib
+OpenWrt-libtool: install: /usr/bin/install -c -m 644 .libs/libtar.so.0.0.0 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/lib/libtar.so.0.0.0
+OpenWrt-libtool: install: (cd /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/lib && { ln -s -f libtar.so.0.0.0 libtar.so.0 || { rm -f libtar.so.0 && ln -s libtar.so.0.0.0 libtar.so.0; }; })
+OpenWrt-libtool: install: (cd /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/lib && { ln -s -f libtar.so.0.0.0 libtar.so || { rm -f libtar.so && ln -s libtar.so.0.0.0 libtar.so; }; })
+OpenWrt-libtool: install: /usr/bin/install -c -m 644 .libs/libtar.lai /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/lib/libtar.la
+OpenWrt-libtool: install: warning: remember to run `libtool --finish /usr/lib'
+mkdir -p -m 755 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/include
+/usr/bin/install -c -m 644 ./libtar.h /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/include
+/usr/bin/install -c -m 644 ../listhash/libtar_listhash.h /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/include
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/lib'
+Making install in libtar
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/libtar'
+mkdir -p -m 755 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/bin
+/bin/bash ../libtool --mode=install /usr/bin/install -c libtar /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/bin
+OpenWrt-libtool: install: warning: `/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/lib/libtar.la' has not been installed in `/usr/lib'
+OpenWrt-libtool: install: /usr/bin/install -c .libs/libtar /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/bin/libtar
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/libtar'
+Making install in doc
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/doc'
+mkdir -p -m 755 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3
+/usr/bin/install -c -m 644 ./tar_open.3 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3
+for i in tar_fdopen tar_fd tar_close; do \
+	echo ".so man3/tar_open.3" > /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3/${i}.3; \
+done
+/usr/bin/install -c -m 644 ./tar_append_file.3 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3
+for i in tar_append_eof tar_append_regfile; do \
+	echo ".so man3/tar_append_file.3" > /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3/${i}.3; \
+done
+/usr/bin/install -c -m 644 ./tar_block_read.3 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3
+for i in tar_block_write; do \
+	echo ".so man3/tar_block_read.3" > /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3/${i}.3; \
+done
+/usr/bin/install -c -m 644 ./th_read.3 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3
+for i in th_write; do \
+	echo ".so man3/th_read.3" > /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3/${i}.3; \
+done
+/usr/bin/install -c -m 644 ./th_set_from_stat.3 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3
+for i in th_finish th_set_device th_set_group th_set_link th_set_mode th_set_path th_set_type th_set_user; do \
+	echo ".so man3/th_set_from_stat.3" > /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3/${i}.3; \
+done
+/usr/bin/install -c -m 644 ./tar_extract_file.3 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3
+for i in tar_extract_blockdev tar_extract_chardev tar_extract_dir tar_extract_fifo tar_extract_hardlink tar_extract_regfile tar_extract_symlink tar_skip_regfile tar_set_file_perms; do \
+	echo ".so man3/tar_extract_file.3" > /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3/${i}.3; \
+done
+/usr/bin/install -c -m 644 ./th_get_pathname.3 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3
+for i in TH_ISBLK TH_ISCHR TH_ISDIR TH_ISFIFO TH_ISLNK TH_ISLONGLINK TH_ISLONGNAME TH_ISREG TH_ISSYM th_get_crc th_get_devmajor th_get_devminor th_get_gid th_get_linkname th_get_mode th_get_mtime th_get_size th_get_uid; do \
+	echo ".so man3/th_get_pathname.3" > /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3/${i}.3; \
+done
+/usr/bin/install -c -m 644 ./th_print_long_ls.3 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3
+for i in th_print; do \
+	echo ".so man3/th_print_long_ls.3" > /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3/${i}.3; \
+done
+/usr/bin/install -c -m 644 ./tar_extract_all.3 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3
+for i in tar_extract_glob tar_append_tree; do \
+	echo ".so man3/tar_extract_all.3" > /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3/${i}.3; \
+done
+/usr/bin/install -c -m 644 ../listhash/libtar_hash_new.3 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3
+for i in libtar_hash_free libtar_hash_next libtar_hash_prev libtar_hash_search libtar_hash_add libtar_hash_getkey libtar_hash_del; do \
+	echo ".so man3/libtar_hash_new.3" > /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3/${i}.3; \
+done
+/usr/bin/install -c -m 644 ../listhash/libtar_list_new.3 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3
+for i in libtar_list_free libtar_list_next libtar_list_prev libtar_list_search libtar_list_add libtar_list_add_str libtar_list_del libtar_list_dup libtar_list_merge; do \
+	echo ".so man3/libtar_list_new.3" > /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-install/usr/man/man3/${i}.3; \
+done
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/doc'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20'
+make[6]: Nothing to be done for 'install-exec-am'.
+make[6]: Nothing to be done for 'install-data-am'.
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20'
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-mipsel_24kc/libtar/usr/bin/libtar: executable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-mipsel_24kc/libtar/usr/lib/libtar.so.0.0.0: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-mipsel_24kc/libtar/usr/lib/libtar.so: shared object
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-mipsel_24kc/libtar/usr/lib/libtar.so.0: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libtar-1.2.20/ipkg-mipsel_24kc/libtar into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/libtar_1.2.20-3_mipsel_24kc.ipk
+time: package/ctcgfw/libtar/compile#20.90#5.00#60.28

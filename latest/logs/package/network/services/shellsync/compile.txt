@@ -1,0 +1,4 @@
+cc1: note: someone does not honour COPTS correctly, passed 0 times
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/shellsync-0.2/ipkg-mipsel_24kc/shellsync/usr/bin/shellsync: executable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/shellsync-0.2/ipkg-mipsel_24kc/shellsync into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/shellsync_0.2-2_mipsel_24kc.ipk
+time: package/network/services/shellsync/compile#0.36#0.19#0.88

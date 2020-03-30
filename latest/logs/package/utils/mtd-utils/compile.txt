@@ -1,0 +1,412 @@
+
+Applying ./patches/100-fix_includes.patch using plaintext: 
+patching file lib/libfec.c
+
+Applying ./patches/130-lzma_jffs2.patch using plaintext: 
+patching file jffsX-utils/Makemodule.am
+patching file jffsX-utils/compr.c
+patching file jffsX-utils/compr.h
+patching file jffsX-utils/compr_lzma.c
+patching file include/linux/jffs2.h
+patching file include/linux/lzma.h
+patching file include/linux/lzma/LzFind.h
+patching file include/linux/lzma/LzHash.h
+patching file include/linux/lzma/LzmaDec.h
+patching file include/linux/lzma/LzmaEnc.h
+patching file include/linux/lzma/Types.h
+patching file jffsX-utils/lzma/LzFind.c
+patching file jffsX-utils/lzma/LzmaDec.c
+patching file jffsX-utils/lzma/LzmaEnc.c
+patching file jffsX-utils/mkfs.jffs2.c
+autoreconf: Entering directory `.'
+autoreconf: configure.ac: not using Gettext
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/aclocal -I /mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/host/share/aclocal -I /mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/share/aclocal -I /mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/share/aclocal -I m4 -I . --force -I m4
+autoreconf: configure.ac: tracing
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/libtoolize --install --force
+OpenWrt-libtoolize: putting auxiliary files in `.'.
+OpenWrt-libtoolize: linking file `./config.guess'
+OpenWrt-libtoolize: linking file `./config.sub'
+OpenWrt-libtoolize: linking file `./install-sh'
+OpenWrt-libtoolize: linking file `./ltmain.sh'
+OpenWrt-libtoolize: putting macros in AC_CONFIG_MACRO_DIR, `m4'.
+OpenWrt-libtoolize: linking file `m4/libtool.m4'
+OpenWrt-libtoolize: linking file `m4/ltoptions.m4'
+OpenWrt-libtoolize: linking file `m4/ltsugar.m4'
+OpenWrt-libtoolize: linking file `m4/ltversion.m4'
+OpenWrt-libtoolize: linking file `m4/lt~obsolete.m4'
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/autoconf --include=/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/host/share/aclocal --include=/mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/share/aclocal --include=/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/share/aclocal --include=m4 --include=. --prepend-include=/mnt/A/BuildOpenWRT/latest/staging_dir/host/share/aclocal --force
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/autoheader --include=/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/host/share/aclocal --include=/mnt/A/BuildOpenWRT/latest/staging_dir/hostpkg/share/aclocal --include=/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/share/aclocal --include=m4 --include=. --prepend-include=/mnt/A/BuildOpenWRT/latest/staging_dir/host/share/aclocal --force
+autoreconf: running: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/automake --add-missing --force-missing
+autoreconf: Leaving directory `.'
+configure: WARNING: unrecognized options: --disable-nls
+configure: loading site script /mnt/A/BuildOpenWRT/latest/include/site/mipsel
+checking for a BSD-compatible install... /usr/bin/install -c
+checking whether build environment is sane... yes
+checking for mipsel-openwrt-linux-strip... mipsel-openwrt-linux-musl-strip
+checking for a thread-safe mkdir -p... /bin/mkdir -p
+checking for gawk... gawk
+checking whether make sets $(MAKE)... yes
+checking whether make supports nested variables... yes
+checking whether make supports nested variables... (cached) yes
+checking build system type... x86_64-pc-linux-gnu
+checking host system type... mipsel-openwrt-linux-gnu
+checking how to print strings... printf
+checking for style of include used by make... GNU
+checking for mipsel-openwrt-linux-gcc... ccache_cc
+checking whether the C compiler works... yes
+checking for C compiler default output file name... a.out
+checking for suffix of executables... 
+checking whether we are cross compiling... yes
+checking for suffix of object files... o
+checking whether we are using the GNU C compiler... yes
+checking whether ccache_cc accepts -g... yes
+checking for ccache_cc option to accept ISO C89... none needed
+checking whether ccache_cc understands -c and -o together... yes
+checking dependency style of ccache_cc... gcc3
+checking for a sed that does not truncate output... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/sed
+checking for grep that handles long lines and -e... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep
+checking for egrep... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep -E
+checking for fgrep... /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/grep -F
+checking for ld used by ccache_cc... mipsel-openwrt-linux-musl-ld
+checking if the linker (mipsel-openwrt-linux-musl-ld) is GNU ld... yes
+checking for BSD- or MS-compatible name lister (nm)... mipsel-openwrt-linux-musl-gcc-nm
+checking the name lister (mipsel-openwrt-linux-musl-gcc-nm) interface... BSD nm
+checking whether ln -s works... yes
+checking the maximum length of command line arguments... 1572864
+checking whether the shell understands some XSI constructs... yes
+checking whether the shell understands "+="... yes
+checking how to convert x86_64-pc-linux-gnu file names to mipsel-openwrt-linux-gnu format... func_convert_file_noop
+checking how to convert x86_64-pc-linux-gnu file names to toolchain format... func_convert_file_noop
+checking for mipsel-openwrt-linux-musl-ld option to reload object files... -r
+checking for mipsel-openwrt-linux-objdump... mipsel-openwrt-linux-musl-objdump
+checking how to recognize dependent libraries... pass_all
+checking for mipsel-openwrt-linux-dlltool... no
+checking for dlltool... no
+checking how to associate runtime and link libraries... printf %s\n
+checking for mipsel-openwrt-linux-ar... mipsel-openwrt-linux-musl-gcc-ar
+checking for archiver @FILE support... @
+checking for mipsel-openwrt-linux-strip... (cached) mipsel-openwrt-linux-musl-strip
+checking for mipsel-openwrt-linux-ranlib... mipsel-openwrt-linux-musl-gcc-ranlib
+checking command to parse mipsel-openwrt-linux-musl-gcc-nm output from ccache_cc object... ok
+checking for sysroot... no
+checking for mipsel-openwrt-linux-mt... no
+checking for mt... mt
+configure: WARNING: using cross tools not prefixed with host triplet
+checking if mt is a manifest tool... no
+checking how to run the C preprocessor... ccache_cc -E
+checking for ANSI C header files... yes
+checking for sys/types.h... yes
+checking for sys/stat.h... yes
+checking for stdlib.h... yes
+checking for string.h... yes
+checking for memory.h... yes
+checking for strings.h... yes
+checking for inttypes.h... yes
+checking for stdint.h... yes
+checking for unistd.h... yes
+checking for dlfcn.h... yes
+checking for objdir... .libs
+checking if ccache_cc supports -fno-rtti -fno-exceptions... no
+checking for ccache_cc option to produce PIC... -fPIC -DPIC
+checking if ccache_cc PIC flag -fPIC -DPIC works... yes
+checking if ccache_cc static flag -static works... yes
+checking if ccache_cc supports -c -o file.o... yes
+checking if ccache_cc supports -c -o file.o... (cached) yes
+checking whether the ccache_cc linker (mipsel-openwrt-linux-musl-ld) supports shared libraries... yes
+checking whether -lc should be explicitly linked in... no
+checking dynamic linker characteristics... GNU/Linux ld.so
+checking how to hardcode library paths into programs... immediate
+checking whether stripping libraries is possible... yes
+checking if libtool supports shared libraries... yes
+checking whether to build shared libraries... yes
+checking whether to build static libraries... yes
+checking for mipsel-openwrt-linux-gcc... (cached) ccache_cc
+checking whether we are using the GNU C compiler... (cached) yes
+checking whether ccache_cc accepts -g... (cached) yes
+checking for ccache_cc option to accept ISO C89... (cached) none needed
+checking whether ccache_cc understands -c and -o together... (cached) yes
+checking dependency style of ccache_cc... (cached) gcc3
+checking pkg-config is at least version 0.9.0... yes
+checking whether compiler handles -Wall... yes
+checking whether compiler handles -Wextra... yes
+checking whether compiler handles -Wunused... yes
+checking whether compiler handles -Wmissing-prototypes... yes
+checking whether compiler handles -Wmissing-declarations... yes
+checking whether compiler handles -Wwrite-strings... yes
+checking whether compiler handles -Wjump-misses-init... yes
+checking whether compiler handles -Wuninitialized... yes
+checking whether compiler handles -Winit-self... yes
+checking whether compiler handles -Wlogical-op... yes
+checking whether compiler handles -Wunused-but-set-parameter... yes
+checking whether compiler handles -Wunused-but-set-variable... yes
+checking whether compiler handles -Wunused-parameter... yes
+checking whether compiler handles -Wunused-result... yes
+checking whether compiler handles -Wunused-variable... yes
+checking whether compiler handles -Wduplicated-cond... yes
+checking whether compiler handles -Wduplicated-branches... yes
+checking whether compiler handles -Wrestrict... yes
+checking whether compiler handles -Wnull-dereference... yes
+checking whether compiler handles -Wno-shadow... yes
+checking whether compiler handles -Wno-sign-compare... yes
+checking for ZLIB... yes
+checking for UUID... yes
+checking execinfo.h usability... no
+checking execinfo.h presence... no
+checking for execinfo.h... no
+checking size of off_t... (cached) 8
+checking size of loff_t... 0
+checking that generated files are newer than configure... done
+configure: creating ./config.status
+config.status: creating tests/fs-tests/fs_help_all.sh
+config.status: creating tests/fs-tests/fs_run_all.sh
+config.status: creating tests/fs-tests/stress/fs_stress00.sh
+config.status: creating tests/fs-tests/stress/fs_stress01.sh
+config.status: creating tests/ubi-tests/runubitests.sh
+config.status: creating tests/ubi-tests/ubi-stress-test.sh
+config.status: creating Makefile
+config.status: creating include/config.h
+config.status: executing depfiles commands
+config.status: executing libtool commands
+configure: WARNING: unrecognized options: --disable-nls
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1'
+  CC       lib/libmtd.o
+  CC       lib/libfec.o
+  CC       lib/common.o
+  CC       lib/libcrc32.o
+  CC       lib/libmtd_legacy.o
+  AR       libmtd.a
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib/gcc/mipsel-openwrt-linux-musl/8.4.0/../../../../mipsel-openwrt-linux-musl/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       lib/execinfo.o
+  AR       libmissing.a
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib/gcc/mipsel-openwrt-linux-musl/8.4.0/../../../../mipsel-openwrt-linux-musl/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       lib/libubi.o
+  AR       libubi.a
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib/gcc/mipsel-openwrt-linux-musl/8.4.0/../../../../mipsel-openwrt-linux-musl/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       lib/libubigen.o
+  AR       libubigen.a
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib/gcc/mipsel-openwrt-linux-musl/8.4.0/../../../../mipsel-openwrt-linux-musl/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       lib/libscan.o
+  AR       libscan.a
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib/gcc/mipsel-openwrt-linux-musl/8.4.0/../../../../mipsel-openwrt-linux-musl/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       lib/libiniparser.o
+  CC       lib/dictionary.o
+  AR       libiniparser.a
+/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib/gcc/mipsel-openwrt-linux-musl/8.4.0/../../../../mipsel-openwrt-linux-musl/bin/ar: `u' modifier ignored since `D' is the default (see `U')
+  CC       ubi-utils/ubiupdatevol.o
+  CCLD     ubiupdatevol
+  CC       ubi-utils/ubimkvol.o
+  CCLD     ubimkvol
+  CC       ubi-utils/ubirmvol.o
+  CCLD     ubirmvol
+  CC       ubi-utils/ubicrc32.o
+  CCLD     ubicrc32
+  CC       ubi-utils/ubinfo.o
+  CCLD     ubinfo
+  CC       ubi-utils/ubiattach.o
+  CCLD     ubiattach
+  CC       ubi-utils/ubidetach.o
+  CCLD     ubidetach
+  CC       ubi-utils/ubinize.o
+  CCLD     ubinize
+  CC       ubi-utils/ubiformat.o
+  CCLD     ubiformat
+  CC       ubi-utils/ubirename.o
+  CCLD     ubirename
+  CC       ubi-utils/mtdinfo.o
+  CCLD     mtdinfo
+  CC       ubi-utils/ubirsvol.o
+  CCLD     ubirsvol
+  CC       ubi-utils/ubiblock.o
+  CCLD     ubiblock
+  CC       misc-utils/ftl_format.o
+  CCLD     ftl_format
+  CC       misc-utils/doc_loadbios.o
+  CCLD     doc_loadbios
+  CC       misc-utils/ftl_check.o
+  CCLD     ftl_check
+  CC       misc-utils/mtd_debug.o
+  CCLD     mtd_debug
+  CC       misc-utils/docfdisk.o
+  CCLD     docfdisk
+  CC       misc-utils/serve_image.o
+  CCLD     serve_image
+  CC       misc-utils/recv_image.o
+  CCLD     recv_image
+  CC       misc-utils/flash_erase.o
+  CCLD     flash_erase
+  CC       misc-utils/flash_lock.o
+  CCLD     flash_lock
+  CC       misc-utils/flash_unlock.o
+  CCLD     flash_unlock
+  CC       misc-utils/flash_otp_info.o
+  CCLD     flash_otp_info
+  CC       misc-utils/flash_otp_dump.o
+  CCLD     flash_otp_dump
+  CC       misc-utils/flash_otp_lock.o
+  CCLD     flash_otp_lock
+  CC       misc-utils/flash_otp_write.o
+  CCLD     flash_otp_write
+  CC       misc-utils/flashcp.o
+misc-utils/flashcp.c: In function 'main':
+misc-utils/flashcp.c:257:2: warning: #warning "Check for smaller erase regions" [-Wcpp]
+ #warning "Check for smaller erase regions"
+  ^~~~~~~
+  CCLD     flashcp
+  CC       misc-utils/mtdpart.o
+  CCLD     mtdpart
+  CC       misc-utils/lsmtd-lsmtd.o
+  CC       misc-utils/lsmtd-lsmtd_scan.o
+  CCLD     lsmtd
+  CC       nand-utils/nanddump.o
+  CCLD     nanddump
+  CC       nand-utils/nandwrite.o
+  CCLD     nandwrite
+  CC       nand-utils/nandtest.o
+  CCLD     nandtest
+  CC       nand-utils/nftldump.o
+  CCLD     nftldump
+  CC       nand-utils/nftl_format.o
+  CCLD     nftl_format
+  CC       nor-utils/rfddump.o
+  CCLD     rfddump
+  CC       nor-utils/rfdformat.o
+  CCLD     rfdformat
+  CC       ubifs-utils/mkfs.ubifs/mkfs_ubifs-mkfs.ubifs.o
+ubifs-utils/mkfs.ubifs/mkfs.ubifs.c:1164:12: warning: 'add_xattr' defined but not used [-Wunused-function]
+ static int add_xattr(struct ubifs_ino_node *host_ino, struct stat *st,
+            ^~~~~~~~~
+  CC       ubifs-utils/mkfs.ubifs/mkfs_ubifs-crc16.o
+  CC       ubifs-utils/mkfs.ubifs/mkfs_ubifs-lpt.o
+  CC       ubifs-utils/mkfs.ubifs/mkfs_ubifs-compr.o
+  CC       ubifs-utils/mkfs.ubifs/hashtable/mkfs_ubifs-hashtable.o
+  CC       ubifs-utils/mkfs.ubifs/hashtable/mkfs_ubifs-hashtable_itr.o
+  CC       ubifs-utils/mkfs.ubifs/mkfs_ubifs-devtable.o
+  CCLD     mkfs.ubifs
+  CC       jffsX-utils/mkfs_jffs2-mkfs.jffs2.o
+  CC       jffsX-utils/mkfs_jffs2-compr_zlib.o
+  CC       jffsX-utils/mkfs_jffs2-rbtree.o
+  CC       jffsX-utils/mkfs_jffs2-compr_lzma.o
+In file included from jffsX-utils/compr_lzma.c:10:
+./include/linux/lzma.h: In function 'p_lzma_malloc':
+./include/linux/lzma.h:45:34: warning: unused parameter 'p' [-Wunused-parameter]
+ static void *p_lzma_malloc(void *p, size_t size)
+                            ~~~~~~^
+./include/linux/lzma.h: In function 'p_lzma_free':
+./include/linux/lzma.h:53:31: warning: unused parameter 'p' [-Wunused-parameter]
+ static void p_lzma_free(void *p, void *address)
+                         ~~~~~~^
+  CC       jffsX-utils/lzma/mkfs_jffs2-LzFind.o
+  CC       jffsX-utils/lzma/mkfs_jffs2-LzmaEnc.o
+jffsX-utils/lzma/LzmaEnc.c: In function 'LzmaEnc_Alloc':
+jffsX-utils/lzma/LzmaEnc.c:1977:8: warning: variable 'btMode' set but not used [-Wunused-but-set-variable]
+   Bool btMode;
+        ^~~~~~
+jffsX-utils/lzma/LzmaEnc.c: In function 'LzmaEnc_Finish':
+jffsX-utils/lzma/LzmaEnc.c:2149:43: warning: unused parameter 'pp' [-Wunused-parameter]
+ static void LzmaEnc_Finish(CLzmaEncHandle pp)
+                            ~~~~~~~~~~~~~~~^~
+At top level:
+jffsX-utils/lzma/LzmaEnc.c:2193:13: warning: 'LzmaEnc_CodeOneMemBlock' defined but not used [-Wunused-function]
+ static SRes LzmaEnc_CodeOneMemBlock(CLzmaEncHandle pp, Bool reInit,
+             ^~~~~~~~~~~~~~~~~~~~~~~
+jffsX-utils/lzma/LzmaEnc.c:2187:20: warning: 'LzmaEnc_GetCurBuf' defined but not used [-Wunused-function]
+ static const Byte *LzmaEnc_GetCurBuf(CLzmaEncHandle pp)
+                    ^~~~~~~~~~~~~~~~~
+jffsX-utils/lzma/LzmaEnc.c:2181:15: warning: 'LzmaEnc_GetNumAvailableBytes' defined but not used [-Wunused-function]
+ static UInt32 LzmaEnc_GetNumAvailableBytes(CLzmaEncHandle pp)
+               ^~~~~~~~~~~~~~~~~~~~~~~~~~~~
+jffsX-utils/lzma/LzmaEnc.c:2140:13: warning: 'LzmaEnc_MemPrepare' defined but not used [-Wunused-function]
+ static SRes LzmaEnc_MemPrepare(CLzmaEncHandle pp, const Byte *src, SizeT srcLen,
+             ^~~~~~~~~~~~~~~~~~
+jffsX-utils/lzma/LzmaEnc.c:2124:13: warning: 'LzmaEnc_PrepareForLzma2' defined but not used [-Wunused-function]
+ static SRes LzmaEnc_PrepareForLzma2(CLzmaEncHandle pp,
+             ^~~~~~~~~~~~~~~~~~~~~~~
+jffsX-utils/lzma/LzmaEnc.c:383:13: warning: 'LzmaEnc_RestoreState' defined but not used [-Wunused-function]
+ static void LzmaEnc_RestoreState(CLzmaEncHandle pp)
+             ^~~~~~~~~~~~~~~~~~~~
+jffsX-utils/lzma/LzmaEnc.c:357:13: warning: 'LzmaEnc_SaveState' defined but not used [-Wunused-function]
+ static void LzmaEnc_SaveState(CLzmaEncHandle pp)
+             ^~~~~~~~~~~~~~~~~
+  CC       jffsX-utils/lzma/mkfs_jffs2-LzmaDec.o
+  CC       jffsX-utils/mkfs_jffs2-compr.o
+  CC       jffsX-utils/mkfs_jffs2-compr_rtime.o
+  CCLD     mkfs.jffs2
+  CC       jffsX-utils/jffs2dump.o
+  CCLD     jffs2dump
+  CC       jffsX-utils/jffs2reader.o
+jffsX-utils/jffs2reader.c: In function 'resolvepath0':
+jffsX-utils/jffs2reader.c:691:6: warning: potential null pointer dereference [-Wnull-dereference]
+  if (*path == '/') {
+      ^~~~~
+  CCLD     jffs2reader
+  CC       jffsX-utils/sumtool.o
+  CCLD     sumtool
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1'
+ /bin/mkdir -p '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin'
+  /bin/bash ./libtool   --mode=install /usr/bin/install -c ubiupdatevol ubimkvol ubirmvol ubicrc32 ubinfo ubiattach ubidetach ubinize ubiformat ubirename mtdinfo ubirsvol ubiblock ftl_format doc_loadbios ftl_check mtd_debug docfdisk serve_image recv_image flash_erase flash_lock flash_unlock flash_otp_info flash_otp_dump flash_otp_lock flash_otp_write flashcp mtdpart lsmtd nanddump nandwrite nandtest nftldump nftl_format rfddump rfdformat mkfs.ubifs mkfs.jffs2 jffs2dump jffs2reader sumtool '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin'
+OpenWrt-libtool: install: /usr/bin/install -c ubiupdatevol /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/ubiupdatevol
+OpenWrt-libtool: install: /usr/bin/install -c ubimkvol /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/ubimkvol
+OpenWrt-libtool: install: /usr/bin/install -c ubirmvol /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/ubirmvol
+OpenWrt-libtool: install: /usr/bin/install -c ubicrc32 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/ubicrc32
+OpenWrt-libtool: install: /usr/bin/install -c ubinfo /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/ubinfo
+OpenWrt-libtool: install: /usr/bin/install -c ubiattach /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/ubiattach
+OpenWrt-libtool: install: /usr/bin/install -c ubidetach /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/ubidetach
+OpenWrt-libtool: install: /usr/bin/install -c ubinize /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/ubinize
+OpenWrt-libtool: install: /usr/bin/install -c ubiformat /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/ubiformat
+OpenWrt-libtool: install: /usr/bin/install -c ubirename /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/ubirename
+OpenWrt-libtool: install: /usr/bin/install -c mtdinfo /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/mtdinfo
+OpenWrt-libtool: install: /usr/bin/install -c ubirsvol /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/ubirsvol
+OpenWrt-libtool: install: /usr/bin/install -c ubiblock /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/ubiblock
+OpenWrt-libtool: install: /usr/bin/install -c ftl_format /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/ftl_format
+OpenWrt-libtool: install: /usr/bin/install -c doc_loadbios /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/doc_loadbios
+OpenWrt-libtool: install: /usr/bin/install -c ftl_check /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/ftl_check
+OpenWrt-libtool: install: /usr/bin/install -c mtd_debug /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/mtd_debug
+OpenWrt-libtool: install: /usr/bin/install -c docfdisk /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/docfdisk
+OpenWrt-libtool: install: /usr/bin/install -c serve_image /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/serve_image
+OpenWrt-libtool: install: /usr/bin/install -c recv_image /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/recv_image
+OpenWrt-libtool: install: /usr/bin/install -c flash_erase /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/flash_erase
+OpenWrt-libtool: install: /usr/bin/install -c flash_lock /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/flash_lock
+OpenWrt-libtool: install: /usr/bin/install -c flash_unlock /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/flash_unlock
+OpenWrt-libtool: install: /usr/bin/install -c flash_otp_info /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/flash_otp_info
+OpenWrt-libtool: install: /usr/bin/install -c flash_otp_dump /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/flash_otp_dump
+OpenWrt-libtool: install: /usr/bin/install -c flash_otp_lock /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/flash_otp_lock
+OpenWrt-libtool: install: /usr/bin/install -c flash_otp_write /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/flash_otp_write
+OpenWrt-libtool: install: /usr/bin/install -c flashcp /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/flashcp
+OpenWrt-libtool: install: /usr/bin/install -c mtdpart /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/mtdpart
+OpenWrt-libtool: install: /usr/bin/install -c lsmtd /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/lsmtd
+OpenWrt-libtool: install: /usr/bin/install -c nanddump /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/nanddump
+OpenWrt-libtool: install: /usr/bin/install -c nandwrite /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/nandwrite
+OpenWrt-libtool: install: /usr/bin/install -c nandtest /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/nandtest
+OpenWrt-libtool: install: /usr/bin/install -c nftldump /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/nftldump
+OpenWrt-libtool: install: /usr/bin/install -c nftl_format /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/nftl_format
+OpenWrt-libtool: install: /usr/bin/install -c rfddump /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/rfddump
+OpenWrt-libtool: install: /usr/bin/install -c rfdformat /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/rfdformat
+OpenWrt-libtool: install: /usr/bin/install -c mkfs.ubifs /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/mkfs.ubifs
+OpenWrt-libtool: install: /usr/bin/install -c mkfs.jffs2 /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/mkfs.jffs2
+OpenWrt-libtool: install: /usr/bin/install -c jffs2dump /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/jffs2dump
+OpenWrt-libtool: install: /usr/bin/install -c jffs2reader /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/jffs2reader
+OpenWrt-libtool: install: /usr/bin/install -c sumtool /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin/sumtool
+ /bin/mkdir -p '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin'
+ /usr/bin/install -c misc-utils/flash_eraseall '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/sbin'
+ /bin/mkdir -p '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/man/man1'
+ /usr/bin/install -c -m 644 jffsX-utils/mkfs.jffs2.1 '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/man/man1'
+ /bin/mkdir -p '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/man/man8'
+ /usr/bin/install -c -m 644 ubi-utils/ubinize.8 misc-utils/lsmtd.8 '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-install/usr/man/man8'
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-mipsel_24kc/ubi-utils/usr/sbin/ubinize: executable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-mipsel_24kc/ubi-utils/usr/sbin/ubiattach: executable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-mipsel_24kc/ubi-utils/usr/sbin/ubiformat: executable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-mipsel_24kc/ubi-utils/usr/sbin/ubidetach: executable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-mipsel_24kc/ubi-utils/usr/sbin/ubinfo: executable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-mipsel_24kc/ubi-utils/usr/sbin/ubirsvol: executable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-mipsel_24kc/ubi-utils/usr/sbin/ubirmvol: executable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-mipsel_24kc/ubi-utils/usr/sbin/ubicrc32: executable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-mipsel_24kc/ubi-utils/usr/sbin/ubirename: executable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-mipsel_24kc/ubi-utils/usr/sbin/ubiupdatevol: executable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-mipsel_24kc/ubi-utils/usr/sbin/ubiblock: executable
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-mipsel_24kc/ubi-utils/usr/sbin/ubimkvol: executable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/mtd-utils-2.1.1/ipkg-mipsel_24kc/ubi-utils into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/ubi-utils_2.1.1-1_mipsel_24kc.ipk
+time: package/utils/mtd-utils/compile#40.68#6.80#76.30

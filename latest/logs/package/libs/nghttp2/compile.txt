@@ -1,0 +1,300 @@
+-- The C compiler identification is GNU 8.4.0
+-- The CXX compiler identification is GNU 8.4.0
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Check for working CXX compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working CXX compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- Found PythonInterp: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/python (found version "3.6.9") 
+-- Could NOT find OpenSSL, try to set the path to OpenSSL root folder in the system variable OPENSSL_ROOT_DIR (missing: OPENSSL_CRYPTO_LIBRARY OPENSSL_INCLUDE_DIR) (Required is at least version "1.0.1")
+-- Found Libev: /mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib/libev.so (found suitable version "4.31", minimum required is "4.11") 
+-- Could NOT find Libcares (missing: LIBCARES_LIBRARY LIBCARES_INCLUDE_DIR) (Required is at least version "1.7.5")
+-- Found ZLIB: /mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib/libz.so (found suitable version "1.2.11", minimum required is "1.2.3") 
+CMake Warning at CMakeLists.txt:69 (find_package):
+  By not providing "FindSystemd.cmake" in CMAKE_MODULE_PATH this project has
+  asked CMake to find a package configuration file provided by "Systemd", but
+  CMake did not find one.
+
+  Could not find a package configuration file provided by "Systemd"
+  (requested version 209) with any of the following names:
+
+    SystemdConfig.cmake
+    systemd-config.cmake
+
+  Add the installation prefix of "Systemd" to CMAKE_PREFIX_PATH or set
+  "Systemd_DIR" to a directory containing one of the above files.  If
+  "Systemd" provides a separate development package or SDK, be sure it has
+  been installed.
+
+
+-- Could NOT find Jansson (missing: JANSSON_LIBRARY JANSSON_INCLUDE_DIR) (Required is at least version "2.5")
+-- Could NOT find Libevent (missing: LIBEVENT_LIBEVENT_LIBRARY LIBEVENT_OPENSSL_LIBRARY LIBEVENT_INCLUDE_DIR libevent openssl) (Required is at least version "2.0.8")
+-- Could NOT find Cython (missing: CYTHON_EXECUTABLE) 
+-- Could NOT find PythonLibs (missing: PYTHON_LIBRARIES PYTHON_INCLUDE_DIRS) 
+-- Could NOT find LibXml2 (missing: LIBXML2_LIBRARY LIBXML2_INCLUDE_DIR) (Required is at least version "2.6.26")
+-- Could NOT find Jemalloc (missing: JEMALLOC_LIBRARY JEMALLOC_INCLUDE_DIR) 
+-- Could NOT find Spdylay (missing: SPDYLAY_LIBRARY SPDYLAY_INCLUDE_DIR) (Required is at least version "1.3.2")
+-- Performing Test CXX_FLAG__std_c_14
+-- Performing Test CXX_FLAG__std_c_14 - Success
+-- Performing Test HAVE_STD_FUTURE
+-- Performing Test HAVE_STD_FUTURE - Success
+-- Performing Test HAVE_STD_MAP_EMPLACE
+-- Performing Test HAVE_STD_MAP_EMPLACE - Success
+-- Looking for pthread.h
+-- Looking for pthread.h - found
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE  
+-- Could NOT find CUnit (missing: CUNIT_LIBRARY CUNIT_INCLUDE_DIR) (Required is at least version "2.1")
+-- Looking for arpa/inet.h
+-- Looking for arpa/inet.h - found
+-- Looking for fcntl.h
+-- Looking for fcntl.h - found
+-- Looking for inttypes.h
+-- Looking for inttypes.h - found
+-- Looking for limits.h
+-- Looking for limits.h - found
+-- Looking for netdb.h
+-- Looking for netdb.h - found
+-- Looking for netinet/in.h
+-- Looking for netinet/in.h - found
+-- Looking for pwd.h
+-- Looking for pwd.h - found
+-- Looking for sys/socket.h
+-- Looking for sys/socket.h - found
+-- Looking for sys/time.h
+-- Looking for sys/time.h - found
+-- Looking for syslog.h
+-- Looking for syslog.h - found
+-- Looking for time.h
+-- Looking for time.h - found
+-- Looking for unistd.h
+-- Looking for unistd.h - found
+-- Looking for sys/types.h
+-- Looking for sys/types.h - found
+-- Looking for stdint.h
+-- Looking for stdint.h - found
+-- Looking for stddef.h
+-- Looking for stddef.h - found
+-- Check size of ssize_t
+-- Check size of ssize_t - done
+-- Performing Test HAVE_STRUCT_TM_TM_GMTOFF
+-- Performing Test HAVE_STRUCT_TM_TM_GMTOFF - Success
+-- Check size of int *
+-- Check size of int * - done
+-- Check size of time_t
+-- Check size of time_t - done
+-- Looking for _Exit
+-- Looking for _Exit - found
+-- Looking for accept4
+-- Looking for accept4 - found
+-- Looking for mkostemp
+-- Looking for mkostemp - found
+-- Looking for initgroups
+-- Looking for initgroups - found
+-- Performing Test C_FLAG__Wall
+-- Performing Test C_FLAG__Wall - Success
+-- Performing Test C_FLAG__Wextra
+-- Performing Test C_FLAG__Wextra - Success
+-- Performing Test C_FLAG__Wmissing_prototypes
+-- Performing Test C_FLAG__Wmissing_prototypes - Success
+-- Performing Test C_FLAG__Wstrict_prototypes
+-- Performing Test C_FLAG__Wstrict_prototypes - Success
+-- Performing Test C_FLAG__Wmissing_declarations
+-- Performing Test C_FLAG__Wmissing_declarations - Success
+-- Performing Test C_FLAG__Wpointer_arith
+-- Performing Test C_FLAG__Wpointer_arith - Success
+-- Performing Test C_FLAG__Wdeclaration_after_statement
+-- Performing Test C_FLAG__Wdeclaration_after_statement - Success
+-- Performing Test C_FLAG__Wformat_security
+-- Performing Test C_FLAG__Wformat_security - Success
+-- Performing Test C_FLAG__Wwrite_strings
+-- Performing Test C_FLAG__Wwrite_strings - Success
+-- Performing Test C_FLAG__Wshadow
+-- Performing Test C_FLAG__Wshadow - Success
+-- Performing Test C_FLAG__Winline
+-- Performing Test C_FLAG__Winline - Success
+-- Performing Test C_FLAG__Wnested_externs
+-- Performing Test C_FLAG__Wnested_externs - Success
+-- Performing Test C_FLAG__Wfloat_equal
+-- Performing Test C_FLAG__Wfloat_equal - Success
+-- Performing Test C_FLAG__Wundef
+-- Performing Test C_FLAG__Wundef - Success
+-- Performing Test C_FLAG__Wendif_labels
+-- Performing Test C_FLAG__Wendif_labels - Success
+-- Performing Test C_FLAG__Wempty_body
+-- Performing Test C_FLAG__Wempty_body - Success
+-- Performing Test C_FLAG__Wcast_align
+-- Performing Test C_FLAG__Wcast_align - Success
+-- Performing Test C_FLAG__Wclobbered
+-- Performing Test C_FLAG__Wclobbered - Success
+-- Performing Test C_FLAG__Wvla
+-- Performing Test C_FLAG__Wvla - Success
+-- Performing Test C_FLAG__Wpragmas
+-- Performing Test C_FLAG__Wpragmas - Success
+-- Performing Test C_FLAG__Wunreachable_code
+-- Performing Test C_FLAG__Wunreachable_code - Success
+-- Performing Test C_FLAG__Waddress
+-- Performing Test C_FLAG__Waddress - Success
+-- Performing Test C_FLAG__Wattributes
+-- Performing Test C_FLAG__Wattributes - Success
+-- Performing Test C_FLAG__Wdiv_by_zero
+-- Performing Test C_FLAG__Wdiv_by_zero - Success
+-- Performing Test C_FLAG__Wshorten_64_to_32
+-- Performing Test C_FLAG__Wshorten_64_to_32 - Failed
+-- Performing Test C_FLAG__Wconversion
+-- Performing Test C_FLAG__Wconversion - Success
+-- Performing Test C_FLAG__Wextended_offsetof
+-- Performing Test C_FLAG__Wextended_offsetof - Failed
+-- Performing Test C_FLAG__Wformat_nonliteral
+-- Performing Test C_FLAG__Wformat_nonliteral - Success
+-- Performing Test C_FLAG__Wlanguage_extension_token
+-- Performing Test C_FLAG__Wlanguage_extension_token - Failed
+-- Performing Test C_FLAG__Wmissing_field_initializers
+-- Performing Test C_FLAG__Wmissing_field_initializers - Success
+-- Performing Test C_FLAG__Wmissing_noreturn
+-- Performing Test C_FLAG__Wmissing_noreturn - Success
+-- Performing Test C_FLAG__Wmissing_variable_declarations
+-- Performing Test C_FLAG__Wmissing_variable_declarations - Failed
+-- Performing Test C_FLAG__Wsign_conversion
+-- Performing Test C_FLAG__Wsign_conversion - Success
+-- Performing Test C_FLAG__Wunreachable_code_break
+-- Performing Test C_FLAG__Wunreachable_code_break - Failed
+-- Performing Test C_FLAG__Wunused_macros
+-- Performing Test C_FLAG__Wunused_macros - Success
+-- Performing Test C_FLAG__Wunused_parameter
+-- Performing Test C_FLAG__Wunused_parameter - Success
+-- Performing Test C_FLAG__Wredundant_decls
+-- Performing Test C_FLAG__Wredundant_decls - Success
+-- Performing Test C_FLAG__Wheader_guard
+-- Performing Test C_FLAG__Wheader_guard - Failed
+-- Performing Test C_FLAG__Wno_format_nonliteral
+-- Performing Test C_FLAG__Wno_format_nonliteral - Success
+-- Performing Test CXX_FLAG__Wall
+-- Performing Test CXX_FLAG__Wall - Success
+-- Performing Test CXX_FLAG__Wformat_security
+-- Performing Test CXX_FLAG__Wformat_security - Success
+-- summary of build options:
+
+    Package version: 1.40.0
+    Library version: 33:0:19
+    Install prefix:  /usr
+    Target system:   Linux
+    Compiler:
+      Build type:     Release
+      C compiler:     /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+      CFLAGS:           -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0=nghttp2-1.40.0 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro
+      C++ compiler:   /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+      CXXFLAGS:         -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0=nghttp2-1.40.0 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro
+      WARNCFLAGS:      -Wall -Wextra -Wmissing-prototypes -Wstrict-prototypes -Wmissing-declarations -Wpointer-arith -Wdeclaration-after-statement -Wformat-security -Wwrite-strings -Wshadow -Winline -Wnested-externs -Wfloat-equal -Wundef -Wendif-labels -Wempty-body -Wcast-align -Wclobbered -Wvla -Wpragmas -Wunreachable-code -Waddress -Wattributes -Wdiv-by-zero -Wconversion -Wformat-nonliteral -Wmissing-field-initializers -Wmissing-noreturn -Wsign-conversion -Wunused-macros -Wunused-parameter -Wredundant-decls -Wno-format-nonliteral
+      CXX1XCXXFLAGS:  -std=c++14
+    Python:
+      Python:         /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/python
+      PYTHON_VERSION: 3.6.9
+      Library version:
+      Cython:         CYTHON_EXECUTABLE-NOTFOUND
+    Test:
+      CUnit:          FALSE (LIBS='')
+      Failmalloc:     ON
+    Libs:
+      OpenSSL:        FALSE (LIBS='')
+      Libxml2:        FALSE (LIBS='')
+      Libev:          TRUE (LIBS='/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib/libev.so')
+      Libc-ares:      FALSE (LIBS='')
+      Libevent(SSL):  FALSE (LIBS='')
+      Spdylay:        FALSE (LIBS='')
+      Jansson:        FALSE (LIBS='')
+      Jemalloc:       FALSE (LIBS='')
+      Zlib:           TRUE (LIBS='/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib/libz.so')
+      Systemd:         (LIBS='')
+      Boost::System:  
+      Boost::Thread:  
+    Third-party:
+      http-parser:    
+      MRuby:          0
+      Neverbleed:     0
+    Features:
+      Applications:   OFF
+      HPACK tools:    OFF
+      Libnghttp2_asio:OFF
+      Examples:       OFF
+      Python bindings:OFF
+      Threading:      ON
+
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_ARG1
+    CMAKE_EXE_LINKER_FLAGS
+    CMAKE_MODULE_LINKER_FLAGS
+    DL_LIBRARY
+
+
+-- Build files have been written to: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0'
+Scanning dependencies of target nghttp2
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0'
+[  4%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_pq.c.o
+[  8%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_map.c.o
+[ 13%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_queue.c.o
+[ 17%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_frame.c.o
+[ 21%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_buf.c.o
+[ 26%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_stream.c.o
+[ 30%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_outbound_item.c.o
+[ 34%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_session.c.o
+[ 39%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_submit.c.o
+[ 43%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_helper.c.o
+[ 47%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_npn.c.o
+[ 52%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_hd.c.o
+[ 56%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_hd_huffman.c.o
+[ 60%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_hd_huffman_data.c.o
+[ 65%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_version.c.o
+[ 69%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_priority_spec.c.o
+[ 73%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_option.c.o
+[ 78%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_callbacks.c.o
+[ 82%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_mem.c.o
+[ 86%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_http.c.o
+[ 91%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_rcbuf.c.o
+[ 95%] Building C object lib/CMakeFiles/nghttp2.dir/nghttp2_debug.c.o
+[100%] Linking C shared library libnghttp2.so
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0'
+[100%] Built target nghttp2
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0'
+[100%] Built target nghttp2
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0/ipkg-install/usr/share/doc/nghttp2/README.rst
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0/ipkg-install/usr/lib/libnghttp2.so.14.19.0
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0/ipkg-install/usr/lib/libnghttp2.so.14
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0/ipkg-install/usr/lib/libnghttp2.so
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0/ipkg-install/usr/lib/pkgconfig/libnghttp2.pc
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0/ipkg-install/usr/include/nghttp2/nghttp2.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0/ipkg-install/usr/include/nghttp2/nghttp2ver.h
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0/ipkg-install/usr/share/man/man1/nghttp.1
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0/ipkg-install/usr/share/man/man1/nghttpd.1
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0/ipkg-install/usr/share/man/man1/nghttpx.1
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0/ipkg-install/usr/share/man/man1/h2load.1
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0/ipkg-install/usr/share/nghttp2/fetch-ocsp-response
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0/ipkg-mipsel_24kc/libnghttp2/usr/lib/libnghttp2.so.14.19.0: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/nghttp2-1.40.0/ipkg-mipsel_24kc/libnghttp2 into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/libnghttp2-14_1.40.0-1_mipsel_24kc.ipk
+time: package/libs/nghttp2/compile#16.13#4.58#41.80

@@ -1,0 +1,31 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/main.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/noise.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/device.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/peer.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/timers.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/queueing.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/send.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/receive.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/socket.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/peerlookup.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/allowedips.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/ratelimiter.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/cookie.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/netlink.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/crypto/zinc/chacha20/chacha20.o
+  AS [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/crypto/zinc/chacha20/chacha20-mips.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/crypto/zinc/poly1305/poly1305.o
+  AS [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/crypto/zinc/poly1305/poly1305-mips.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/crypto/zinc/chacha20poly1305.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/crypto/zinc/blake2s/blake2s.o
+  CC [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/crypto/zinc/curve25519/curve25519.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/wireguard.o
+  Building modules, stage 2.
+  MODPOST 1 modules
+  CC      /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/wireguard.mod.o
+  LD [M]  /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/src/wireguard.ko
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/linux-4.14.173'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/ipkg-mipsel_24kc/kmod-wireguard/lib/modules/4.14.173/wireguard.ko: relocatable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/linux-ramips_mt7621/wireguard-linux-compat-0.0.20200318/ipkg-mipsel_24kc/kmod-wireguard into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/kmod-wireguard_4.14.173+0.0.20200318-1_mipsel_24kc.ipk
+time: package/network/services/wireguard/compile#27.73#3.76#38.07

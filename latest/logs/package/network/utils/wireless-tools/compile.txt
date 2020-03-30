@@ -1,0 +1,44 @@
+
+Applying ./patches/001-debian.patch using plaintext: 
+patching file iwlib.c
+patching file Makefile
+
+Applying ./patches/002-fix-iwconfig-power-argument-parsing.patch using plaintext: 
+patching file iwconfig.c
+
+Applying ./patches/003-we_essential_def.patch using plaintext: 
+patching file iwlist.c
+patching file iwconfig.c
+patching file iwmulticall.c
+patching file iwlib.c
+patching file Makefile
+
+Applying ./patches/004-increase_iwlist_buffer.patch using plaintext: 
+patching file iwlist.c
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wireless_tools.29'
+cp wireless.21.h wireless.h
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wireless_tools.29=wireless_tools.29 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -MMD    -DWE_ESSENTIAL=y -fPIC -c -o iwlib.so iwlib.c
+ccache_cc -shared -o libiw.so.29 -Wl,-soname,libiw.so.29  -lm -Wl,--gc-sections -lc iwlib.so
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wireless_tools.29=wireless_tools.29 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -MMD    -DWE_ESSENTIAL=y -c iwmulticall.c
+In file included from iwmulticall.c:74:
+iwmulticall.c: In function 'print_scanning_token':
+iwlist.c:566:34: warning: iteration 10 invokes undefined behavior [-Waggressive-loop-optimizations]
+      if((modul & iw_modul_list[i].mask) == iw_modul_list[i].mask)
+                  ~~~~~~~~~~~~~~~~^~~~~
+iwlist.c:564:2: note: within this loop
+  for(i = 0; i < IW_SIZE_MODUL_LIST; i++)
+  ^~~
+ccache_cc  -Wl,-s -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wireless_tools.29=wireless_tools.29 -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I. -MMD    -DWE_ESSENTIAL=y -o iwmulticall iwmulticall.o -lm -Wl,--gc-sections
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wireless_tools.29'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wireless_tools.29'
+install -m 755 -d /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wireless_tools.29/ipkg-install/usr/sbin
+install -m 755 iwmulticall /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wireless_tools.29/ipkg-install/usr/sbin/iwconfig
+( cd /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wireless_tools.29/ipkg-install/usr/sbin ; \
+  ln -f -s iwconfig iwlist ; \
+  ln -f -s iwconfig iwspy ; \
+  ln -f -s iwconfig iwpriv ; \
+  ln -f -s iwconfig iwgetid  )
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wireless_tools.29'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wireless_tools.29/ipkg-mipsel_24kc/wireless-tools/usr/sbin/iwconfig: executable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/wireless_tools.29/ipkg-mipsel_24kc/wireless-tools into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/wireless-tools_29-6_mipsel_24kc.ipk
+time: package/network/utils/wireless-tools/compile#3.34#0.53#6.96

@@ -1,0 +1,57 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110'
+for dir in mozilla; do \
+  make -C $dir all; \
+done
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110/mozilla'
+python certdata2pem.py
+Ignoring certificate "Verisign Class 1 Public Primary Certification Authority - G3".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "Verisign Class 2 Public Primary Certification Authority - G3".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Certificate "Distrust: O=Egypt Trust, OU=VeriSign Trust Network (cert 1/3)" blacklisted, ignoring.
+Certificate "Distrust: O=Egypt Trust, OU=VeriSign Trust Network (cert 2/3)" blacklisted, ignoring.
+Certificate "Distrust: O=Egypt Trust, OU=VeriSign Trust Network (cert 3/3)" blacklisted, ignoring.
+Ignoring certificate "AddTrust Low-Value Services Root".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "Certum Root CA".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "UTN USERFirst Email Root CA".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "Camerfirma Chambers of Commerce Root".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "Camerfirma Global Chambersign Root".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "SwissSign Platinum CA - G2".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "AC Ra\xC3\xADz Certic\xC3\xA1mara S.A.".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Certificate "Explicitly Distrust DigiNotar Root CA" blacklisted, ignoring.
+Certificate "Explicitly Distrusted DigiNotar PKIoverheid G2" blacklisted, ignoring.
+Certificate "MITM subCA 1 issued by Trustwave" blacklisted, ignoring.
+Certificate "MITM subCA 2 issued by Trustwave" blacklisted, ignoring.
+Certificate "TURKTRUST Mis-issued Intermediate CA 1" blacklisted, ignoring.
+Certificate "TURKTRUST Mis-issued Intermediate CA 2" blacklisted, ignoring.
+Ignoring certificate "Swisscom Root CA 2".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "Certplus Root CA G1".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "Certplus Root CA G2".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "OpenTrust Root CA G1".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "OpenTrust Root CA G2".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "OpenTrust Root CA G3".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "Symantec Class 1 Public Primary Certification Authority - G6".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "Symantec Class 2 Public Primary Certification Authority - G6".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "Symantec Class 1 Public Primary Certification Authority - G4".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "Symantec Class 2 Public Primary Certification Authority - G4".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+Ignoring certificate "D-TRUST Root CA 3 2013".  SAUTH=CKT_NSS_MUST_VERIFY_TRUST, EPROT=CKT_NSS_TRUSTED_DELEGATOR
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110/mozilla'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110'
+for dir in mozilla; do \
+  mkdir /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110/ipkg-install//usr/share/ca-certificates/$dir; \
+  make -C $dir install CERTSDIR=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110/ipkg-install//usr/share/ca-certificates/$dir; \
+done
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110/mozilla'
+for p in *.crt; do \
+ install -m 644 $p /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110/ipkg-install//usr/share/ca-certificates/mozilla/$p ; \
+done
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110/mozilla'
+for dir in sbin; do \
+  make -C $dir install CERTSDIR=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110/ipkg-install//usr/share/ca-certificates/$dir; \
+done
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110/sbin'
+install -m755 update-ca-certificates /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110/ipkg-install/usr/sbin/
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110/sbin'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110'
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110/ipkg-all/ca-bundle into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/ca-bundle_20190110-2_all.ipk
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/ca-certificates-20190110/ipkg-all/ca-certificates into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/ca-certificates_20190110-2_all.ipk
+time: package/system/ca-certificates/compile#6.09#1.60#17.42

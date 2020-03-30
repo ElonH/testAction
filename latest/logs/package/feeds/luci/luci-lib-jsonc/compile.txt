@@ -1,0 +1,23 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/src'
+rm -f *.o *.so
+ccache_cc  -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc=luci-lib-jsonc -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro  -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/include -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include/fortify -I/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/include   -std=gnu99 -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include/json-c/ -fpic -c -o jsonc.o jsonc.c
+ccache_cc -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -shared -o jsonc.so jsonc.o -llua -lm -ljson-c
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/src'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/src'
+ccache_cc -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -shared -o jsonc.so jsonc.o -llua -lm -ljson-c
+mkdir -p /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/ipkg-install/usr/lib/lua/luci
+cp jsonc.so /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/ipkg-install/usr/lib/lua/luci/jsonc.so
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/src'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/src'
+ccache_cc -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -shared -o jsonc.so jsonc.o -llua -lm -ljson-c
+mkdir -p /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/ipkg-install/usr/lib/lua/luci
+cp jsonc.so /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/ipkg-install/usr/lib/lua/luci/jsonc.so
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/src'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/src'
+ccache_cc -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro  -shared -o jsonc.so jsonc.o -llua -lm -ljson-c
+mkdir -p /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/ipkg-install/usr/lib/lua/luci
+cp jsonc.so /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/ipkg-install/usr/lib/lua/luci/jsonc.so
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/src'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/ipkg-mipsel_24kc/luci-lib-jsonc/usr/lib/lua/luci/jsonc.so: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/luci-lib-jsonc/ipkg-mipsel_24kc/luci-lib-jsonc into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/luci/luci-lib-jsonc_git-20.089.40724-3c31b42-1_mipsel_24kc.ipk
+time: package/feeds/luci/luci-lib-jsonc/compile#0.90#0.51#3.10

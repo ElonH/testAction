@@ -1,0 +1,54 @@
+-- The C compiler identification is GNU 8.4.0
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache
+-- Check for working C compiler: /mnt/A/BuildOpenWRT/latest/staging_dir/host/bin/ccache -- works
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Configuring done
+-- Generating done
+CMake Warning:
+  Manually-specified variables were not used by the project:
+
+    CMAKE_ASM_COMPILER
+    CMAKE_ASM_COMPILER_ARG1
+    CMAKE_CXX_COMPILER
+    CMAKE_CXX_COMPILER_ARG1
+    CMAKE_CXX_FLAGS_RELEASE
+    CMAKE_FIND_ROOT_PATH_MODE_LIBRARY
+    CMAKE_MODULE_LINKER_FLAGS
+    CMAKE_SHARED_LINKER_FLAGS
+    DL_LIBRARY
+
+
+-- Build files have been written to: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e'
+Scanning dependencies of target usign
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e'
+[ 14%] Building C object CMakeFiles/usign.dir/ed25519.c.o
+[ 28%] Building C object CMakeFiles/usign.dir/edsign.c.o
+[ 42%] Building C object CMakeFiles/usign.dir/f25519.c.o
+[ 57%] Building C object CMakeFiles/usign.dir/fprime.c.o
+[ 71%] Building C object CMakeFiles/usign.dir/sha512.c.o
+[ 85%] Building C object CMakeFiles/usign.dir/main.c.o
+[100%] Linking C executable usign
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e'
+[100%] Built target usign
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e'
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e'
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e'
+make[5]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e'
+make[6]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e'
+make[6]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e'
+[100%] Built target usign
+make[5]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e'
+Install the project...
+-- Install configuration: "Release"
+-- Installing: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e/ipkg-install/usr/bin/usign
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e/ipkg-mipsel_24kc/usign/usr/bin/usign: executable
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/usign-2019-09-21-f34a383e/ipkg-mipsel_24kc/usign into /mnt/A/BuildOpenWRT/latest/bin/packages/mipsel_24kc/base/usign_2019-09-21-f34a383e-1_mipsel_24kc.ipk
+time: package/system/usign/compile#2.76#1.24#8.23

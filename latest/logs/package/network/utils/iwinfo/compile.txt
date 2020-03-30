@@ -1,0 +1,83 @@
+make[4]: Entering directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libiwinfo-2020-03-22-9f5a7c4f'
+rm -f *.o libiwinfo.so iwinfo.so iwinfo
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libiwinfo-2020-03-22-9f5a7c4f=libiwinfo-2020-03-22-9f5a7c4f -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include/libnl-tiny -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -D_GNU_SOURCE -std=gnu99 -fstrict-aliasing -Iinclude -DUSE_NL80211 -fpic -c -o iwinfo_utils.o iwinfo_utils.c
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libiwinfo-2020-03-22-9f5a7c4f=libiwinfo-2020-03-22-9f5a7c4f -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include/libnl-tiny -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -D_GNU_SOURCE -std=gnu99 -fstrict-aliasing -Iinclude -DUSE_NL80211 -fpic -c -o iwinfo_wext.o iwinfo_wext.c
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libiwinfo-2020-03-22-9f5a7c4f=libiwinfo-2020-03-22-9f5a7c4f -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include/libnl-tiny -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -D_GNU_SOURCE -std=gnu99 -fstrict-aliasing -Iinclude -DUSE_NL80211 -fpic -c -o iwinfo_wext_scan.o iwinfo_wext_scan.c
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libiwinfo-2020-03-22-9f5a7c4f=libiwinfo-2020-03-22-9f5a7c4f -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include/libnl-tiny -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -D_GNU_SOURCE -std=gnu99 -fstrict-aliasing -Iinclude -DUSE_NL80211 -fpic -c -o iwinfo_lib.o iwinfo_lib.c
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libiwinfo-2020-03-22-9f5a7c4f=libiwinfo-2020-03-22-9f5a7c4f -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include/libnl-tiny -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -D_GNU_SOURCE -std=gnu99 -fstrict-aliasing -Iinclude -DUSE_NL80211 -fpic -c -o iwinfo_nl80211.o iwinfo_nl80211.c
+iwinfo_nl80211.c: In function 'nl80211_phy_idx_from_uci':
+iwinfo_nl80211.c:253:53: warning: '%s' directive output may be truncated writing up to 255 bytes into a region of size 107 [-Wformat-truncation=]
+    snprintf(buf, sizeof(buf), "/sys/class/ieee80211/%s/device", e->d_name);
+                                                     ^~
+iwinfo_nl80211.c:253:4: note: 'snprintf' output between 29 and 284 bytes into a destination of size 128
+    snprintf(buf, sizeof(buf), "/sys/class/ieee80211/%s/device", e->d_name);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+iwinfo_nl80211.c:271:53: warning: '%s' directive output may be truncated writing up to 255 bytes into a region of size 107 [-Wformat-truncation=]
+    snprintf(buf, sizeof(buf), "/sys/class/ieee80211/%s/index", e->d_name);
+                                                     ^~
+iwinfo_nl80211.c:271:4: note: 'snprintf' output between 28 and 283 bytes into a destination of size 128
+    snprintf(buf, sizeof(buf), "/sys/class/ieee80211/%s/index", e->d_name);
+    ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+iwinfo_nl80211.c: In function 'nl80211_phy2ifname':
+iwinfo_nl80211.c:679:30: warning: '%s' directive output may be truncated writing up to 255 bytes into a region of size 49 [-Wformat-truncation=]
+              "/sys/class/net/%s/phy80211/index", e->d_name);
+                              ^~
+iwinfo_nl80211.c:678:5: note: 'snprintf' output between 31 and 286 bytes into a destination of size 64
+     snprintf(buffer, sizeof(buffer),
+     ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+              "/sys/class/net/%s/phy80211/index", e->d_name);
+              ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+iwinfo_nl80211.c:684:31: warning: '%s' directive output may be truncated writing up to 255 bytes into a region of size 49 [-Wformat-truncation=]
+               "/sys/class/net/%s/ifindex", e->d_name);
+                               ^~
+iwinfo_nl80211.c:683:6: note: 'snprintf' output between 24 and 279 bytes into a destination of size 64
+      snprintf(buffer, sizeof(buffer),
+      ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+               "/sys/class/net/%s/ifindex", e->d_name);
+               ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libiwinfo-2020-03-22-9f5a7c4f=libiwinfo-2020-03-22-9f5a7c4f -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include/libnl-tiny -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -D_GNU_SOURCE -std=gnu99 -fstrict-aliasing -Iinclude -DUSE_NL80211 -fpic -c -o iwinfo_lua.o iwinfo_lua.c
+ccache_cc -Os -pipe -mno-branch-likely -mips32r2 -mtune=24kc -fno-caller-saves -fno-plt -fhonour-copts -Wno-error=unused-but-set-variable -Wno-error=unused-result -msoft-float -mips16 -minterlink-mips16 -ffile-prefix-map=/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libiwinfo-2020-03-22-9f5a7c4f=libiwinfo-2020-03-22-9f5a7c4f -Wformat -Werror=format-security -fstack-protector -D_FORTIFY_SOURCE=1 -Wl,-z,now -Wl,-z,relro -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include/libnl-tiny -I/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/include -D_GNU_SOURCE -std=gnu99 -fstrict-aliasing -Iinclude -DUSE_NL80211 -fpic -c -o iwinfo_cli.o iwinfo_cli.c
+iwinfo_cli.c: In function 'format_channel':
+iwinfo_cli.c:54:31: warning: '%d' directive output may be truncated writing between 1 and 10 bytes into a region of size 8 [-Wformat-truncation=]
+   snprintf(buf, sizeof(buf), "%d", ch);
+                               ^~
+iwinfo_cli.c:54:30: note: directive argument in the range [1, 2147483647]
+   snprintf(buf, sizeof(buf), "%d", ch);
+                              ^~~~
+iwinfo_cli.c:54:3: note: 'snprintf' output between 2 and 11 bytes into a destination of size 8
+   snprintf(buf, sizeof(buf), "%d", ch);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+iwinfo_cli.c: In function 'print_info':
+iwinfo_cli.c:78:33: warning: ' dBm' directive output may be truncated writing 4 bytes into a region of size between 0 and 9 [-Wformat-truncation=]
+   snprintf(buf, sizeof(buf), "%d dBm", pwr);
+                                 ^~~~
+iwinfo_cli.c:78:3: note: 'snprintf' output between 6 and 15 bytes into a destination of size 10
+   snprintf(buf, sizeof(buf), "%d dBm", pwr);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+iwinfo_cli.c:90:31: warning: '%d' directive output may be truncated writing between 1 and 10 bytes into a region of size 8 [-Wformat-truncation=]
+   snprintf(buf, sizeof(buf), "%d", qual);
+                               ^~
+iwinfo_cli.c:90:30: note: directive argument in the range [0, 2147483647]
+   snprintf(buf, sizeof(buf), "%d", qual);
+                              ^~~~
+iwinfo_cli.c:90:3: note: 'snprintf' output between 2 and 11 bytes into a destination of size 8
+   snprintf(buf, sizeof(buf), "%d", qual);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+iwinfo_cli.c:102:31: warning: '%d' directive output may be truncated writing between 1 and 10 bytes into a region of size 8 [-Wformat-truncation=]
+   snprintf(buf, sizeof(buf), "%d", qmax);
+                               ^~
+iwinfo_cli.c:102:30: note: directive argument in the range [0, 2147483647]
+   snprintf(buf, sizeof(buf), "%d", qmax);
+                              ^~~~
+iwinfo_cli.c:102:3: note: 'snprintf' output between 2 and 11 bytes into a destination of size 8
+   snprintf(buf, sizeof(buf), "%d", qmax);
+   ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+ccache_cc -luci -lubox -lubus -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro -shared -lnl-tiny -o libiwinfo.so iwinfo_utils.o iwinfo_wext.o iwinfo_wext_scan.o iwinfo_lib.o iwinfo_nl80211.o
+ccache_cc -luci -lubox -lubus -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro -shared -L. -liwinfo -llua -o iwinfo.so iwinfo_lua.o
+ccache_cc -luci -lubox -lubus -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/target-mipsel_24kc_musl/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/usr/lib -L/mnt/A/BuildOpenWRT/latest/staging_dir/toolchain-mipsel_24kc_gcc-8.4.0_musl/lib -znow -zrelro -L. -liwinfo -lnl-tiny -o iwinfo iwinfo_cli.o
+make[4]: Leaving directory '/mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libiwinfo-2020-03-22-9f5a7c4f'
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libiwinfo-2020-03-22-9f5a7c4f/ipkg-mipsel_24kc/libiwinfo/usr/lib/libiwinfo.so: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libiwinfo-2020-03-22-9f5a7c4f/ipkg-mipsel_24kc/libiwinfo into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/libiwinfo20200105_2020-03-22-9f5a7c4f-1_mipsel_24kc.ipk
+rstrip.sh: /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libiwinfo-2020-03-22-9f5a7c4f/ipkg-mipsel_24kc/libiwinfo-lua/usr/lib/lua/iwinfo.so: shared object
+Packaged contents of /mnt/A/BuildOpenWRT/latest/build_dir/target-mipsel_24kc_musl/libiwinfo-2020-03-22-9f5a7c4f/ipkg-mipsel_24kc/libiwinfo-lua into /mnt/A/BuildOpenWRT/latest/bin/targets/ramips/mt7621/packages/libiwinfo-lua_2020-03-22-9f5a7c4f-1_mipsel_24kc.ipk
+time: package/network/utils/iwinfo/compile#4.67#0.83#14.42
