@@ -21,9 +21,9 @@ jobs:
         with:
           name: artifact1
           path: ./README.md
-      - run: sleep 30
-      - uses: mxschmitt/action-tmate@v1
-        if: always()
+      # - run: sleep 30
+      # - uses: mxschmitt/action-tmate@v1
+      #   if: always()
       - name: push tag
         id: tag
         run: |
@@ -52,8 +52,7 @@ jobs:
           git push origin snapshot --force
           echo "success"
           git push "https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git" snapshot --force
-      - uses: mxschmitt/action-tmate@v1
-        if: always()
+      # - uses: ays()
       - run: |
           echo "${{steps.tag.outputs.tagName}}"
       - name: Push changes
