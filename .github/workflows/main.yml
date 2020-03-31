@@ -21,6 +21,9 @@ jobs:
         with:
           name: artifact1
           path: ./README.md
+      - run: sleep 30
+      - uses: mxschmitt/action-tmate@v1
+        if: always()
       - name: push tag
         id: tag
         run: |
@@ -37,7 +40,7 @@ jobs:
           # echo ${{github.run_id}}
           # echo ${{github.run_number}}
           sudo apt install libcurl4-openssl-dev libssl-dev
-          pip3 install --upgrade pip
+          python3 -m pip install --upgrade pip
           pip3 install setuptools
           PYCURL_SSL_LIBRARY=openssl pip3 install pycurl
           # ./.github/del-artifact --repo ${{github.repository}} --runid ${{github.run_id}} --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
