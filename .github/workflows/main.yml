@@ -42,23 +42,23 @@ jobs:
           # sudo apt install -y python3-pycurl
           # # ./.github/del-artifact --repo ${{github.repository}} --runid ${{github.run_id}} --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
           # ./create-issues --repo ${{github.repository}} --log latest/log.out --op latest --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
-          # # echo ${{github.ref}}
-          # git config --local user.email "action@github.com"
-          # git config --local user.name "GitHub Action"
-          # echo "${{github.sha}}" > refs.txt
+          # echo ${{github.ref}}
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          echo "${{github.sha}}" > refs.txt
           # git add refs.txt
           # git commit -m "Add changes ${{github.sha}}" -a
-          # git tag snapshot --force
-          # git push origin snapshot --force
-          # echo "success"
-          # git push "https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git" snapshot --force
+          git tag snapshot --force
+          git push origin snapshot --force
+          echo "success"
+          git push "https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git" snapshot --force
       # - uses: ays()
       - run: |
           echo "${{steps.tag.outputs.tagName}}"
       - uses: meeDamian/github-release@2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          # tag: snapshot
+          tag: snapshot
           name: Release snapshot ${{github.sha}}
           body: |
             this is body.
