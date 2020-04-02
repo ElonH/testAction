@@ -27,7 +27,7 @@ jobs:
       - name: push tag
         id: tag
         run: |
-          sudo apt install -y tree
+          # sudo apt install -y tree
           tag="${{github.ref}}"
           [[ $tag == refs/heads/* ]] && tag="snapshot"
           echo "::set-output name=tagName::$tag"
