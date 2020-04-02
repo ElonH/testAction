@@ -21,9 +21,9 @@ jobs:
         with:
           name: artifact1
           path: ./README.md
-      - run: sleep 30
-      - uses: mxschmitt/action-tmate@v1
-        if: always()
+      # - run: sleep 30
+        #- uses: mxschmitt/action-tmate@v1
+        #if: always()
       - name: push tag
         id: tag
         run: |
@@ -31,37 +31,45 @@ jobs:
           tag="${{github.ref}}"
           [[ $tag == refs/heads/* ]] && tag="snapshot"
           echo "::set-output name=tagName::$tag"
-          echo "123"
-          # echo ${{runner.temp}}
-          # tree /home/runner
-          echo "456"
-          # echo ${{github.actor}}
-          # echo ${{github.repository}}
-          # echo ${{github.run_id}}
-          # echo ${{github.run_number}}
-          sudo apt install -y python3-pycurl
-          # ./.github/del-artifact --repo ${{github.repository}} --runid ${{github.run_id}} --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
-          ./create-issues --repo ${{github.repository}} --log latest/log.out --op latest --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
-          # echo ${{github.ref}}
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          echo "${{github.sha}}" > refs.txt
-          git add refs.txt
-          git commit -m "Add changes ${{github.sha}}" -a
-          git tag snapshot --force
-          git push origin snapshot --force
-          echo "success"
-          git push "https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git" snapshot --force
+          # echo "123"
+          # # echo ${{runner.temp}}
+          # # tree /home/runner
+          # echo "456"
+          # # echo ${{github.actor}}
+          # # echo ${{github.repository}}
+          # # echo ${{github.run_id}}
+          # # echo ${{github.run_number}}
+          # sudo apt install -y python3-pycurl
+          # # ./.github/del-artifact --repo ${{github.repository}} --runid ${{github.run_id}} --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
+          # ./create-issues --repo ${{github.repository}} --log latest/log.out --op latest --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
+          # # echo ${{github.ref}}
+          # git config --local user.email "action@github.com"
+          # git config --local user.name "GitHub Action"
+          # echo "${{github.sha}}" > refs.txt
+          # git add refs.txt
+          # git commit -m "Add changes ${{github.sha}}" -a
+          # git tag snapshot --force
+          # git push origin snapshot --force
+          # echo "success"
+          # git push "https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git" snapshot --force
       # - uses: ays()
       - run: |
           echo "${{steps.tag.outputs.tagName}}"
-      - name: Push changes
-        uses: ad-m/github-push-action@master
+      - uses: meeDamian/github-release@2.0
         with:
-          github_token: ${{ secrets.GITHUB_TOKEN }}
-          force: true
-          tags: true
-          branch: latest-tag
+          token: ${{ secrets.GITHUB_TOKEN }}
+          tag: snapshot
+          name: Release snapshot ${{github.sha}}
+          body: |
+            this is body.
+          allow_override: true
+      # - name: Push changes
+      #   uses: ad-m/github-push-action@master
+      #   with:
+      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     force: true
+      #     tags: true
+      #     branch: latest-tag
       - uses: svenstaro/upload-release-action@v1-release
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
