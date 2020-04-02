@@ -51,13 +51,13 @@ jobs:
           git tag snapshot --force
           git push origin snapshot --force
           echo "success"
-          git push "https://${{github.actor}}:${{secrets.GITHUB_TOKEN}}@github.com/${{github.repository}}.git" snapshot --force
+          git push "https://${{github.actor}}:${{secrets.RELEASE_TOKEN}}@github.com/${{github.repository}}.git" snapshot --force
       # - uses: ays()
       - run: |
           echo "${{steps.tag.outputs.tagName}}"
       - uses: meeDamian/github-release@2.0
         with:
-          token: ${{ secrets.GITHUB_TOKEN }}
+          token: ${{ secrets.RELEASE_TOKEN }}
           tag: snapshot
           name: Release snapshot ${{github.sha}}
           body: |
