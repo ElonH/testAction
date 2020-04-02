@@ -58,7 +58,7 @@ jobs:
       - uses: meeDamian/github-release@2.0
         with:
           token: ${{ secrets.GITHUB_TOKEN }}
-          tag: snapshot
+          # tag: snapshot
           name: Release snapshot ${{github.sha}}
           body: |
             this is body.
