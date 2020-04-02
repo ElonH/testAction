@@ -43,8 +43,8 @@ jobs:
           # # ./.github/del-artifact --repo ${{github.repository}} --runid ${{github.run_id}} --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
           # ./create-issues --repo ${{github.repository}} --log latest/log.out --op latest --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
           # echo ${{github.ref}}
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
+          # git config --local user.email "action@github.com"
+          # git config --local user.name "GitHub Action"
           echo "${{github.sha}}" > refs.txt
           # git add refs.txt
           # git commit -m "Add changes ${{github.sha}}" -a
@@ -66,15 +66,15 @@ jobs:
       # - name: Push changes
       #   uses: ad-m/github-push-action@master
       #   with:
-      #     github_token: ${{ secrets.GITHUB_TOKEN }}
+      #     github_token: ${{ secrets.RELEASE_TOKEN }}
       #     force: true
       #     tags: true
       #     branch: latest-tag
       - uses: svenstaro/upload-release-action@v1-release
         with:
           repo_token: ${{ secrets.GITHUB_TOKEN }}
-          file: ./*.md
-          tag: latest-tag
+          file: ./refs.txt
+          tag: snapshot
           file_glob: true
           overwrite: true
       # - uses: mxschmitt/action-tmate@v1
