@@ -49,7 +49,7 @@ jobs:
           # git add refs.txt
           # git commit -m "Add changes ${{github.sha}}" -a
           git tag snapshot --force
-          git push origin snapshot --force
+          # git push origin snapshot --force
           echo "success"
           git push "https://${{github.actor}}:${{secrets.RELEASE_TOKEN}}@github.com/${{github.repository}}.git" snapshot --force
       # - uses: ays()
@@ -72,7 +72,7 @@ jobs:
       #     branch: latest-tag
       - uses: svenstaro/upload-release-action@v1-release
         with:
-          repo_token: ${{ secrets.GITHUB_TOKEN }}
+          repo_token: ${{ secrets.RELEASE_TOKEN }}
           file: ./refs.txt
           tag: snapshot
           file_glob: true
