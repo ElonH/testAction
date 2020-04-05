@@ -19,11 +19,23 @@ jobs:
         uses: actions/checkout@v2
       - uses: actions/upload-artifact@master
         with:
-          name: artifact1
+          name: artifact-package-1
           path: ./README.md
-      # - run: sleep 30
-        #- uses: mxschmitt/action-tmate@v1
-        #if: always()
+      - uses: actions/upload-artifact@master
+        with:
+          name: artifact-package-2
+          path: ./README.md
+      - uses: actions/upload-artifact@master
+        with:
+          name: artifact-log-1
+          path: ./README.md
+      - uses: elonh/download-artifact-regexp@master
+        with:
+          pattern: ^artifact-.*?$
+          path: ./debug
+      - run: sleep 30
+      - uses: mxschmitt/action-tmate@v1
+        if: always()
       - name: push tag
         id: tag
         run: |
