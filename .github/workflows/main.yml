@@ -31,11 +31,11 @@ jobs:
           path: ./README.md
       - uses: elonh/download-artifact-regexp@master
         with:
-          pattern: ^artifact-.*?$
+          pattern: ^artifact-log-1$
           path: ./debug
-      - run: sleep 30
-      - uses: mxschmitt/action-tmate@v1
-        if: always()
+      # - run: sleep 30
+      # - uses: mxschmitt/action-tmate@v1
+      #   if: always()
       - name: push tag
         id: tag
         run: |
