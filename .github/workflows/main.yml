@@ -138,3 +138,25 @@ jobs:
   #     # - uses: mxschmitt/action-tmate@v1
   #     - uses: mxschmitt/action-tmate@v1
   #       if: always()
+  build2:
+    runs-on: ubuntu-18.04
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: push tag
+        id: tag
+        run: |
+          # sudo apt install -y tree
+          tag="${{github.ref}}"
+          [[ $tag == refs/heads/* ]] && tag="snapshot"
+          echo "::set-output name=tagName::$tag"
+          echo "runid: ${{github.run_id}}"
+          echo "run_number: ${{github.run_number}}"
+      - run: |
+          # sudo apt install -y tree
+          tag="${{github.ref}}"
+          [[ $tag == refs/heads/* ]] && tag="snapshot"
+          echo "::set-output name=tagName::$tag"
+          echo "runid: ${{github.run_id}}"
+          echo "run_number: ${{github.run_number}}"
