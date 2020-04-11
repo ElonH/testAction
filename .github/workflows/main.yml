@@ -79,13 +79,13 @@ jobs:
       #     force: true
       #     tags: true
       #     branch: latest-tag
-      - uses: svenstaro/upload-release-action@v1-release
-        with:
-          repo_token: ${{ secrets.RELEASE_TOKEN }}
-          file: ./refs.txt
-          tag: snapshot
-          file_glob: true
-          overwrite: true
+      # - uses: svenstaro/upload-release-action@v1-release
+      #   with:
+      #     repo_token: ${{ secrets.RELEASE_TOKEN }}
+      #     file: ./refs.txt
+      #     tag: snapshot
+      #     file_glob: true
+      #     overwrite: true
       # - uses: mxschmitt/action-tmate@v1
       #   if: always()
       # - name: release
