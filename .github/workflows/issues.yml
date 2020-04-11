@@ -20,4 +20,5 @@ jobs:
       - name: Update Tag
         run: |
           ls
-          # git push -d "https://${{github.actor}}:${{secrets.RELEASE_TOKEN}}@github.com/${{github.repository}}.git" ${{steps.tag.outputs.tagName}}
+          ./issues-push -i issues.json -ipo ${{github.repository}} -u ${{github.actor}} -t ${{secrets.RELEASE_TOKEN}} || true
+          git push -d "https://${{github.actor}}:${{secrets.RELEASE_TOKEN}}@github.com/${{github.repository}}.git" ${{steps.tag.outputs.tagName}}
