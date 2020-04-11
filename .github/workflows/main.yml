@@ -51,19 +51,16 @@ jobs:
           # # echo ${{github.repository}}
           echo "runid: ${{github.run_id}}"
           echo "run_number: ${{github.run_number}}"
+          #########################
           sudo apt install -y python3-pycurl
-          # # ./.github/del-artifact --repo ${{github.repository}} --runid ${{github.run_id}} --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
-          ./create-issues --repo ${{github.repository}} --log latest/log.out --op latest --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
-          # echo ${{github.ref}}
-          # git config --local user.email "action@github.com"
-          # git config --local user.name "GitHub Action"
-          echo "${{github.sha}}" > refs.txt
-          # git add refs.txt
-          # git commit -m "Add changes ${{github.sha}}" -a
-          git tag snapshot --force
-          # git push origin snapshot --force
-          echo "success"
-          git push "https://${{github.actor}}:${{secrets.RELEASE_TOKEN}}@github.com/${{github.repository}}.git" snapshot --force
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git checkout -b tt-issues-branch ${{github.sha}}
+          ./issues-create -cpo ${{github.repository}} -l latest/logs -o issues.json
+          git add issues.json
+          git commit -m "issues from tt"
+          git tag tt-issues --force
+          git push "https://${{github.actor}}:${{secrets.RELEASE_TOKEN}}@github.com/${{github.repository}}.git" tt-issues --force
       # - uses: ays()
       - run: |
           echo "${{steps.tag.outputs.tagName}}"

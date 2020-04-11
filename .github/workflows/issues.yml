@@ -1,0 +1,23 @@
+name: test push tag
+
+on:
+  push:
+    tags:
+      - '*-issues'
+
+jobs:
+  IssuesPre:
+    runs-on: ubuntu-18.04
+    steps:
+      - uses: actions/checkout@v2
+      - name: tag-name
+        id: tag
+        run: |
+          tag="${{github.ref}}"
+          [[ $tag == refs/tags/* ]] && tag="${tag#refs/tags/}" || false
+          echo "$tag"
+          echo "::set-output name=tagName::$tag"
+      - name: Update Tag
+        run: |
+          ls
+          # git push -d "https://${{github.actor}}:${{secrets.RELEASE_TOKEN}}@github.com/${{github.repository}}.git" ${{steps.tag.outputs.tagName}}
