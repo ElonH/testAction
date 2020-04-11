@@ -51,9 +51,9 @@ jobs:
           # # echo ${{github.repository}}
           echo "runid: ${{github.run_id}}"
           echo "run_number: ${{github.run_number}}"
-          # sudo apt install -y python3-pycurl
+          sudo apt install -y python3-pycurl
           # # ./.github/del-artifact --repo ${{github.repository}} --runid ${{github.run_id}} --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
-          # ./create-issues --repo ${{github.repository}} --log latest/log.out --op latest --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
+          ./create-issues --repo ${{github.repository}} --log latest/log.out --op latest --user ${{github.actor}} --token ${{secrets.GITHUB_TOKEN}}
           # echo ${{github.ref}}
           # git config --local user.email "action@github.com"
           # git config --local user.name "GitHub Action"
