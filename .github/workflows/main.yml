@@ -56,6 +56,7 @@ jobs:
           # # echo ${{github.repository}}
           echo "runid: ${{github.run_id}}"
           echo "run_number: ${{github.run_number}}"
+          echo "job.container.id: ${{job.container.id}}"
           #########################
           sudo apt install -y python3-pycurl
           git config --local user.email "action@github.com"
@@ -155,6 +156,7 @@ jobs:
           echo "::set-output name=tagName::$tag"
           echo "runid: ${{github.run_id}}"
           echo "run_number: ${{github.run_number}}"
+          echo "job.container.id: ${{job.container.id}}"
       - run: |
           # sudo apt install -y tree
           tag="${{github.ref}}"
@@ -162,3 +164,4 @@ jobs:
           echo "::set-output name=tagName::$tag"
           echo "runid: ${{github.run_id}}"
           echo "run_number: ${{github.run_number}}"
+          echo "job.container.id: ${{job.container.id}}"
