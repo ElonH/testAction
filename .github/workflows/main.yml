@@ -157,6 +157,7 @@ jobs:
           echo "runid: ${{github.run_id}}"
           echo "run_number: ${{github.run_number}}"
           echo "job.container.id: ${{job.container.id}}"
+          echo "job.status: ${{job.status}}"
       - run: |
           # sudo apt install -y tree
           tag="${{github.ref}}"
