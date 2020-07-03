@@ -15,7 +15,7 @@ jobs:
     runs-on: ubuntu-18.04
 
     steps:
-      - run: echo ${{github.head_ref}}
+      - run: echo ${{github.even_name}}
       - name: Checkout
         uses: actions/checkout@v2
         with:
