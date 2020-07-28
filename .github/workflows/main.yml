@@ -160,6 +160,7 @@ jobs:
           echo "job.container.id: ${{job.container.id}}"
           echo "job.status: ${{job.status}}"
           echo "github.workspace: ${{github.workspace}}"
+          echo "recursive test: ${{ hashFiles('${{github.workspace}}/README.md') }}"
       - run: |
           # sudo apt install -y tree
           tag="${{github.ref}}"
