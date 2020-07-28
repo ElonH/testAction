@@ -159,6 +159,7 @@ jobs:
           echo "run_number: ${{github.run_number}}"
           echo "job.container.id: ${{job.container.id}}"
           echo "job.status: ${{job.status}}"
+          echo "github.workspace: ${{github.workspace}}"
       - run: |
           # sudo apt install -y tree
           tag="${{github.ref}}"
