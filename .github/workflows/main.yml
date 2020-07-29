@@ -106,6 +106,7 @@ jobs:
           token: ${{ secrets.RELEASE_TOKEN }}
           tag: snapshot
           name: Release snapshot ${{github.sha}}
+          draft: true
           body: |
             this is body.
           allow_override: true
