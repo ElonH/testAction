@@ -105,6 +105,7 @@ jobs:
         with:
           token: ${{ secrets.RELEASE_TOKEN }}
 #           tag: snapshot
+          tag: master
           name: Release snapshot ${{github.sha}}
           draft: true
           body: |
