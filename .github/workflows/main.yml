@@ -55,7 +55,7 @@ jobs:
       with:
         name: artifact-package-1
         path: ~/artifacts
-    - run: 'ls -a -h ~/artifacts'
+    - run: 'ls -a -R -h ~/artifacts'
 
   build:
     runs-on: ubuntu-18.04
@@ -79,7 +79,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: artifact-package-3
-          path: ./latest/*
+          path: ./latest/ctcgfw/*
       - uses: actions/upload-artifact@v2
         with:
           name: artifact-log-1
