@@ -79,7 +79,7 @@ jobs:
       - uses: actions/upload-artifact@v2
         with:
           name: artifact-package-3
-          path: ./latest
+          path: ./latest/*
       - uses: actions/upload-artifact@v2
         with:
           name: artifact-log-1
