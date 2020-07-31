@@ -91,76 +91,76 @@ jobs:
       # - run: sleep 30
       # - uses: mxschmitt/action-tmate@v1
       #   if: always()
-      - name: push tag
-        id: tag
-        run: |
-          # sudo apt install -y tree
-          tag="${{github.ref}}"
-          [[ $tag == refs/heads/* ]] && tag="snapshot"
-          echo "::set-output name=tagName::$tag"
-          # echo "123"
-          # # echo ${{runner.temp}}
-          # # tree /home/runner
-          # echo "456"
-          # # echo ${{github.actor}}
-          # # echo ${{github.repository}}
-          echo "runid: ${{github.run_id}}"
-          echo "run_number: ${{github.run_number}}"
-          echo "job.container.id: ${{job.container.id}}"
-          #########################
-          sudo apt install -y python3-pycurl
-          git config --local user.email "action@github.com"
-          git config --local user.name "GitHub Action"
-          git checkout -b tt-issues-branch ${{github.sha}}
-          ./issues-create -cpo ${{github.repository}} -l latest/logs -o issues.json
-          git add issues.json
-          git commit -m "issues from tt"
-          git tag tt-issues --force
-          git push "https://${{github.actor}}:${{secrets.RELEASE_TOKEN}}@github.com/${{github.repository}}.git" tt-issues --force
-      # - uses: ays()
-      - run: |
-          echo "${{steps.tag.outputs.tagName}}"
-      - uses: meeDamian/github-release@2.0
-        with:
-#           token: ${{ secrets.RELEASE_TOKEN }}
-          token: ${{ secrets.GITHUB_TOKEN }}
-#           tag: snapshot
-          tag: v234.234.234
-          name: Release snapshot ${{github.sha}}
-          draft: true
-          body: |
-            this is body.
-          allow_override: true
-      # - name: Push changes
-      #   uses: ad-m/github-push-action@master
-      #   with:
-      #     github_token: ${{ secrets.RELEASE_TOKEN }}
-      #     force: true
-      #     tags: true
-      #     branch: latest-tag
-      # - uses: svenstaro/upload-release-action@v1-release
-      #   with:
-      #     repo_token: ${{ secrets.RELEASE_TOKEN }}
-      #     file: ./refs.txt
-      #     tag: snapshot
-      #     file_glob: true
-      #     overwrite: true
-      # - uses: mxschmitt/action-tmate@v1
-      #   if: always()
-      # - name: release
-      #   uses: actions/create-release@latest
-      #   env:
-      #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
-      #   with:
-      #     tag_name: latest-tag
-      #     release_name: Release ${{ github.ref }}
-      #     body: |
-      #       SHA: ${{github.sha}}
-      #       Changes in this Release
-      #       - First Change
-      #       - Second Change
-      #     draft: false
-      #     prerelease: false
+#       - name: push tag
+#         id: tag
+#         run: |
+#           # sudo apt install -y tree
+#           tag="${{github.ref}}"
+#           [[ $tag == refs/heads/* ]] && tag="snapshot"
+#           echo "::set-output name=tagName::$tag"
+#           # echo "123"
+#           # # echo ${{runner.temp}}
+#           # # tree /home/runner
+#           # echo "456"
+#           # # echo ${{github.actor}}
+#           # # echo ${{github.repository}}
+#           echo "runid: ${{github.run_id}}"
+#           echo "run_number: ${{github.run_number}}"
+#           echo "job.container.id: ${{job.container.id}}"
+#           #########################
+#           sudo apt install -y python3-pycurl
+#           git config --local user.email "action@github.com"
+#           git config --local user.name "GitHub Action"
+#           git checkout -b tt-issues-branch ${{github.sha}}
+#           ./issues-create -cpo ${{github.repository}} -l latest/logs -o issues.json
+#           git add issues.json
+#           git commit -m "issues from tt"
+#           git tag tt-issues --force
+#           git push "https://${{github.actor}}:${{secrets.RELEASE_TOKEN}}@github.com/${{github.repository}}.git" tt-issues --force
+#       # - uses: ays()
+#       - run: |
+#           echo "${{steps.tag.outputs.tagName}}"
+#       - uses: meeDamian/github-release@2.0
+#         with:
+# #           token: ${{ secrets.RELEASE_TOKEN }}
+#           token: ${{ secrets.GITHUB_TOKEN }}
+# #           tag: snapshot
+#           tag: v234.234.234
+#           name: Release snapshot ${{github.sha}}
+#           draft: true
+#           body: |
+#             this is body.
+#           allow_override: true
+#       # - name: Push changes
+#       #   uses: ad-m/github-push-action@master
+#       #   with:
+#       #     github_token: ${{ secrets.RELEASE_TOKEN }}
+#       #     force: true
+#       #     tags: true
+#       #     branch: latest-tag
+#       # - uses: svenstaro/upload-release-action@v1-release
+#       #   with:
+#       #     repo_token: ${{ secrets.RELEASE_TOKEN }}
+#       #     file: ./refs.txt
+#       #     tag: snapshot
+#       #     file_glob: true
+#       #     overwrite: true
+#       # - uses: mxschmitt/action-tmate@v1
+#       #   if: always()
+#       # - name: release
+#       #   uses: actions/create-release@latest
+#       #   env:
+#       #     GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }} # This token is provided by Actions, you do not need to create your own token
+#       #   with:
+#       #     tag_name: latest-tag
+#       #     release_name: Release ${{ github.ref }}
+#       #     body: |
+#       #       SHA: ${{github.sha}}
+#       #       Changes in this Release
+#       #       - First Change
+#       #       - Second Change
+#       #     draft: false
+#       #     prerelease: false
 
 
   # release:
