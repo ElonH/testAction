@@ -48,6 +48,10 @@ jobs:
     steps:
     - uses: actions/download-artifact@v2
       with:
+        name: artifact-package-3
+        path: ~/artifacts
+    - uses: actions/download-artifact@v2
+      with:
         name: artifact-package-1
         path: ~/artifacts
     - run: 'ls -a -h ~/artifacts'
@@ -63,15 +67,19 @@ jobs:
           # a Personal Access Token instead of secrets.GITHUB_TOKEN
           # so that tag pushes trigger repo push events.
           token: ${{ secrets.RELEASE_TOKEN }}
-      - uses: actions/upload-artifact@master
+      - uses: actions/upload-artifact@v2
         with:
           name: artifact-package-1
           path: ./README.md
-      - uses: actions/upload-artifact@master
+      - uses: actions/upload-artifact@v2
         with:
           name: artifact-package-2
           path: ./README.md
-      - uses: actions/upload-artifact@master
+      - uses: actions/upload-artifact@v2
+        with:
+          name: artifact-package-3
+          path: ./latest
+      - uses: actions/upload-artifact@v2
         with:
           name: artifact-log-1
           path: ./README.md
